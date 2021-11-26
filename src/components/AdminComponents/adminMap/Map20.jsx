@@ -82,7 +82,7 @@ class Map20 extends Component {
           <div className="row">
             <div className="col-md-12">
               <div className="panel panel-default">
-                <div className="panel-heading">
+                <div className="panel-heading d-flex align-items-center justify-content-between">
                   Draw lines to the map
                   <button
                     // getPlanningRoads={planningRoads}

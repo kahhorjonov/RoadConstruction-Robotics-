@@ -34,30 +34,17 @@ class ClientMap extends Component {
     const roads = this.state.roads;
     return (
       <>
-        <div className="container roadsmain main marBot">
-          <div className="row">
-            <ol className="breadcrumb">
-              <li>
-                <a href="/">
-                  <em className="fa fa-home"></em>
-                </a>
-              </li>
-              <li className="active">Client Page Maps</li>
-            </ol>
-          </div>
-        </div>
-
         <div className="roadsmain main">
           <div className="row">
             <div className="col-md-12">
               <div className="panel panel-default">
                 <div className="panel-body">
-                  <div className="App">
+                  <div className="App mt-4">
                     <YMaps>
                       <Map
                         style={{
                           width: "100%",
-                          height: "86vh",
+                          height: "93vh",
                         }}
                         defaultState={mapState}
                       >
