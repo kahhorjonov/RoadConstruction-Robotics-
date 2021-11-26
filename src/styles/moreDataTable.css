@@ -1,0 +1,48 @@
+
+.datatable {
+    padding: 30px;
+    flex-wrap: wrap;
+  }
+
+  .template img {
+    width: auto;
+    padding: 30px;
+    float: top;
+    display: flex;
+    margin: auto;
+  }
+  
+  .information {
+    display: flex;
+    justify-content: center;
+  }
+  .information .title {
+    padding-top: 8px;
+    color: grey;
+    font-size: 10px;
+    text-align: left;
+  }
+  .information .subtitle {
+    font-size: 15px;
+    text-align: left;
+  }
+  .information .save {
+    margin-top: 10px;
+  }
+  .information .save a {
+    text-decoration: none;
+    padding: 7px;
+    background-color: rgb(29, 255, 29);
+    border-radius: 3px;
+    color: white;
+  }
+  .information .save a:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    transition: 0.8s;
+  }
+  
+  .card{
+    padding: 5px 20px;
+  }
+  

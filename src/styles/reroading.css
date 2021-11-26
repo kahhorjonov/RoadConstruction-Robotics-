@@ -1,0 +1,43 @@
+* {
+  user-select: none;
+  margin: 0;
+}
+
+.body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.search {
+  margin: 30px;
+  width: 200px;
+  height: 30px;
+  font-size: 17px;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid;
+}
+
+table {
+  margin-top: 20px;
+}
+
+td,
+th {
+  border-bottom: 2px solid;
+  text-align: center;
+  text-align: center;
+  padding: 5px 10px;
+}
+
+tr {
+  background-color: rgb(231, 231, 231);
+}
+
+th {
+  background-color: rgb(219, 219, 219);
+  border-bottom: 5px solid;
+  border-bottom-style: groove;
+}

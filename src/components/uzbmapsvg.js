@@ -1,0 +1,4989 @@
+import { Link } from "react-router-dom";
+import "../styles/uzbmapsvg.css";
+import { CountRegionsRoad, CountRespublicRoad } from "./countRegionsRoad";
+import MapPage from "./mapPage";
+
+function Uzbmapsvg(props) {
+  return (
+    <>
+      <div
+        className="uzbmapsvg"
+        data-aos="zoom-in"
+        data-aos-duration={props.duration}
+        data-aos-delay="500"
+      >
+        {/* <!-- svg start --> */}
+        <svg className="map-uzbekistan">
+          <g data-v-3b6a8222="">
+            <g data-v-3b6a8222="" id="uzbekistan-2" data-name="uzbekistan">
+              <g data-v-3b6a8222="">
+                <g data-v-3b6a8222="">
+                  <g data-v-3b6a8222="">
+                    <path
+                      data-v-3b6a8222=""
+                      id="Path_1688_1_"
+                      d="M527.8,168.3l-0.4,24.4l-2.1-0.8l0.4-24.4L527.8,168.3z"
+                      className="st2"
+                    ></path>
+                    <path
+                      data-v-3b6a8222=""
+                      id="Path_1689_3_"
+                      d="M529,168.6l-0.4,24.4l-1.3-0.3l0.4-24.4L529,168.6z"
+                      className="st2"
+                    ></path>
+                    <path
+                      data-v-3b6a8222=""
+                      id="Path_1689_2_"
+                      d="M525.7,170.4l-0.4,24.4l-1.3-0.3l0.4-24.4L525.7,170.4z"
+                      className="st3"
+                    ></path>
+                    <path
+                      data-v-3b6a8222=""
+                      id="Path_1743_1_"
+                      d="M625.4,229l-0.4,24.4l-3.7,0.6l0.4-24.4L625.4,229z"
+                      className="st4"
+                    ></path>
+                    <path
+                      data-v-3b6a8222=""
+                      id="Path_1749_1_"
+                      d="M621.7,229.6l-0.4,24.4l-1.1,0.9l0.4-24.4L621.7,229.6z"
+                      className="st5"
+                    ></path>
+                    <path
+                      data-v-3b6a8222=""
+                      id="Path_1752_1_"
+                      d="M622.1,233.3l-0.4,24.4l-1.6,1.2l0.4-24.4L622.1,233.3z"
+                      className="st6"
+                    ></path>
+                    <path
+                      data-v-3b6a8222=""
+                      id="Path_1755_1_"
+                      d="M620.6,238.8l-0.4,24.4l-4.4,0.1l0.4-24.4L620.6,238.8z"
+                      className="st7"
+                    ></path>
+                    <path
+                      data-v-3b6a8222=""
+                      id="Path_1756_1_"
+                      d="M616.2,239l-0.4,24.4l-0.6,1.4l0.4-24.4L616.2,239z"
+                      className="st8"
+                    ></path>
+                  </g>
+                  <path
+                    data-v-3b6a8222=""
+                    id="Path_1777_1_"
+                    d="M644.9,234.7l-0.4,24.4l-4-0.2l0.4-24.4L644.9,234.7z"
+                    className="st9"
+                  ></path>
+                  <path
+                    data-v-3b6a8222=""
+                    id="Path_1778_1_"
+                    d="M645.8,238.2l-0.4,24.4l-1.1-2.1l0.4-24.4L645.8,238.2z"
+                    className="st2"
+                  ></path>
+                  <path
+                    data-v-3b6a8222=""
+                    id="Path_1779_1_"
+                    d="M648.4,247.8l-0.4,24.4l-3.5-3.6l0.4-24.4L648.4,247.8z"
+                    className="st2"
+                  ></path>
+                  <path
+                    data-v-3b6a8222=""
+                    id="Path_1797_1_"
+                    d="M649.7,250.5l-0.4,24.4l-1.2-2.7l0.4-24.4L649.7,250.5z"
+                    className="st2"
+                  ></path>
+                  <path
+                    data-v-3b6a8222=""
+                    id="Path_1810_1_"
+                    d="M652.2,251.5l-0.4,24.4l-2.5-1l0.4-24.4L652.2,251.5z"
+                    className="st2"
+                  ></path>
+                  <path
+                    data-v-3b6a8222=""
+                    id="Path_1824_1_"
+                    d="M652.8,252.7l-0.4,24.4l-0.6-1.2l0.4-24.4L652.8,252.7z"
+                    className="st2"
+                  ></path>
+                </g>
+                <g data-v-3b6a8222="">
+                  <path
+                    data-v-3b6a8222=""
+                    id="Path_2618_1_"
+                    d="M778.6,225.9l-0.4,24.4l-0.2,1.8l0.4-24.4L778.6,225.9z"
+                    className="st10"
+                  ></path>
+                  <g data-v-3b6a8222="">
+                    <g data-v-3b6a8222="">
+                      <path
+                        data-v-3b6a8222=""
+                        id="Path_2510_1_"
+                        d="M755.1,216.7l-0.4,24.4l-0.3,1.1l0.4-24.4L755.1,216.7z"
+                        className="st8"
+                      ></path>
+                      <path
+                        data-v-3b6a8222=""
+                        id="Path_2518_1_"
+                        d="M754.8,217.8l-0.4,24.4l-0.4,0.6l0.4-24.4L754.8,217.8z"
+                        className="st11"
+                      ></path>
+                      <path
+                        data-v-3b6a8222=""
+                        id="Path_2542_1_"
+                        d="M755.5,221.3l-0.4,24.4l-0.3,0.7l0.4-24.4L755.5,221.3z"
+                        className="st8"
+                      ></path>
+                      <path
+                        data-v-3b6a8222=""
+                        id="Path_2548_1_"
+                        d="M755.2,222l-0.4,24.4l-0.7,0.6l0.4-24.4L755.2,222z"
+                        className="st12"
+                      ></path>
+                    </g>
+                    <g data-v-3b6a8222="">
+                      <polygon
+                        data-v-3b6a8222=""
+                        points="755.4,188.8 754.3,188.8 754.3,188.8 753.1,188.5 752.7,212.8 753.9,213.1 753.9,213.1
+755.1,213.2 						"
+                        className="st9"
+                      ></polygon>
+                      <g data-v-3b6a8222="">
+                        <path
+                          data-v-3b6a8222=""
+                          id="Path_1994_1_"
+                          d="M757.9,182.7l-0.4,24.4l-0.2,0.7l0.4-24.4L757.9,182.7z"
+                          className="st8"
+                        ></path>
+                        <path
+                          data-v-3b6a8222=""
+                          id="Path_1997_1_"
+                          d="M757.7,183.4l-0.4,24.4l-0.7,0.5L757,184L757.7,183.4z"
+                          className="st6"
+                        ></path>
+                        <path
+                          data-v-3b6a8222=""
+                          id="Path_2004_1_"
+                          d="M757,184l-0.4,24.4l-0.2,0.5l0.4-24.4L757,184z"
+                          className="st8"
+                        ></path>
+                        <path
+                          data-v-3b6a8222=""
+                          id="Path_2410_1_"
+                          d="M758.3,182.6l-0.4,24.4l-0.4,0.1l0.4-24.4L758.3,182.6z"
+                          className="st13"
+                        ></path>
+                        <path
+                          data-v-3b6a8222=""
+                          id="Path_2418_1_"
+                          d="M757.1,187.9l-0.4,24.4l-1,0.8l0.4-24.4L757.1,187.9z"
+                          className="st6"
+                        ></path>
+                        <path
+                          data-v-3b6a8222=""
+                          id="Path_2422_1_"
+                          d="M756.1,188.6l-0.4,24.4l-0.6,0.2l0.4-24.4L756.1,188.6z"
+                          className="st14"
+                        ></path>
+                        <g data-v-3b6a8222="">
+                          <g data-v-3b6a8222="">
+                            <polygon
+                              data-v-3b6a8222=""
+                              points="758.3,182.6 757.9,207 758.5,207 758.8,182.6 									"
+                              className="st2"
+                            ></polygon>
+                            <polygon
+                              data-v-3b6a8222=""
+                              points="761.7,183.6 761.3,207.9 762.3,207.9 762.7,183.6 									"
+                              className="st2"
+                            ></polygon>
+                            <polygon
+                              data-v-3b6a8222=""
+                              points="761.3,207.9 761.7,183.6 760.7,183.4 760.7,183.5 760.7,183.4 758.8,182.6 758.5,207
+ 760.3,207.7 760.3,207.7 									"
+                              className="st2"
+                            ></polygon>
+                          </g>
+                          <g data-v-3b6a8222="">
+                            <g data-v-3b6a8222="">
+                              <g data-v-3b6a8222="">
+                                <g data-v-3b6a8222="">
+                                  <polygon
+                                    data-v-3b6a8222=""
+                                    points="772.4,178 772,202.4 772.7,202.3 773.1,178 												"
+                                    className="st2"
+                                  ></polygon>
+                                  <polygon
+                                    data-v-3b6a8222=""
+                                    points="773.1,178 772.7,202.3 774.3,202.6 774.7,178.3 												"
+                                    className="st2"
+                                  ></polygon>
+                                </g>
+                                <g data-v-3b6a8222="">
+                                  <path
+                                    data-v-3b6a8222=""
+                                    id="Path_3800_1_"
+                                    d="M777.6,175.5l-0.4,24.4l-0.7-0.1l0.4-24.4L777.6,175.5z"
+                                    className="st2"
+                                  ></path>
+                                  <path
+                                    data-v-3b6a8222=""
+                                    id="Path_3804_3_"
+                                    d="M776.7,176.7l-0.4,24.4l-0.4,0.4l0.4-24.4L776.7,176.7z"
+                                    className="st3"
+                                  ></path>
+                                  <path
+                                    data-v-3b6a8222=""
+                                    id="Path_3804_2_"
+                                    d="M776.9,175.4l-0.4,25.3l-0.4,0.4l0.4-25.3L776.9,175.4z"
+                                    className="st3"
+                                  ></path>
+                                  <path
+                                    data-v-3b6a8222=""
+                                    id="Path_3806_3_"
+                                    d="M775.8,177.3l-0.4,24.4l-0.6,0.4l0.4-24.4L775.8,177.3z"
+                                    className="st15"
+                                  ></path>
+                                  <path
+                                    data-v-3b6a8222=""
+                                    id="Path_3806_2_"
+                                    d="M776.4,176.9l-0.3,24.5l-0.6,0.3l0.4-24.5L776.4,176.9z"
+                                    className="st15"
+                                  ></path>
+                                  <path
+                                    data-v-3b6a8222=""
+                                    id="Path_3810_1_"
+                                    d="M775.2,177.6l-0.4,24.4l-0.6,0.7l0.4-24.4L775.2,177.6z"
+                                    className="st3"
+                                  ></path>
+                                </g>
+                                <path
+                                  data-v-3b6a8222=""
+                                  id="Path_3811_1_"
+                                  d="M772.4,178l-0.4,24.4l-1,0.3l0.4-24.4L772.4,178z"
+                                  className="st14"
+                                ></path>
+                              </g>
+                              <path
+                                data-v-3b6a8222=""
+                                id="Path_3828_1_"
+                                d="M771.4,178.3l-0.4,24.4l-2.9,2.1l0.4-24.4L771.4,178.3z"
+                                className="st16"
+                              ></path>
+                            </g>
+                            <g data-v-3b6a8222="">
+                              <path
+                                data-v-3b6a8222=""
+                                id="Path_2407_1_"
+                                d="M767.8,180.6l-0.4,24.4l-1.9,1.5l0.4-24.4L767.8,180.6z"
+                                className="st6"
+                              ></path>
+                              <path
+                                data-v-3b6a8222=""
+                                id="Path_2408_1_"
+                                d="M765.9,182l-0.4,24.4l-0.6,0.2l0.4-24.4L765.9,182z"
+                                className="st13"
+                              ></path>
+                              <path
+                                data-v-3b6a8222=""
+                                id="Path_2411_1_"
+                                d="M765.3,182.2l-0.4,24.4l-1.4,0.9l0.4-24.4L765.3,182.2z"
+                                className="st17"
+                              ></path>
+                              <path
+                                data-v-3b6a8222=""
+                                id="Path_2413_1_"
+                                d="M763.9,183.1l-0.4,24.4l-1.2,0.4l0.4-24.4L763.9,183.1z"
+                                className="st13"
+                              ></path>
+                              <path
+                                data-v-3b6a8222=""
+                                id="Path_3829_1_"
+                                d="M768.5,180.3l-0.4,24.4l-0.7,0.2l0.4-24.4L768.5,180.3z"
+                                className="st14"
+                              ></path>
+                            </g>
+                          </g>
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                  <g data-v-3b6a8222="">
+                    <g data-v-3b6a8222="">
+                      <path
+                        data-v-3b6a8222=""
+                        id="Path_2530_1_"
+                        d="M786,220.2l-0.4,24.4l-0.2-0.6l0.4-24.4L786,220.2z"
+                        className="st2"
+                      ></path>
+                      <path
+                        data-v-3b6a8222=""
+                        id="Path_2539_1_"
+                        d="M786.1,221.9l-0.4,24.4l-0.3-0.5l0.4-24.4L786.1,221.9z"
+                        className="st2"
+                      ></path>
+                      <path
+                        data-v-3b6a8222=""
+                        id="Path_2541_1_"
+                        d="M786.9,222.2l-0.4,24.4l-0.9-0.3l0.4-24.4L786.9,222.2z"
+                        className="st2"
+                      ></path>
+                    </g>
+                    <g data-v-3b6a8222="">
+                      <path
+                        data-v-3b6a8222=""
+                        id="Path_2437_1_"
+                        d="M800.4,206.8l-0.4,24.4l-0.5,0.8l0.4-24.4L800.4,206.8z"
+                        className="st10"
+                      ></path>
+                      <path
+                        data-v-3b6a8222=""
+                        id="Path_2456_1_"
+                        d="M799.9,210l-0.4,24.4l-0.5,0.7l0.4-24.4L799.9,210z"
+                        className="st18"
+                      ></path>
+                      <path
+                        data-v-3b6a8222=""
+                        id="Path_2488_1_"
+                        d="M805.6,214.1l-0.4,24.4l-0.2,1l0.4-24.4L805.6,214.1z"
+                        className="st8"
+                      ></path>
+                      <path
+                        data-v-3b6a8222=""
+                        id="Path_2498_1_"
+                        d="M807.9,215.2l-0.4,24.4l-0.1,1l0.4-24.4L807.9,215.2z"
+                        className="st11"
+                      ></path>
+                      <g data-v-3b6a8222="">
+                        <path
+                          data-v-3b6a8222=""
+                          id="Path_2523_1_"
+                          d="M810.1,218.3l-0.4,24.4l-0.6,1.2l0.4-24.4L810.1,218.3z"
+                          className="st8"
+                        ></path>
+                        <path
+                          data-v-3b6a8222=""
+                          id="Path_2526_1_"
+                          d="M809.5,219.4l-0.4,24.4l-0.6,0.8l0.4-24.4L809.5,219.4z"
+                          className="st18"
+                        ></path>
+                        <path
+                          data-v-3b6a8222=""
+                          id="Path_2531_1_"
+                          d="M808.9,220.2l-0.4,24.4l-0.8,0.6l0.4-24.4L808.9,220.2z"
+                          className="st6"
+                        ></path>
+                        <path
+                          data-v-3b6a8222=""
+                          id="Path_2538_1_"
+                          d="M808.1,220.8l-0.4,24.4l-0.9,1.2l0.4-24.4L808.1,220.8z"
+                          className="st18"
+                        ></path>
+                        <path
+                          data-v-3b6a8222=""
+                          id="Path_2549_1_"
+                          d="M807.3,222l-0.4,24.4l-0.6,1.4l0.4-24.4L807.3,222z"
+                          className="st8"
+                        ></path>
+                        <path
+                          data-v-3b6a8222=""
+                          id="Path_3924_1_"
+                          d="M824.4,230.6L824,255l-0.6,1.1l0.4-24.4L824.4,230.6z"
+                          className="st11"
+                        ></path>
+                        <path
+                          data-v-3b6a8222=""
+                          id="Path_3930_1_"
+                          d="M823.8,231.6l-0.4,24.4l-0.8,0.5l0.4-24.4L823.8,231.6z"
+                          className="st19"
+                        ></path>
+                        <path
+                          data-v-3b6a8222=""
+                          id="Path_3946_1_"
+                          d="M837.6,232.5l-0.4,24.4l-0.2,0.7l0.4-24.4L837.6,232.5z"
+                          className="st8"
+                        ></path>
+                        <path
+                          data-v-3b6a8222=""
+                          id="Path_3952_1_"
+                          d="M837.4,233.2l-0.4,24.4l-0.3,0.4l0.4-24.4L837.4,233.2z"
+                          className="st18"
+                        ></path>
+                        <path
+                          data-v-3b6a8222=""
+                          id="Path_4022_1_"
+                          d="M859.8,240.3l-0.4,24.4l-0.5-0.5l0.4-24.4L859.8,240.3z"
+                          className="st2"
+                        ></path>
+                        <path
+                          data-v-3b6a8222=""
+                          id="Path_4025_1_"
+                          d="M860.4,240.6L860,265l-0.5-0.3l0.4-24.4L860.4,240.6z"
+                          className="st2"
+                        ></path>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </g>
+              <g data-v-3b6a8222="">
+                <path
+                  data-v-3b6a8222=""
+                  id="Path_2059_1_"
+                  d="M740.3,198.4l-0.4,24.4l-2,1l0.4-24.4L740.3,198.4z"
+                  className="st20"
+                ></path>
+                <path
+                  data-v-3b6a8222=""
+                  id="Path_2060_1_"
+                  d="M738.3,199.4l-0.4,24.4l-0.5,0.1l0.4-24.4L738.3,199.4z"
+                  className="st21"
+                ></path>
+                <path
+                  data-v-3b6a8222=""
+                  id="Path_2067_1_"
+                  d="M737.8,199.5l-0.4,24.4l-2.3,1l0.4-24.4L737.8,199.5z"
+                  className="st22"
+                ></path>
+                <path
+                  data-v-3b6a8222=""
+                  id="Path_2071_1_"
+                  d="M735.5,200.5l-0.4,24.4l-0.6,0.7l0.4-24.4L735.5,200.5z"
+                  className="st3"
+                ></path>
+                <path
+                  data-v-3b6a8222=""
+                  id="Path_2078_1_"
+                  d="M734.9,201.3l-0.4,24.4l-1.7,1.2l0.4-24.4L734.9,201.3z"
+                  className="st6"
+                ></path>
+                <path
+                  data-v-3b6a8222=""
+                  id="Path_2079_1_"
+                  d="M733.2,202.5l-0.4,24.4l-1,0.4l0.4-24.4L733.2,202.5z"
+                  className="st13"
+                ></path>
+                <path
+                  data-v-3b6a8222=""
+                  id="Path_2080_1_"
+                  d="M732.2,202.8l-0.4,24.4h-1.3l0.4-24.4H732.2z"
+                  className="st9"
+                ></path>
+                <path
+                  data-v-3b6a8222=""
+                  id="Path_2088_1_"
+                  d="M729.2,204l-0.4,24.4l-1.5-0.1l0.4-24.4L729.2,204z"
+                  className="st9"
+                ></path>
+                <path
+                  data-v-3b6a8222=""
+                  id="Path_2089_1_"
+                  d="M731,202.8l-0.4,24.4l-1.7,1.2l0.4-24.4L731,202.8z"
+                  className="st16"
+                ></path>
+                <path
+                  data-v-3b6a8222=""
+                  id="Path_2090_1_"
+                  d="M727.7,203.9l-0.4,24.4l-0.6,0.1l0.4-24.4L727.7,203.9z"
+                  className="st23"
+                ></path>
+                <path
+                  data-v-3b6a8222=""
+                  id="Path_2092_1_"
+                  d="M727.1,204l-0.4,24.4l-1.1,0.4l0.4-24.4L727.1,204z"
+                  className="st13"
+                ></path>
+                <path
+                  data-v-3b6a8222=""
+                  id="Path_2093_1_"
+                  d="M726,204.4l-0.4,24.4l-0.3,0.3l0.4-24.4L726,204.4z"
+                  className="st3"
+                ></path>
+                <path
+                  data-v-3b6a8222=""
+                  id="Path_2096_1_"
+                  d="M725.7,204.7l-0.4,24.4l-0.2,0.5l0.4-24.4L725.7,204.7z"
+                  className="st8"
+                ></path>
+                <path
+                  data-v-3b6a8222=""
+                  id="Path_2142_1_"
+                  d="M743.1,194.4l-0.4,24.4l-1.3,0.5l0.4-24.4L743.1,194.4z"
+                  className="st13"
+                ></path>
+                <path
+                  data-v-3b6a8222=""
+                  id="Path_2143_1_"
+                  d="M741.8,194.8l-0.4,24.4l-0.5,0.4l0.4-24.4L741.8,194.8z"
+                  className="st6"
+                ></path>
+                <path
+                  data-v-3b6a8222=""
+                  id="Path_2144_1_"
+                  d="M741.3,195.2l-0.4,24.4l-0.3,2.1l0.4-24.4L741.3,195.2z"
+                  className="st11"
+                ></path>
+                <path
+                  data-v-3b6a8222=""
+                  id="Path_2145_1_"
+                  d="M741,197.3l-0.4,24.4l-0.7,1.1l0.4-24.4L741,197.3z"
+                  className="st10"
+                ></path>
+                <path
+                  data-v-3b6a8222=""
+                  id="Path_2423_1_"
+                  d="M750.6,188.7l-0.4,24.4h-0.5l0.4-24.4H750.6z"
+                  className="st24"
+                ></path>
+                <path
+                  data-v-3b6a8222=""
+                  id="Path_2424_3_"
+                  d="M752.7,188.6l-0.4,24.4l-0.4,0.4l0.4-24.4L752.7,188.6z"
+                  className="st25"
+                ></path>
+                <path
+                  data-v-3b6a8222=""
+                  id="Path_2424_2_"
+                  d="M753.1,188.3l-0.4,24.4l-0.4,0.4l0.4-24.4L753.1,188.3z"
+                  className="st9"
+                ></path>
+                <path
+                  data-v-3b6a8222=""
+                  id="Path_2425_1_"
+                  d="M752.3,189l-0.4,24.4h-0.7l0.4-24.4H752.3z"
+                  className="st7"
+                ></path>
+                <path
+                  data-v-3b6a8222=""
+                  id="Path_2426_1_"
+                  d="M751.5,189l-0.4,24.4l-0.9-0.3l0.4-24.4L751.5,189z"
+                  className="st2"
+                ></path>
+                <path
+                  data-v-3b6a8222=""
+                  id="Path_2427_1_"
+                  d="M750.2,188.8l-0.4,24.4l-1.1,0.4l0.4-24.4L750.2,188.8z"
+                  className="st13"
+                ></path>
+                <path
+                  data-v-3b6a8222=""
+                  id="Path_2428_1_"
+                  d="M749.1,189.2l-0.4,24.4l-1,0.8l0.4-24.4L749.1,189.2z"
+                  className="st5"
+                ></path>
+                <path
+                  data-v-3b6a8222=""
+                  id="Path_2429_1_"
+                  d="M748.1,189.9l-0.4,24.4l-0.8,1.2l0.4-24.4L748.1,189.9z"
+                  className="st10"
+                ></path>
+                <path
+                  data-v-3b6a8222=""
+                  id="Path_2430_1_"
+                  d="M747.3,191.2l-0.4,24.4l-0.5,0.4l0.4-24.4L747.3,191.2z"
+                  className="st26"
+                ></path>
+                <path
+                  data-v-3b6a8222=""
+                  id="Path_2431_1_"
+                  d="M746.9,191.6l-0.4,24.4l-1,0.5l0.4-24.4L746.9,191.6z"
+                  className="st19"
+                ></path>
+                <path
+                  data-v-3b6a8222=""
+                  id="Path_2432_1_"
+                  d="M745.9,192.1l-0.4,24.4l-0.3,1l0.4-24.4L745.9,192.1z"
+                  className="st8"
+                ></path>
+                <path
+                  data-v-3b6a8222=""
+                  id="Path_2433_1_"
+                  d="M745.5,193.1l-0.4,24.4l-2.4,1.3l0.4-24.4L745.5,193.1z"
+                  className="st19"
+                ></path>
+              </g>
+              <g data-v-3b6a8222="">
+                <g data-v-3b6a8222="">
+                  <polygon
+                    data-v-3b6a8222=""
+                    points="42.2,219.7 42.2,219.7 40.4,35.2 40,59.5 41.8,244 42.2,221.1 41.8,244 52.1,244.3 52.5,220
+"
+                    className="st2"
+                  ></polygon>
+                  <polygon
+                    data-v-3b6a8222=""
+                    points="63.4,220.5 59.8,220.3 59.8,220.3 59.8,220.3 59.8,220.3 59.8,220.3 57.9,220.3 57.9,220.3
+52.5,220 52.1,244.3 57.5,244.7 57.5,244.7 59.5,244.7 63.1,244.9 				"
+                    className="st2"
+                  ></polygon>
+                  <polygon
+                    data-v-3b6a8222=""
+                    points="80.5,221.4 73.5,221.1 73.5,221.1 69.6,221 69.6,221 63.4,220.5 63.1,244.9 69.3,245.4 69.3,245.4
+73.2,245.5 73.2,245.5 80.1,245.8 				"
+                    className="st2"
+                  ></polygon>
+                  <polygon
+                    data-v-3b6a8222=""
+                    points="84.9,221.9 84.9,221.9 80.5,221.4 80.1,245.8 84.5,246.2 84.5,246.2 88.6,246.5 88.9,222.1 				"
+                    className="st2"
+                  ></polygon>
+                  <polygon
+                    data-v-3b6a8222=""
+                    points="88.9,222.1 88.6,246.5 90.4,246.8 90.8,222.5 				"
+                    className="st2"
+                  ></polygon>
+                </g>
+                <g data-v-3b6a8222="">
+                  <g data-v-3b6a8222="">
+                    <path
+                      data-v-3b6a8222=""
+                      id="Path_3867_1_"
+                      d="M98.8,216.1l-0.4,24.4l-0.4,1.4l0.4-24.4L98.8,216.1z"
+                      className="st8"
+                    ></path>
+                    <path
+                      data-v-3b6a8222=""
+                      id="Path_3872_1_"
+                      d="M98.4,217.5L98,241.9l-3.1,1.2l0.4-24.4L98.4,217.5z"
+                      className="st27"
+                    ></path>
+                    <path
+                      data-v-3b6a8222=""
+                      id="Path_3878_1_"
+                      d="M95.3,218.7L95,243.1l-0.7,0.5l0.4-24.4L95.3,218.7z"
+                      className="st16"
+                    ></path>
+                    <path
+                      data-v-3b6a8222=""
+                      id="Path_3892_1_"
+                      d="M94.6,219.3l-0.4,24.4l-0.5,1.8l0.4-24.4L94.6,219.3z"
+                      className="st8"
+                    ></path>
+                    <path
+                      data-v-3b6a8222=""
+                      id="Path_3916_1_"
+                      d="M94.1,221.1l-0.4,24.4l-3.3,1.4l0.4-24.4L94.1,221.1z"
+                      className="st22"
+                    ></path>
+                  </g>
+                  <g data-v-3b6a8222="">
+                    <path
+                      data-v-3b6a8222=""
+                      id="Path_1063_1_"
+                      d="M94.8,189.8l-0.4,24.4l-2.2,0.5l0.4-24.4L94.8,189.8z"
+                      className="st21"
+                    ></path>
+                    <path
+                      data-v-3b6a8222=""
+                      id="Path_1065_1_"
+                      d="M92.6,190.3l-0.4,24.4l-1.4,0.9l0.4-24.4L92.6,190.3z"
+                      className="st15"
+                    ></path>
+                    <polygon
+                      data-v-3b6a8222=""
+                      points="91.1,191.2 90.3,192.6 90.3,192.6 90,194.2 90,194.2 89.5,195.6 89.2,220 89.6,218.5 89.6,218.5
+89.9,217 89.9,217 90.8,215.6 					"
+                      className="st8"
+                    ></polygon>
+                    <polygon
+                      data-v-3b6a8222=""
+                      points="101.2,182.8 100.1,184.7 100.1,184.7 99,187.4 99,187.4 98.3,188.1 98,212.4 98.6,211.8
+98.6,211.8 99.8,209.1 99.8,209.1 100.8,207.2 					"
+                      className="st28"
+                    ></polygon>
+                    <path
+                      data-v-3b6a8222=""
+                      id="Path_3853_1_"
+                      d="M98.3,188.1L98,212.4l-1.3,1l0.4-24.4L98.3,188.1z"
+                      className="st6"
+                    ></path>
+                    <path
+                      data-v-3b6a8222=""
+                      id="Path_3854_1_"
+                      d="M97,189.1l-0.4,24.4l-2.2,0.8l0.4-24.4L97,189.1z"
+                      className="st13"
+                    ></path>
+                    <g data-v-3b6a8222="">
+                      <g data-v-3b6a8222="">
+                        <polygon
+                          data-v-3b6a8222=""
+                          points="117.8,177.9 115.5,177.8 115.5,177.8 115.5,177.8 115.5,177.8 115.5,177.8 110.2,178
+109.9,202.4 115.1,202.1 117.5,202.3 							"
+                          className="st2"
+                        ></polygon>
+                        <polygon
+                          data-v-3b6a8222=""
+                          points="119.7,178.2 119.7,178.2 117.8,177.9 117.5,202.3 119.3,202.5 119.3,202.6 122.7,203.2
+123.1,178.8 							"
+                          className="st2"
+                        ></polygon>
+                      </g>
+                      <g data-v-3b6a8222="">
+                        <path
+                          data-v-3b6a8222=""
+                          id="Path_3840_1_"
+                          d="M110.2,178l-0.4,24.4l-2,0.6l0.4-24.4L110.2,178z"
+                          className="st14"
+                        ></path>
+                        <path
+                          data-v-3b6a8222=""
+                          id="Path_3843_1_"
+                          d="M108.3,178.6l-0.4,24.4l-2.6,1l0.4-24.4L108.3,178.6z"
+                          className="st13"
+                        ></path>
+                        <path
+                          data-v-3b6a8222=""
+                          id="Path_3844_1_"
+                          d="M105.7,179.5l-0.4,24.4l-2.2,1.2l0.4-24.4L105.7,179.5z"
+                          className="st19"
+                        ></path>
+                        <path
+                          data-v-3b6a8222=""
+                          id="Path_3845_1_"
+                          d="M103.5,180.8l-0.4,24.4L102,206l0.4-24.4L103.5,180.8z"
+                          className="st17"
+                        ></path>
+                        <path
+                          data-v-3b6a8222=""
+                          id="Path_3846_1_"
+                          d="M102.3,181.6L102,206l-1.1,1.2l0.4-24.4L102.3,181.6z"
+                          className="st3"
+                        ></path>
+                      </g>
+                      <g data-v-3b6a8222="">
+                        <g data-v-3b6a8222="">
+                          <path
+                            data-v-3b6a8222=""
+                            id="Path_959_1_"
+                            d="M136,164.3l-0.4,24.4l-0.7-0.7l0.4-24.4L136,164.3z"
+                            className="st2"
+                          ></path>
+                          <path
+                            data-v-3b6a8222=""
+                            id="Path_962_1_"
+                            d="M136.9,164.6l-0.4,24.4l-0.9-0.3l0.4-24.4L136.9,164.6z"
+                            className="st2"
+                          ></path>
+                          <path
+                            data-v-3b6a8222=""
+                            id="Path_963_1_"
+                            d="M135.2,163.7l-0.4,24.4l-0.9,1.2l0.4-24.4L135.2,163.7z"
+                            className="st18"
+                          ></path>
+                          <path
+                            data-v-3b6a8222=""
+                            id="Path_3788_1_"
+                            d="M139.4,161.7L139,186l-1.1,0.6l0.4-24.4L139.4,161.7z"
+                            className="st20"
+                          ></path>
+                          <path
+                            data-v-3b6a8222=""
+                            id="Path_3790_1_"
+                            d="M138.3,162.2l-0.4,24.4L137,188l0.4-24.4L138.3,162.2z"
+                            className="st10"
+                          ></path>
+                          <path
+                            data-v-3b6a8222=""
+                            id="Path_3796_1_"
+                            d="M137.4,163.6L137,188l-0.5,1l0.4-24.4L137.4,163.6z"
+                            className="st8"
+                          ></path>
+                        </g>
+                        <g data-v-3b6a8222="">
+                          <path
+                            data-v-3b6a8222=""
+                            id="Path_979_1_"
+                            d="M136.4,167.6L136,192l-0.4,1.4L136,169L136.4,167.6z"
+                            className="st8"
+                          ></path>
+                          <path
+                            data-v-3b6a8222=""
+                            id="Path_1018_1_"
+                            d="M133.2,174.6l-0.4,24.4l-1.6-0.5l0.4-24.4L133.2,174.6z"
+                            className="st2"
+                          ></path>
+                          <path
+                            data-v-3b6a8222=""
+                            id="Path_1023_1_"
+                            d="M131.6,174.1l-0.4,24.4l-0.5,1l0.4-24.4L131.6,174.1z"
+                            className="st8"
+                          ></path>
+                          <path
+                            data-v-3b6a8222=""
+                            id="Path_3831_1_"
+                            d="M136,172.1l-0.4,24.4l-0.2,1.4l0.4-24.4L136,172.1z"
+                            className="st11"
+                          ></path>
+                          <path
+                            data-v-3b6a8222=""
+                            id="Path_3832_1_"
+                            d="M135.8,173.4l-0.4,24.4l-2.6,1.2l0.4-24.4L135.8,173.4z"
+                            className="st29"
+                          ></path>
+                          <path
+                            data-v-3b6a8222=""
+                            id="Path_3833_1_"
+                            d="M132.3,177l-0.4,24.4l-0.4,0.7l0.4-24.4L132.3,177z"
+                            className="st10"
+                          ></path>
+                          <path
+                            data-v-3b6a8222=""
+                            id="Path_3834_1_"
+                            d="M131.9,177.7l-0.4,24.4l-1.2,0.1l0.4-24.4L131.9,177.7z"
+                            className="st30"
+                          ></path>
+                          <path
+                            data-v-3b6a8222=""
+                            id="Path_3835_1_"
+                            d="M130.7,177.8l-0.4,24.4l-3.1-0.4l0.4-24.4L130.7,177.8z"
+                            className="st2"
+                          ></path>
+                          <path
+                            data-v-3b6a8222=""
+                            id="Path_3837_1_"
+                            d="M127.5,177.4l-0.4,24.4l-2.6,0.7l0.4-24.4L127.5,177.4z"
+                            className="st31"
+                          ></path>
+                          <path
+                            data-v-3b6a8222=""
+                            id="Path_3841_1_"
+                            d="M124.9,178.1l-0.4,24.4l-1.9,0.7l0.4-24.4L124.9,178.1z"
+                            className="st32"
+                          ></path>
+                        </g>
+                        <g data-v-3b6a8222="">
+                          <g data-v-3b6a8222="">
+                            <polygon
+                              data-v-3b6a8222=""
+                              points="139.4,161.7 139,186 141.7,186.4 142.1,162 									"
+                              className="st2"
+                            ></polygon>
+                            <polygon
+                              data-v-3b6a8222=""
+                              points="142.7,163.3 142.7,163.3 142.1,162 141.7,186.4 142.4,187.6 142.4,187.6 144.1,189
+ 144.5,164.6 									"
+                              className="st2"
+                            ></polygon>
+                          </g>
+                          <g data-v-3b6a8222="">
+                            <polygon
+                              data-v-3b6a8222=""
+                              points="146.1,164.2 145.7,188.5 148.6,187.6 148.9,163.3 									"
+                              className="st14"
+                            ></polygon>
+                            <polygon
+                              data-v-3b6a8222=""
+                              points="146.1,164.2 144.5,164.6 144.1,189 145.7,188.5 									"
+                              className="st14"
+                            ></polygon>
+                          </g>
+                          <g data-v-3b6a8222="">
+                            <g data-v-3b6a8222="">
+                              <polygon
+                                data-v-3b6a8222=""
+                                points="157,153.1 155.5,152.8 155.5,152.8 152.6,152.3 152.2,176.7 155.2,177.1 155.2,177.1
+    156.6,177.4 										"
+                                className="st2"
+                              ></polygon>
+                              <polygon
+                                data-v-3b6a8222=""
+                                points="152.7,151.1 151.3,150.8 151.3,150.8 148.3,150.3 148,174.7 150.9,175.1 150.9,175.1
+    152.4,175.4 										"
+                                className="st2"
+                              ></polygon>
+                              <polygon
+                                data-v-3b6a8222=""
+                                points="151.1,151.8 150,151.8 149.5,152.1 146.9,152.8 146.5,161.1 149.5,161.3 149.5,161.3
+    150.9,161.4 										"
+                                className="st8"
+                              ></polygon>
+                              <polygon
+                                data-v-3b6a8222=""
+                                points="159.2,178.1 159.5,153.7 158.2,153.5 158.2,153.5 157,153.1 156.6,177.4 157.9,177.9
+    157.9,177.9 										"
+                                className="st2"
+                              ></polygon>
+                              <polygon
+                                data-v-3b6a8222=""
+                                points="159.5,153.7 159.2,178.1 160.6,178.6 161,154.2 										"
+                                className="st2"
+                              ></polygon>
+                            </g>
+                            <g data-v-3b6a8222="">
+                              <path
+                                data-v-3b6a8222=""
+                                id="Path_3791_1_"
+                                d="M153.8,164.2l-0.4,24.4l-4.9-0.9l0.4-24.4L153.8,164.2z"
+                                className="st2"
+                              ></path>
+                              <path
+                                data-v-3b6a8222=""
+                                id="Path_3795_1_"
+                                d="M155,164.8l-0.4,24.4l-1.2-0.6l0.4-24.4L155,164.8z"
+                                className="st2"
+                              ></path>
+                              <path
+                                data-v-3b6a8222=""
+                                id="Path_3797_1_"
+                                d="M155.8,165.5l-0.4,24.4l-0.9-0.7l0.4-24.4L155.8,165.5z"
+                                className="st2"
+                              ></path>
+                              <path
+                                data-v-3b6a8222=""
+                                id="Path_3798_1_"
+                                d="M156.5,166.5l-0.4,24.4l-0.7-1l0.4-24.4L156.5,166.5z"
+                                className="st2"
+                              ></path>
+                              <path
+                                data-v-3b6a8222=""
+                                id="Path_3801_1_"
+                                d="M157.6,168.7l-0.4,24.4l-1-2.2l0.4-24.4L157.6,168.7z"
+                                className="st2"
+                              ></path>
+                              <path
+                                data-v-3b6a8222=""
+                                id="Path_3816_1_"
+                                d="M163.5,171.7l-0.4,24.4h-3.4l0.4-24.4H163.5z"
+                                className="st9"
+                              ></path>
+                              <path
+                                data-v-3b6a8222=""
+                                id="Path_3825_1_"
+                                d="M160,171.7l-0.4,24.4l-2.3,0.4l0.4-24.4L160,171.7z"
+                                className="st4"
+                              ></path>
+                              <path
+                                data-v-3b6a8222=""
+                                id="Path_3826_1_"
+                                d="M157.7,172l-0.4,24.4l-0.4-0.9l0.4-24.4L157.7,172z"
+                                className="st2"
+                              ></path>
+                            </g>
+                            <g data-v-3b6a8222="">
+                              <g data-v-3b6a8222="">
+                                <path
+                                  data-v-3b6a8222=""
+                                  id="Path_898_1_"
+                                  d="M168.8,147.5l-0.4,24.4l-0.3,0.8l0.4-24.4L168.8,147.5z"
+                                  className="st8"
+                                ></path>
+                                <path
+                                  data-v-3b6a8222=""
+                                  id="Path_923_1_"
+                                  d="M164.9,153.8l-0.4,24.4l-2.6,0.4l0.4-24.4L164.9,153.8z"
+                                  className="st23"
+                                ></path>
+                                <path
+                                  data-v-3b6a8222=""
+                                  id="Path_3814_1_"
+                                  d="M164.1,170.7l-0.4,24.4l-0.6,1l0.4-24.4L164.1,170.7z"
+                                  className="st10"
+                                ></path>
+                                <path
+                                  data-v-3b6a8222=""
+                                  id="Path_926_1_"
+                                  d="M162.3,154.2l-0.4,24.4l-1.3,0.1l0.4-24.4L162.3,154.2z"
+                                  className="st24"
+                                ></path>
+                                <path
+                                  data-v-3b6a8222=""
+                                  id="Path_3776_1_"
+                                  d="M167.4,153.3l-0.4,24.4l-2.5,0.5l0.4-24.4L167.4,153.3z"
+                                  className="st33"
+                                ></path>
+                              </g>
+                              <g data-v-3b6a8222="">
+                                <g data-v-3b6a8222="">
+                                  <g data-v-3b6a8222="">
+                                    <path
+                                      data-v-3b6a8222=""
+                                      id="Path_3782_1_"
+                                      d="M194.5,160.2l-0.4,24.4l-1.2,0.2l0.4-24.4L194.5,160.2z"
+                                      className="st34"
+                                    ></path>
+                                    <path
+                                      data-v-3b6a8222=""
+                                      id="Path_3784_1_"
+                                      d="M193.4,160.3l-0.4,24.4l-1,0.6l0.4-24.4L193.4,160.3z"
+                                      className="st35"
+                                    ></path>
+                                    <path
+                                      data-v-3b6a8222=""
+                                      id="Path_3785_1_"
+                                      d="M192.3,161l-0.4,24.4l-3.6,0.1l0.4-24.4L192.3,161z"
+                                      className="st7"
+                                    ></path>
+                                  </g>
+                                  <g data-v-3b6a8222="">
+                                    <polygon
+                                      data-v-3b6a8222=""
+                                      points="168.8,147.5 168.4,171.8 171.4,174.6 171.7,150.3 													"
+                                      className="st2"
+                                    ></polygon>
+                                    <path
+                                      data-v-3b6a8222=""
+                                      id="Path_3775_1_"
+                                      d="M169.6,149.2l-0.4,24.4l-2.1,4.1l0.4-24.4L169.6,149.2z"
+                                      className="st8"
+                                    ></path>
+                                    <polygon
+                                      data-v-3b6a8222=""
+                                      points="171.7,150.3 171.4,174.6 176.4,178.9 176.8,154.5 													"
+                                      className="st2"
+                                    ></polygon>
+                                    <polygon
+                                      data-v-3b6a8222=""
+                                      points="181.2,158.2 181.2,158.2 176.8,154.5 176.4,178.9 180.9,182.5 180.9,182.5 182.7,183.7
+             183,159.3 													"
+                                      className="st2"
+                                    ></polygon>
+                                    <polygon
+                                      data-v-3b6a8222=""
+                                      points="183.9,159.7 183.9,159.7 183.1,159.3 182.7,183.7 183.6,184 183.6,184 185.9,184.5
+             186.3,160.2 													"
+                                      className="st2"
+                                    ></polygon>
+                                    <polygon
+                                      data-v-3b6a8222=""
+                                      points="186.3,160.2 185.9,184.5 188.3,185.4 188.7,161 													"
+                                      className="st2"
+                                    ></polygon>
+                                  </g>
+                                </g>
+                                <g data-v-3b6a8222="">
+                                  <g data-v-3b6a8222="">
+                                    <path
+                                      data-v-3b6a8222=""
+                                      id="Path_3815_1_"
+                                      d="M219.2,172l-0.4,24.4l-1.7,0.3l0.4-24.4L219.2,172z"
+                                      className="st4"
+                                    ></path>
+                                    <path
+                                      data-v-3b6a8222=""
+                                      id="Path_3818_1_"
+                                      d="M217.5,172.3l-0.4,24.4h-1.6l0.4-24.4H217.5z"
+                                      className="st9"
+                                    ></path>
+                                    <path
+                                      data-v-3b6a8222=""
+                                      id="Path_3822_1_"
+                                      d="M215.9,172.3l-0.4,24.4l-1.3,0.1l0.4-24.4L215.9,172.3z"
+                                      className="st30"
+                                    ></path>
+                                    <path
+                                      data-v-3b6a8222=""
+                                      id="Path_3823_1_"
+                                      d="M214.6,172.5l-0.4,24.4l-7.9,0.1l0.4-24.4L214.6,172.5z"
+                                      className="st9"
+                                    ></path>
+                                  </g>
+                                  <g data-v-3b6a8222="">
+                                    <polygon
+                                      data-v-3b6a8222=""
+                                      points="203.5,169.9 203.5,169.9 199.4,166.8 199.4,164.3 195.9,160.9 195.9,160.9 194.5,160.2
+             194.1,184.5 195.6,185.3 195.6,185.3 198.8,188.5 198.8,191 203.1,194.2 203.1,194.2 204.7,195.4 205.1,171
+                                                    "
+                                      className="st2"
+                                    ></polygon>
+                                    <path
+                                      data-v-3b6a8222=""
+                                      id="Path_3813_1_"
+                                      d="M205.8,172l-0.4,24.4l-0.7-1l0.4-24.4L205.8,172z"
+                                      className="st2"
+                                    ></path>
+                                    <path
+                                      data-v-3b6a8222=""
+                                      id="Path_3824_1_"
+                                      d="M206.6,172.6l-0.4,24.4l-0.9-0.6l0.4-24.4L206.6,172.6z"
+                                      className="st2"
+                                    ></path>
+                                  </g>
+                                  <g data-v-3b6a8222="">
+                                    <path
+                                      data-v-3b6a8222=""
+                                      id="Path_3817_1_"
+                                      d="M227.3,171.6l-0.4,24.4l-1.1,0.8l0.4-24.4L227.3,171.6z"
+                                      className="st16"
+                                    ></path>
+                                    <polygon
+                                      data-v-3b6a8222=""
+                                      points="226.1,172.5 222.8,172.5 222.8,172.5 219.2,172 218.8,196.4 222.4,196.8 222.4,196.8
+             225.8,196.8 													"
+                                      className="st2"
+                                    ></polygon>
+                                    <g data-v-3b6a8222="">
+                                      <path
+                                        data-v-3b6a8222=""
+                                        id="Path_3904_1_"
+                                        d="M263.2,223.9l-0.4,24.4h-0.9l0.4-24.4H263.2z"
+                                        className="st9"
+                                      ></path>
+                                      <g data-v-3b6a8222="">
+                                        <polygon
+                                          data-v-3b6a8222=""
+                                          points="272.3,223.6 268.2,223.6 268.2,223.6 263.2,223.9 262.9,248.2 267.8,248 267.8,248
+                   272,248 															"
+                                          className="st24"
+                                        ></polygon>
+                                        <g data-v-3b6a8222="">
+                                          <path
+                                            data-v-3b6a8222=""
+                                            id="Path_3889_1_"
+                                            d="M285.4,223.2l-0.4,24.4l-4.8-0.2l0.4-24.4L285.4,223.2z"
+                                            className="st9"
+                                          ></path>
+                                          <path
+                                            data-v-3b6a8222=""
+                                            id="Path_3890_1_"
+                                            d="M280.1,223.2l-0.4,24.4l-1.2-0.1l0.4-24.4L280.1,223.2z"
+                                            className="st9"
+                                          ></path>
+                                          <path
+                                            data-v-3b6a8222=""
+                                            id="Path_3891_1_"
+                                            d="M280.6,223.1l-0.4,24.4l-0.4,0.2l0.4-24.4L280.6,223.1z"
+                                            className="st32"
+                                          ></path>
+                                          <path
+                                            data-v-3b6a8222=""
+                                            id="Path_3895_1_"
+                                            d="M279,223.2l-0.4,24.4l-2.2,0.3l0.4-24.4L279,223.2z"
+                                            className="st30"
+                                          ></path>
+                                          <path
+                                            data-v-3b6a8222=""
+                                            id="Path_3896_1_"
+                                            d="M276.8,223.4l-0.4,24.4l-2.7-0.1l0.4-24.4L276.8,223.4z"
+                                            className="st9"
+                                          ></path>
+                                          <path
+                                            data-v-3b6a8222=""
+                                            id="Path_3900_1_"
+                                            d="M274,223.4l-0.4,24.4L272,248l0.4-24.4L274,223.4z"
+                                            className="st23"
+                                          ></path>
+                                          <path
+                                            data-v-3b6a8222=""
+                                            id="Path_3912_1_"
+                                            d="M289.1,224.4l-0.4,24.4l-2.4,0.1l0.4-24.4L289.1,224.4z"
+                                            className="st24"
+                                          ></path>
+                                          <path
+                                            data-v-3b6a8222=""
+                                            id="Path_3913_1_"
+                                            d="M286.8,224.5l-0.4,24.4l-1.4-1.3l0.4-24.4L286.8,224.5z"
+                                            className="st2"
+                                          ></path>
+                                        </g>
+                                      </g>
+                                      <path
+                                        data-v-3b6a8222=""
+                                        id="Path_3914_1_"
+                                        d="M262.3,223.8l-0.4,24.4l-2.7,0.3l0.4-24.4L262.3,223.8z"
+                                        className="st23"
+                                      ></path>
+                                    </g>
+                                    <g data-v-3b6a8222="">
+                                      <polygon
+                                        data-v-3b6a8222=""
+                                        points="236.3,176.3 235,175.5 234.9,183.7 234.9,183.7 235,175.5 233.2,175.3 233.2,175.3
+                231.5,174.5 230.6,173.6 229.9,172.5 229.9,172.5 227.3,171.6 226.9,196 229.5,196.9 229.5,196.9 230.3,198
+                230.3,198 230.3,198 230.3,198 230.3,198 231.1,198.8 232.6,199.6 232.6,203.9 233.9,205.2 234,199.8 234.2,199.9
+                234.1,207 234.3,207.8 234.3,207.8 235.4,209.6 235.5,200.4 235.9,200.7 														"
+                                        className="st2"
+                                      ></polygon>
+                                      <g data-v-3b6a8222="">
+                                        <polygon
+                                          data-v-3b6a8222=""
+                                          points="232,187.2 232,187.2 231.7,186.3 231.4,210.7 231.7,211.6 231.7,211.6 234.7,212.9
+                   235,188.5 															"
+                                          className="st9"
+                                        ></polygon>
+                                        <polygon
+                                          data-v-3b6a8222=""
+                                          points="244.7,217 244.7,217 242.3,216 242.5,204.8 242.2,204.2 242,215.8 242,215.8
+                   242.2,204.2 241.6,203.4 241.8,192.9 241.4,192.2 241.2,202.9 241.3,203 241.5,192 237.7,190.5 236.7,190 235,188.5
+                   234.7,212.9 236.4,214.4 237.1,214.8 237,222.1 237.5,223.4 237.5,223.4 239,225.2 238.8,237.8 239.5,238.9
+                   239.5,238.9 240.8,239.8 241,227.4 241,227.4 240.8,239.8 244.4,241.4 244.4,241.4 250.7,244.6 251.1,220.3
+                                                                "
+                                          className="st9"
+                                        ></polygon>
+                                        <rect
+                                          data-v-3b6a8222=""
+                                          x="241.7"
+                                          y="190.7"
+                                          width="9.9"
+                                          height="9.7"
+                                          className="st27"
+                                        ></rect>
+                                        <polygon
+                                          data-v-3b6a8222=""
+                                          points="258.4,224.1 257.6,223.9 257.6,223.9 254.2,222.4 254.2,222.4 251.1,220.3 250.7,244.6
+                   253.9,246.7 253.9,246.7 257.2,248.2 257.2,248.2 258.1,248.5 259.3,248.5 259.6,224.2 															"
+                                          className="st9"
+                                        ></polygon>
+                                      </g>
+                                    </g>
+                                    <g data-v-3b6a8222="">
+                                      <g data-v-3b6a8222="">
+                                        <polygon
+                                          data-v-3b6a8222=""
+                                          points="294.7,227.3 294.7,227.3 291.3,226.1 291.3,226.1 289.1,224.4 288.8,248.7 290.9,250.4
+                   290.9,250.4 294.3,251.7 294.3,251.7 295.6,251.9 296,227.5 															"
+                                          className="st2"
+                                        ></polygon>
+                                        <polygon
+                                          data-v-3b6a8222=""
+                                          points="297.4,227.5 297.4,227.5 296,227.5 295.6,251.9 297.1,251.8 297.1,251.8 297.4,251.9
+                   297.8,227.5 															"
+                                          className="st2"
+                                        ></polygon>
+                                      </g>
+                                      <g data-v-3b6a8222="">
+                                        <g data-v-3b6a8222="">
+                                          <g data-v-3b6a8222="">
+                                            <polygon
+                                              data-v-3b6a8222=""
+                                              points="302.9,224.4 302.5,248.7 303,248.1 303.4,223.7 																	"
+                                              className="st10"
+                                            ></polygon>
+                                            <polygon
+                                              data-v-3b6a8222=""
+                                              points="302.6,225.6 302.2,250 302.5,248.7 302.9,224.4 																	"
+                                              className="st10"
+                                            ></polygon>
+                                            <polygon
+                                              data-v-3b6a8222=""
+                                              points="302.1,226.4 301.7,250.8 302.2,250 302.6,225.6 																	"
+                                              className="st10"
+                                            ></polygon>
+                                          </g>
+                                          <path
+                                            data-v-3b6a8222=""
+                                            id="Path_3944_1_"
+                                            d="M302.1,226.4l-0.4,24.4l-0.5,0.4l0.4-24.4L302.1,226.4z"
+                                            className="st26"
+                                          ></path>
+                                          <path
+                                            data-v-3b6a8222=""
+                                            id="Path_3948_1_"
+                                            d="M301.6,226.8l-0.4,24.4l-0.7,0.3l0.4-24.4L301.6,226.8z"
+                                            className="st29"
+                                          ></path>
+                                        </g>
+                                        <polygon
+                                          data-v-3b6a8222=""
+                                          points="300.9,227.1 299.9,227.3 299.9,227.3 297.8,227.5 297.4,251.9 299.6,251.6
+                   299.6,251.6 300.6,251.5 															"
+                                          className="st23"
+                                        ></polygon>
+                                      </g>
+                                      <g data-v-3b6a8222="">
+                                        <path
+                                          data-v-3b6a8222=""
+                                          id="Path_1426_1_"
+                                          d="M304,220.6l-0.4,24.4l-0.7,1l0.4-24.4L304,220.6z"
+                                          className="st18"
+                                        ></path>
+                                        <g data-v-3b6a8222="">
+                                          <path
+                                            data-v-3b6a8222=""
+                                            id="Path_3876_1_"
+                                            d="M312.5,221.2l-0.4,24.4l-1.6,0.5l0.4-24.4L312.5,221.2z"
+                                            className="st14"
+                                          ></path>
+                                          <g data-v-3b6a8222="">
+                                            <g data-v-3b6a8222="">
+                                              <polygon
+                                                data-v-3b6a8222=""
+                                                points="304.3,220.5 304.3,220.5 304,220.6 303.7,245 303.9,244.8 303.9,244.8 304.3,244.8
+                            304.6,220.4 																		"
+                                                className="st9"
+                                              ></polygon>
+                                              <polygon
+                                                data-v-3b6a8222=""
+                                                points="304.6,220.4 304.3,244.8 306,245 306.3,220.6 																		"
+                                                className="st9"
+                                              ></polygon>
+                                              <polygon
+                                                data-v-3b6a8222=""
+                                                points="308.8,221.5 307.9,221.3 307.9,221.3 306.3,220.6 306,245 307.6,245.7 307.6,245.7
+                            308.5,245.9 																		"
+                                                className="st9"
+                                              ></polygon>
+                                              <polygon
+                                                data-v-3b6a8222=""
+                                                points="308.8,221.5 308.5,245.9 310.5,246 310.9,221.7 																		"
+                                                className="st9"
+                                              ></polygon>
+                                            </g>
+                                            <g data-v-3b6a8222="">
+                                              <polygon
+                                                data-v-3b6a8222=""
+                                                points="313.1,221.6 312.5,221.2 312.1,245.6 312.8,245.9 313.1,246.4 313.4,222
+                                                                                  "
+                                                className="st2"
+                                              ></polygon>
+                                              <polygon
+                                                data-v-3b6a8222=""
+                                                points="314,247.6 314.4,223.3 313.8,222.9 313.8,222.9 313.4,222 313.1,246.4 313.4,247.2
+                            313.4,247.2 																		"
+                                                className="st2"
+                                              ></polygon>
+                                              <polygon
+                                                data-v-3b6a8222=""
+                                                points="314.4,223.3 314,247.6 314.5,247.9 314.9,223.5 																		"
+                                                className="st2"
+                                              ></polygon>
+                                              <polygon
+                                                data-v-3b6a8222=""
+                                                points="315.7,223.8 315.7,223.8 314.9,223.5 314.5,247.9 315.3,248.1 315.3,248.1
+                            316.7,248.2 317,223.9 																		"
+                                                className="st2"
+                                              ></polygon>
+                                              <polygon
+                                                data-v-3b6a8222=""
+                                                points="317,223.9 316.7,248.2 317,248.4 317.4,224 																		"
+                                                className="st2"
+                                              ></polygon>
+                                              <polygon
+                                                data-v-3b6a8222=""
+                                                points="319.4,225.9 319.4,225.9 317.4,224 317,248.4 319.1,250.2 319.1,250.2 320.7,251.1
+                            321.1,226.7 																		"
+                                                className="st2"
+                                              ></polygon>
+                                              <polygon
+                                                data-v-3b6a8222=""
+                                                points="324.2,228.5 322.3,227 322.3,227 321.1,226.7 320.7,251.1 321.9,251.4 321.9,251.4
+                            323.8,252.9 325.1,253.5 325.4,229.1 																		"
+                                                className="st2"
+                                              ></polygon>
+                                              <polygon
+                                                data-v-3b6a8222=""
+                                                points="329.1,232.7 327.7,232.2 327.7,232.2 327,232.1 326.9,239.7 327,232.1 326.4,231.8
+                            326.2,231.4 326.2,230.4 325.8,229.6 325.8,229.6 325.4,229.1 325.1,253.5 325.5,254 325.5,254 325.6,254.3
+                            325.6,255.5 326.1,256.2 326.7,256.4 326.7,256.4 327.4,256.5 327.4,256.5 328.7,257.1 																		"
+                                                className="st2"
+                                              ></polygon>
+                                              <polygon
+                                                data-v-3b6a8222=""
+                                                points="332.8,245.3 332.8,245.3 332.5,244.5 332.5,244.5 331.2,242.9 331.2,240.8
+                            331.2,239.4 331.2,239.3 331,238.9 331,238.9 330.9,238.1 330.9,235.4 330.3,235.2 330.3,235.2 330,234.4
+                            330,233.9 329.7,233.4 329.7,233.4 329.1,232.7 328.7,257.1 329.4,257.7 329.4,257.7 329.6,258.2 329.6,258.7
+                            329.9,259.5 329.9,259.5 330.4,259.7 330.4,261 330.6,263.3 330.6,263.3 330.8,263.7 330.8,263.7 330.9,264.9
+                            330.8,267.2 332.1,268.9 332.1,268.9 332.4,269.6 332.4,269.6 332.9,270.2 333.2,245.9 																		"
+                                                className="st2"
+                                              ></polygon>
+                                              <polygon
+                                                data-v-3b6a8222=""
+                                                points="333.8,248.8 333.4,248 333.4,248 333.2,245.9 332.9,270.2 333.1,272.3 333.1,272.3
+                            333.5,273.2 																		"
+                                                className="st2"
+                                              ></polygon>
+                                              <polygon
+                                                data-v-3b6a8222=""
+                                                points="334.6,249.3 333.8,248.8 333.5,273.2 334.2,273.7 334.7,274.2 335.1,249.8
+                                                                                  "
+                                                className="st2"
+                                              ></polygon>
+                                              <polygon
+                                                data-v-3b6a8222=""
+                                                points="340.8,257.3 340.8,257.2 336.4,252.1 336.4,252.1 335.1,249.8 334.7,274.2
+                            336,276.4 336,276.4 340.4,281.6 340.4,281.6 340.9,282.2 341.3,257.8 																		"
+                                                className="st2"
+                                              ></polygon>
+                                              <polygon
+                                                data-v-3b6a8222=""
+                                                points="344.2,259.2 344.2,259.2 343,258.7 343,258.7 341.4,257.9 341,282.3 342.6,283.1
+                            342.6,283.1 343.8,283.5 343.8,283.5 345.2,284.6 345.5,260.2 																		"
+                                                className="st2"
+                                              ></polygon>
+                                              <polygon
+                                                data-v-3b6a8222=""
+                                                points="351.3,278.1 351.4,273.7 351,272.9 351,272.9 350.8,272 350.2,270.4 350.3,267.5
+                            350.2,266.9 349.5,266 349.5,266 348.3,265.1 348.3,265.1 348.1,264.9 348.2,261.3 347.1,261 347.1,261
+                            345.5,260.2 345.2,284.6 346.7,285.4 346.7,285.4 347.2,285.5 347.1,288.6 347.9,289.5 347.9,289.5 349.2,290.3
+                            349.2,290.3 349.5,290.8 349.5,293.2 349.8,293.8 349.8,291.2 349.9,291.3 349.8,294.7 350.3,296 350.2,301.7
+                            351.7,303.3 352.1,279 																		"
+                                                className="st2"
+                                              ></polygon>
+                                              <polygon
+                                                data-v-3b6a8222=""
+                                                points="352.1,279 351.7,303.3 351.9,304.6 352.2,280.3 																		"
+                                                className="st2"
+                                              ></polygon>
+                                              <polygon
+                                                data-v-3b6a8222=""
+                                                points="352.5,281.4 352.5,280.8 352.2,280.3 351.9,304.6 352.1,305.1 352.1,305.6
+                            352.3,306.4 352.7,282 																		"
+                                                className="st2"
+                                              ></polygon>
+                                            </g>
+                                          </g>
+                                        </g>
+                                      </g>
+                                    </g>
+                                    <g data-v-3b6a8222="">
+                                      <polygon
+                                        data-v-3b6a8222=""
+                                        points="352.7,282 352.3,306.4 352.5,306.8 352.9,282.5 														"
+                                        className="st2"
+                                      ></polygon>
+                                      <polygon
+                                        data-v-3b6a8222=""
+                                        points="353.9,283.6 352.9,282.5 352.5,306.8 353.5,307.9 														"
+                                        className="st2"
+                                      ></polygon>
+                                      <polygon
+                                        data-v-3b6a8222=""
+                                        points="370.3,292.8 355.3,284.5 355.3,284.5 353.9,283.6 353.5,307.9 354.9,308.9 354.9,308.9
+                369.9,317.2 														"
+                                        className="st2"
+                                      ></polygon>
+                                      <polygon
+                                        data-v-3b6a8222=""
+                                        points="370.3,292.8 369.9,317.2 377.2,321 377.5,296.6 														"
+                                        className="st2"
+                                      ></polygon>
+                                      <polygon
+                                        data-v-3b6a8222=""
+                                        points="397.4,307 392.7,304.5 392.7,304.5 388.3,302.4 388.3,302.4 377.5,296.6 377.2,321
+                387.9,326.7 387.9,326.7 392.4,328.9 392.4,328.9 397.1,331.4 401.6,333.4 402,309.1 														"
+                                        className="st2"
+                                      ></polygon>
+                                      <polygon
+                                        data-v-3b6a8222=""
+                                        points="408.2,312.9 406,311.2 406,311.2 402,309.1 401.6,333.4 405.7,335.6 405.7,335.6
+                407.8,337.3 														"
+                                        className="st2"
+                                      ></polygon>
+                                      <polygon
+                                        data-v-3b6a8222=""
+                                        points="408.2,312.9 407.8,337.3 411.5,340 411.9,315.6 														"
+                                        className="st2"
+                                      ></polygon>
+                                      <polygon
+                                        data-v-3b6a8222=""
+                                        points="412.7,316.6 411.9,315.6 411.5,340 412.3,340.9 														"
+                                        className="st2"
+                                      ></polygon>
+                                      <polygon
+                                        data-v-3b6a8222=""
+                                        points="414.3,342.9 414.7,318.5 413.4,317.3 413.4,317.3 413.1,316.9 413.1,316.9 412.7,316.6
+                412.3,340.9 412.7,341.3 412.7,341.3 413,341.7 413,341.7 														"
+                                        className="st2"
+                                      ></polygon>
+                                      <polygon
+                                        data-v-3b6a8222=""
+                                        points="421,322.3 421,322.3 416.1,319.6 416.1,319.6 414.7,318.5 414.3,342.9 415.7,343.9
+                415.7,343.9 420.7,346.7 420.7,346.7 422.5,347.6 422.9,323.2 														"
+                                        className="st2"
+                                      ></polygon>
+                                      <polygon
+                                        data-v-3b6a8222=""
+                                        points="437.1,331.2 437.1,331.2 436.1,330.8 436,339.3 436.1,330.8 433,328.9 433,328.9
+                430,327.3 430,327.3 422.9,323.2 422.5,347.6 429.7,351.7 429.7,351.7 432.6,353.2 432.6,353.2 435.7,355.2
+                435.7,355.2 436.7,355.5 436.7,355.5 438.4,355.7 438.7,331.3 														"
+                                        className="st2"
+                                      ></polygon>
+                                    </g>
+                                    <g data-v-3b6a8222="">
+                                      <g data-v-3b6a8222="">
+                                        <path
+                                          data-v-3b6a8222=""
+                                          id="Path_4741_1_"
+                                          d="M444.5,329.9l-0.4,24.4l-1.2,0.2l0.4-24.4L444.5,329.9z"
+                                          className="st4"
+                                        ></path>
+                                        <path
+                                          data-v-3b6a8222=""
+                                          id="Path_4743_1_"
+                                          d="M443.2,330.1l-0.4,24.4l-2.2,1l0.4-24.4L443.2,330.1z"
+                                          className="st22"
+                                        ></path>
+                                        <path
+                                          data-v-3b6a8222=""
+                                          id="Path_4745_1_"
+                                          d="M441,331.1l-0.4,24.4l-1.1,0.2l0.4-24.4L441,331.1z"
+                                          className="st33"
+                                        ></path>
+                                        <path
+                                          data-v-3b6a8222=""
+                                          id="Path_4746_1_"
+                                          d="M439.8,331.3l-0.4,24.4h-1.1l0.4-24.4H439.8z"
+                                          className="st9"
+                                        ></path>
+                                      </g>
+                                      <g data-v-3b6a8222="">
+                                        <polygon
+                                          data-v-3b6a8222=""
+                                          points="446.6,331.7 446.6,331.7 444.5,329.9 444.1,354.3 446.3,356 446.3,356 447.5,357.1
+                   447.8,332.7 															"
+                                          className="st2"
+                                        ></polygon>
+                                        <polygon
+                                          data-v-3b6a8222=""
+                                          points="447.8,332.7 447.5,357.1 453.3,361.1 453.7,336.8 															"
+                                          className="st2"
+                                        ></polygon>
+                                        <polygon
+                                          data-v-3b6a8222=""
+                                          points="465.9,342.6 465.9,342.6 456.6,338.3 456.6,338.3 453.7,336.8 453.4,361.1 456.2,362.6
+                   456.2,362.6 465.6,367 465.6,367 466.2,367.5 466.6,343.1 															"
+                                          className="st2"
+                                        ></polygon>
+                                        <polygon
+                                          data-v-3b6a8222=""
+                                          points="471.6,345.3 471.6,345.3 468.5,344.2 468.5,344.2 466.6,343.1 466.2,367.5 468.1,368.5
+                   468.1,368.5 471.2,369.6 471.2,369.6 474.8,370.7 475.2,346.3 															"
+                                          className="st2"
+                                        ></polygon>
+                                        <polygon
+                                          data-v-3b6a8222=""
+                                          points="489.4,355.5 489.4,355.5 486.5,353.5 486.5,353.5 478.5,347.5 478.5,347.5 478,347.2
+                   478,347.2 475.2,346.3 474.8,370.7 477.6,371.6 477.6,371.6 478.2,371.9 478.2,371.9 486.1,377.9 486.1,377.9
+                   489,379.9 489,379.9 491,381.1 491.3,356.7 															"
+                                          className="st2"
+                                        ></polygon>
+                                        <polygon
+                                          data-v-3b6a8222=""
+                                          points="498.1,360 491.3,356.7 491,381.1 497.7,384.4 															"
+                                          className="st2"
+                                        ></polygon>
+                                        <polygon
+                                          data-v-3b6a8222=""
+                                          points="510.6,364 510.6,364 500.2,360.9 500.2,360.9 498.1,360 497.7,384.4 499.8,385.3
+                   499.8,385.3 510.3,388.4 510.3,388.4 515.1,389.1 515.5,364.7 															"
+                                          className="st2"
+                                        ></polygon>
+                                      </g>
+                                    </g>
+                                    <g data-v-3b6a8222="">
+                                      <path
+                                        data-v-3b6a8222=""
+                                        id="Path_3520_1_"
+                                        d="M552.5,373.9l-0.4,24.4L549,398l0.4-24.4L552.5,373.9z"
+                                        className="st36"
+                                      ></path>
+                                      <path
+                                        data-v-3b6a8222=""
+                                        id="Path_3522_1_"
+                                        d="M553.9,374.3l-0.4,24.4l-1.4-0.4l0.4-24.4L553.9,374.3z"
+                                        className="st2"
+                                      ></path>
+                                      <path
+                                        data-v-3b6a8222=""
+                                        id="Path_3524_1_"
+                                        d="M555,374.8l-0.4,24.4l-1-0.5l0.4-24.4L555,374.8z"
+                                        className="st2"
+                                      ></path>
+                                      <path
+                                        data-v-3b6a8222=""
+                                        id="Path_3533_1_"
+                                        d="M557.3,376.9l-0.4,24.4l-2.4-2.1l0.4-24.4L557.3,376.9z"
+                                        className="st2"
+                                      ></path>
+                                      <path
+                                        data-v-3b6a8222=""
+                                        id="Path_3538_1_"
+                                        d="M557.9,377.7l-0.4,24.4l-0.5-0.8l0.4-24.4L557.9,377.7z"
+                                        className="st2"
+                                      ></path>
+                                      <path
+                                        data-v-3b6a8222=""
+                                        id="Path_4765_1_"
+                                        d="M520.2,362.8l-0.4,24.4h-1l0.4-24.4H520.2z"
+                                        className="st9"
+                                      ></path>
+                                      <path
+                                        data-v-3b6a8222=""
+                                        id="Path_4766_1_"
+                                        d="M521,362.9l-0.4,24.4l-0.7-0.1l0.4-24.4L521,362.9z"
+                                        className="st2"
+                                      ></path>
+                                      <path
+                                        data-v-3b6a8222=""
+                                        id="Path_4767_1_"
+                                        d="M519.3,362.8l-0.4,24.4l-0.7,0.2l0.4-24.4L519.3,362.8z"
+                                        className="st33"
+                                      ></path>
+                                      <path
+                                        data-v-3b6a8222=""
+                                        id="Path_4769_1_"
+                                        d="M517.7,364.1l-0.4,24.4l-0.6-0.1l0.4-24.4L517.7,364.1z"
+                                        className="st36"
+                                      ></path>
+                                      <path
+                                        data-v-3b6a8222=""
+                                        id="Path_4770_1_"
+                                        d="M518.5,362.9l-0.4,24.4l-0.8,1.2l0.4-24.4L518.5,362.9z"
+                                        className="st10"
+                                      ></path>
+                                      <path
+                                        data-v-3b6a8222=""
+                                        id="Path_4771_1_"
+                                        d="M522.9,364.4l-0.4,24.4l-1.9-1.5l0.4-24.4L522.9,364.4z"
+                                        className="st2"
+                                      ></path>
+                                      <path
+                                        data-v-3b6a8222=""
+                                        id="Path_4772_1_"
+                                        d="M517.1,364.1l-0.4,24.4l-0.1,0.4l0.4-24.4L517.1,364.1z"
+                                        className="st8"
+                                      ></path>
+                                      <path
+                                        data-v-3b6a8222=""
+                                        id="Path_4773_1_"
+                                        d="M517,364.5l-0.4,24.4l-0.8,0.2l0.4-24.4L517,364.5z"
+                                        className="st14"
+                                      ></path>
+                                      <path
+                                        data-v-3b6a8222=""
+                                        id="Path_4774_1_"
+                                        d="M516.1,364.7l-0.4,24.4h-0.6l0.4-24.4H516.1z"
+                                        className="st9"
+                                      ></path>
+                                      <path
+                                        data-v-3b6a8222=""
+                                        id="Path_4776_1_"
+                                        d="M523.9,364.9l-0.4,24.4l-1-0.5l0.4-24.4L523.9,364.9z"
+                                        className="st2"
+                                      ></path>
+                                      <path
+                                        data-v-3b6a8222=""
+                                        id="Path_4777_1_"
+                                        d="M525,365.2l-0.4,24.4l-1.1-0.3l0.4-24.4L525,365.2z"
+                                        className="st2"
+                                      ></path>
+                                      <path
+                                        data-v-3b6a8222=""
+                                        id="Path_4778_1_"
+                                        d="M526.7,365.2l-0.4,24.4h-1.7l0.4-24.4H526.7z"
+                                        className="st9"
+                                      ></path>
+                                      <path
+                                        data-v-3b6a8222=""
+                                        id="Path_4780_1_"
+                                        d="M527.5,365.8l-0.4,24.4l-0.8-0.7l0.4-24.4L527.5,365.8z"
+                                        className="st2"
+                                      ></path>
+                                      <path
+                                        data-v-3b6a8222=""
+                                        id="Path_4781_1_"
+                                        d="M528.5,366l-0.4,24.4l-1-0.1l0.4-24.4L528.5,366z"
+                                        className="st2"
+                                      ></path>
+                                      <path
+                                        data-v-3b6a8222=""
+                                        id="Path_4782_1_"
+                                        d="M529.5,366.2l-0.4,24.4l-1-0.3l0.4-24.4L529.5,366.2z"
+                                        className="st2"
+                                      ></path>
+                                      <path
+                                        data-v-3b6a8222=""
+                                        id="Path_4784_1_"
+                                        d="M530,366.9l-0.4,24.4l-0.5-0.7l0.4-24.4L530,366.9z"
+                                        className="st2"
+                                      ></path>
+                                      <path
+                                        data-v-3b6a8222=""
+                                        id="Path_4785_1_"
+                                        d="M530.8,367.3l-0.4,24.4l-0.8-0.4l0.4-24.4L530.8,367.3z"
+                                        className="st2"
+                                      ></path>
+                                      <path
+                                        data-v-3b6a8222=""
+                                        id="Path_4786_1_"
+                                        d="M534.6,368.1l-0.4,24.4l-3.8-0.8l0.4-24.4L534.6,368.1z"
+                                        className="st2"
+                                      ></path>
+                                      <path
+                                        data-v-3b6a8222=""
+                                        id="Path_4787_1_"
+                                        d="M536.5,368.2l-0.4,24.4l-2-0.1l0.4-24.4L536.5,368.2z"
+                                        className="st9"
+                                      ></path>
+                                      <path
+                                        data-v-3b6a8222=""
+                                        id="Path_4788_1_"
+                                        d="M536.8,368.4l-0.4,24.4l-0.3-0.1l0.4-24.4L536.8,368.4z"
+                                        className="st2"
+                                      ></path>
+                                      <path
+                                        data-v-3b6a8222=""
+                                        id="Path_4790_1_"
+                                        d="M538.1,370.1l-0.4,24.4l-1.3-1.8l0.4-24.4L538.1,370.1z"
+                                        className="st2"
+                                      ></path>
+                                      <path
+                                        data-v-3b6a8222=""
+                                        id="Path_4792_1_"
+                                        d="M540.1,371.8l-0.4,24.4l-2-1.7l0.4-24.4L540.1,371.8z"
+                                        className="st2"
+                                      ></path>
+                                      <path
+                                        data-v-3b6a8222=""
+                                        id="Path_4794_1_"
+                                        d="M543.1,373.1l-0.4,24.4l-3-1.3l0.4-24.4L543.1,373.1z"
+                                        className="st2"
+                                      ></path>
+                                      <path
+                                        data-v-3b6a8222=""
+                                        id="Path_4795_1_"
+                                        d="M544.5,374l-0.4,24.4l-1.4-0.9l0.4-24.4L544.5,374z"
+                                        className="st2"
+                                      ></path>
+                                      <path
+                                        data-v-3b6a8222=""
+                                        id="Path_4796_1_"
+                                        d="M549.4,373.6L549,398l-2.6,0.6l0.4-24.4L549.4,373.6z"
+                                        className="st37"
+                                      ></path>
+                                      <path
+                                        data-v-3b6a8222=""
+                                        id="Path_4797_1_"
+                                        d="M546.7,374.3l-0.4,24.4l-0.8,0.1l0.4-24.4L546.7,374.3z"
+                                        className="st24"
+                                      ></path>
+                                      <path
+                                        data-v-3b6a8222=""
+                                        id="Path_4798_1_"
+                                        d="M546,374.3l-0.4,24.4l-1.5-0.3l0.4-24.4L546,374.3z"
+                                        className="st2"
+                                      ></path>
+                                    </g>
+                                    <g data-v-3b6a8222="">
+                                      <g data-v-3b6a8222="">
+                                        <g data-v-3b6a8222="">
+                                          <path
+                                            data-v-3b6a8222=""
+                                            id="Path_2378_1_"
+                                            d="M688.1,244.2l-0.4,24.4l-1.7,1.8l0.4-24.4L688.1,244.2z"
+                                            className="st3"
+                                          ></path>
+                                          <path
+                                            data-v-3b6a8222=""
+                                            id="Path_2398_1_"
+                                            d="M685.8,247.1l-0.4,24.4l-0.2,2.8l0.4-24.4L685.8,247.1z"
+                                            className="st10"
+                                          ></path>
+                                          <path
+                                            data-v-3b6a8222=""
+                                            id="Path_2737_1_"
+                                            d="M686.3,253.1l-0.4,24.4l-0.6,0.2l0.4-24.4L686.3,253.1z"
+                                            className="st13"
+                                          ></path>
+                                          <path
+                                            data-v-3b6a8222=""
+                                            id="Path_2742_3_"
+                                            d="M685.4,253.7l-0.4,24.4l-0.5,0.6l0.4-24.4L685.4,253.7z"
+                                            className="st3"
+                                          ></path>
+                                          <path
+                                            data-v-3b6a8222=""
+                                            id="Path_2742_2_"
+                                            d="M685.7,253.1l-0.4,24.4l-0.5,0.6l0.4-24.4L685.7,253.1z"
+                                            className="st3"
+                                          ></path>
+                                          <path
+                                            data-v-3b6a8222=""
+                                            id="Path_2743_1_"
+                                            d="M684.4,254.4l-0.4,24.4l-0.9-0.1l0.4-24.4L684.4,254.4z"
+                                            className="st2"
+                                          ></path>
+                                          <path
+                                            data-v-3b6a8222=""
+                                            id="Path_2744_1_"
+                                            d="M684.9,254.3l-0.4,24.4l-0.6,0.1l0.4-24.4L684.9,254.3z"
+                                            className="st33"
+                                          ></path>
+                                          <path
+                                            data-v-3b6a8222=""
+                                            id="Path_2745_1_"
+                                            d="M683.4,254.3l-0.4,24.4l-1.7,0.2l0.4-24.4L683.4,254.3z"
+                                            className="st30"
+                                          ></path>
+                                          <path
+                                            data-v-3b6a8222=""
+                                            id="Path_2747_1_"
+                                            d="M681.7,254.5l-0.4,24.4l-1.4,0.7l0.4-24.4L681.7,254.5z"
+                                            className="st20"
+                                          ></path>
+                                          <path
+                                            data-v-3b6a8222=""
+                                            id="Path_2749_1_"
+                                            d="M680.3,255.2l-0.4,24.4l-0.2,0.3l0.4-24.4L680.3,255.2z"
+                                            className="st11"
+                                          ></path>
+                                        </g>
+                                        <g data-v-3b6a8222="">
+                                          <path
+                                            data-v-3b6a8222=""
+                                            id="Path_2341_1_"
+                                            d="M740.1,231.9l-0.4,24.4l-0.6-0.9l0.4-24.4L740.1,231.9z"
+                                            className="st2"
+                                          ></path>
+                                          <path
+                                            data-v-3b6a8222=""
+                                            id="Path_2344_1_"
+                                            d="M736.2,233l-0.4,24.4l-0.4,0.2l0.4-24.4L736.2,233z"
+                                            className="st19"
+                                          ></path>
+                                          <path
+                                            data-v-3b6a8222=""
+                                            id="Path_2350_1_"
+                                            d="M735.7,235.5l-0.4,24.4l-0.7,0.7l0.4-24.4L735.7,235.5z"
+                                            className="st38"
+                                          ></path>
+                                          <path
+                                            data-v-3b6a8222=""
+                                            id="Path_2688_1_"
+                                            d="M748.7,240.8l-0.4,24.4l-1-0.7l0.4-24.4L748.7,240.8z"
+                                            className="st2"
+                                          ></path>
+                                          <path
+                                            data-v-3b6a8222=""
+                                            id="Path_2691_1_"
+                                            d="M749.3,241.7l-0.4,24.4l-0.5-0.9l0.4-24.4L749.3,241.7z"
+                                            className="st2"
+                                          ></path>
+                                          <path
+                                            data-v-3b6a8222=""
+                                            id="Path_2709_1_"
+                                            d="M750.2,244.3l-0.4,24.4l-0.5,0.1l0.4-24.4L750.2,244.3z"
+                                            className="st39"
+                                          ></path>
+                                          <path
+                                            data-v-3b6a8222=""
+                                            id="Path_2710_1_"
+                                            d="M749.6,244.4l-0.4,24.4l-0.1-0.2l0.4-24.4L749.6,244.4z"
+                                            className="st40"
+                                          ></path>
+                                          <path
+                                            data-v-3b6a8222=""
+                                            id="Path_2716_1_"
+                                            d="M751.4,245.2l-0.4,24.4l-1.1-0.1l0.4-24.4L751.4,245.2z"
+                                            className="st41"
+                                          ></path>
+                                          <path
+                                            data-v-3b6a8222=""
+                                            id="Path_3936_7_"
+                                            d="M738.9,231.7l-0.4,24.4l-0.8-0.1l0.4-24.4L738.9,231.7z"
+                                            className="st2"
+                                          ></path>
+                                          <path
+                                            data-v-3b6a8222=""
+                                            id="Path_3936_6_"
+                                            d="M739.6,231.9l-0.4,24.4l-0.8-0.1l0.4-24.4L739.6,231.9z"
+                                            className="st2"
+                                          ></path>
+                                          <path
+                                            data-v-3b6a8222=""
+                                            id="Path_3936_5_"
+                                            d="M737.2,231.8l-0.4,24.4l-0.8-0.1l0.4-24.4L737.2,231.8z"
+                                            className="st2"
+                                          ></path>
+                                          <path
+                                            data-v-3b6a8222=""
+                                            id="Path_3936_4_"
+                                            d="M742,231.2l-0.4,24.4l-0.8-0.1l0.4-24.4L742,231.2z"
+                                            className="st2"
+                                          ></path>
+                                          <path
+                                            data-v-3b6a8222=""
+                                            id="Path_3941_1_"
+                                            d="M739,231.8l-0.4,24.4l-0.1-0.2l0.4-24.4L739,231.8z"
+                                            className="st2"
+                                          ></path>
+                                          <path
+                                            data-v-3b6a8222=""
+                                            id="Path_3942_1_"
+                                            d="M738.1,231.5l-0.4,24.4l-1.1,0.3l0.4-24.4L738.1,231.5z"
+                                            className="st14"
+                                          ></path>
+                                          <path
+                                            data-v-3b6a8222=""
+                                            id="Path_3945_1_"
+                                            d="M740.1,232l-0.4,24.4h-0.5l0.4-24.4H740.1z"
+                                            className="st2"
+                                          ></path>
+                                          <path
+                                            data-v-3b6a8222=""
+                                            id="Path_3954_1_"
+                                            d="M740.4,232.5l-0.3,24.4l-0.3-0.5l0.4-24.4L740.4,232.5z"
+                                            className="st2"
+                                          ></path>
+                                          <path
+                                            data-v-3b6a8222=""
+                                            id="Path_3961_1_"
+                                            d="M736.6,232.2l-0.4,24.4l-0.4,0.8l0.4-24.4L736.6,232.2z"
+                                            className="st11"
+                                          ></path>
+                                          <path
+                                            data-v-3b6a8222=""
+                                            id="Path_3962_1_"
+                                            d="M741.5,233.2l-0.4,24.4l-1.1-0.7l0.4-24.4L741.5,233.2z"
+                                            className="st2"
+                                          ></path>
+                                          <path
+                                            data-v-3b6a8222=""
+                                            id="Path_3972_1_"
+                                            d="M742,233.9l-0.4,24.4l-0.5-0.3l0.4-24.4L742,233.9z"
+                                            className="st2"
+                                          ></path>
+                                          <path
+                                            data-v-3b6a8222=""
+                                            id="Path_3975_1_"
+                                            d="M743,235l-0.4,24.4l-1-1L742,234L743,235z"
+                                            className="st2"
+                                          ></path>
+                                          <path
+                                            data-v-3b6a8222=""
+                                            id="Path_3976_1_"
+                                            d="M743.7,235l-0.4,24.4h-0.6L743,235H743.7z"
+                                            className="st9"
+                                          ></path>
+                                          <path
+                                            data-v-3b6a8222=""
+                                            id="Path_3977_1_"
+                                            d="M736.1,234.4l-0.4,24.4l-0.3,0.5l0.4-24.4L736.1,234.4z"
+                                            className="st18"
+                                          ></path>
+                                          <path
+                                            data-v-3b6a8222=""
+                                            id="Path_3981_1_"
+                                            d="M744.1,235.8l-0.4,24.4l-0.5-0.9l0.4-24.4L744.1,235.8z"
+                                            className="st2"
+                                          ></path>
+                                          <path
+                                            data-v-3b6a8222=""
+                                            id="Path_3985_1_"
+                                            d="M745.2,236.9l-0.4,24.4l-1.1-1l0.4-24.4L745.2,236.9z"
+                                            className="st2"
+                                          ></path>
+                                          <path
+                                            data-v-3b6a8222=""
+                                            id="Path_3997_1_"
+                                            d="M745.6,237.6l-0.4,24.4l-0.4-0.7l0.4-24.4L745.6,237.6z"
+                                            className="st2"
+                                          ></path>
+                                          <path
+                                            data-v-3b6a8222=""
+                                            id="Path_4016_1_"
+                                            d="M735.1,237.8l-0.4,24.4l-0.6,0.9l0.4-24.4L735.1,237.8z"
+                                            className="st10"
+                                          ></path>
+                                          <path
+                                            data-v-3b6a8222=""
+                                            id="Path_4017_1_"
+                                            d="M746.8,238.9l-0.4,24.4l-1.1-1.3l0.4-24.4L746.8,238.9z"
+                                            className="st2"
+                                          ></path>
+                                          <path
+                                            data-v-3b6a8222=""
+                                            id="Path_4024_1_"
+                                            d="M734.5,238.7l-0.4,24.4l-0.6,0.4l0.4-24.4L734.5,238.7z"
+                                            className="st17"
+                                          ></path>
+                                          <path
+                                            data-v-3b6a8222=""
+                                            id="Path_4032_1_"
+                                            d="M733.9,239.1l-0.4,24.4l-0.9,0.2l0.4-24.4L733.9,239.1z"
+                                            className="st37"
+                                          ></path>
+                                          <path
+                                            data-v-3b6a8222=""
+                                            id="Path_4033_1_"
+                                            d="M733.1,239.3l-0.4,24.4h-1.1l0.4-24.4L733.1,239.3z"
+                                            className="st7"
+                                          ></path>
+                                          <path
+                                            data-v-3b6a8222=""
+                                            id="Path_4037_1_"
+                                            d="M747.4,240l-0.4,24.4l-0.6-1.1l0.4-24.4L747.4,240z"
+                                            className="st2"
+                                          ></path>
+                                          <path
+                                            data-v-3b6a8222=""
+                                            id="Path_4041_1_"
+                                            d="M747.7,240.1l-0.4,24.4l-0.3-0.1l0.4-24.4L747.7,240.1z"
+                                            className="st2"
+                                          ></path>
+                                          <path
+                                            data-v-3b6a8222=""
+                                            id="Path_4042_1_"
+                                            d="M732,239.3l-0.4,24.4l-1.5,0.7l0.4-24.4L732,239.3z"
+                                            className="st29"
+                                          ></path>
+                                          <path
+                                            data-v-3b6a8222=""
+                                            id="Path_4049_1_"
+                                            d="M730.5,240l-0.4,24.4l-0.8,0.8l0.4-24.4L730.5,240z"
+                                            className="st3"
+                                          ></path>
+                                          <path
+                                            data-v-3b6a8222=""
+                                            id="Path_4056_1_"
+                                            d="M729.7,240.8l-0.4,24.4l-1,0.4l0.4-24.4L729.7,240.8z"
+                                            className="st13"
+                                          ></path>
+                                          <path
+                                            data-v-3b6a8222=""
+                                            id="Path_4059_1_"
+                                            d="M725.6,241.8l-0.4,24.4l-0.9-0.3l0.4-24.4L725.6,241.8z"
+                                            className="st2"
+                                          ></path>
+                                          <path
+                                            data-v-3b6a8222=""
+                                            id="Path_4060_1_"
+                                            d="M724.6,241.5l-0.4,24.4l-0.6,0.4l0.4-24.4L724.6,241.5z"
+                                            className="st19"
+                                          ></path>
+                                          <path
+                                            data-v-3b6a8222=""
+                                            id="Path_4061_1_"
+                                            d="M727.1,242l-0.4,24.4l-1.5-0.2l0.4-24.4L727.1,242z"
+                                            className="st2"
+                                          ></path>
+                                          <path
+                                            data-v-3b6a8222=""
+                                            id="Path_4062_1_"
+                                            d="M728.7,241.2l-0.4,24.4l-1.6,0.8l0.4-24.4L728.7,241.2z"
+                                            className="st29"
+                                          ></path>
+                                          <path
+                                            data-v-3b6a8222=""
+                                            id="Path_4065_3_"
+                                            d="M724,241.9l-0.4,24.4l-0.3,0.7l0.4-24.4L724,241.9z"
+                                            className="st8"
+                                          ></path>
+                                          <path
+                                            data-v-3b6a8222=""
+                                            id="Path_4065_2_"
+                                            d="M723.7,241.9l-0.4,25l-0.3,0.4l0.4-24.6L723.7,241.9z"
+                                            className="st8"
+                                          ></path>
+                                          <path
+                                            data-v-3b6a8222=""
+                                            id="Path_4086_1_"
+                                            d="M689.4,244.1l-0.4,24.4l-1.3,0.1l0.4-24.4L689.4,244.1z"
+                                            className="st30"
+                                          ></path>
+                                          <path
+                                            data-v-3b6a8222=""
+                                            id="Path_4088_1_"
+                                            d="M690.1,244.3l-0.4,24.4l-0.6-0.2l0.4-24.4L690.1,244.3z"
+                                            className="st2"
+                                          ></path>
+                                          <path
+                                            data-v-3b6a8222=""
+                                            id="Path_4090_1_"
+                                            d="M723.4,242.9l-0.4,24.4l-2.7,2l0.4-24.4L723.4,242.9z"
+                                            className="st6"
+                                          ></path>
+                                          <path
+                                            data-v-3b6a8222=""
+                                            id="Path_4092_1_"
+                                            d="M750.3,245.1l-0.4,24.4l-1.2,0.3l0.4-24.4L750.3,245.1z"
+                                            className="st21"
+                                          ></path>
+                                          <path
+                                            data-v-3b6a8222=""
+                                            id="Path_4096_1_"
+                                            d="M692.8,244.8l-0.4,24.4l-2.7-0.6l0.4-24.4L692.8,244.8z"
+                                            className="st2"
+                                          ></path>
+                                          <path
+                                            data-v-3b6a8222=""
+                                            id="Path_4098_1_"
+                                            d="M693.9,244.9l-0.4,24.4l-1.1-0.1l0.4-24.4L693.9,244.9z"
+                                            className="st36"
+                                          ></path>
+                                          <path
+                                            data-v-3b6a8222=""
+                                            id="Path_4099_1_"
+                                            d="M752.9,245.7l-0.4,24.4l-2.4-0.1l0.4-24.4L752.9,245.7z"
+                                            className="st9"
+                                          ></path>
+                                          <path
+                                            data-v-3b6a8222=""
+                                            id="Path_4101_1_"
+                                            d="M720.7,244.9l-0.3,24.4l-1.4,0.4l0.4-24.4L720.7,244.9z"
+                                            className="st14"
+                                          ></path>
+                                          <path
+                                            data-v-3b6a8222=""
+                                            id="Path_4103_1_"
+                                            d="M753.2,245.8l-0.4,24.4l-0.3-0.1l0.4-24.4L753.2,245.8z"
+                                            className="st2"
+                                          ></path>
+                                          <path
+                                            data-v-3b6a8222=""
+                                            id="Path_4111_1_"
+                                            d="M694.5,245.4l-0.4,24.4l-0.6-0.5l0.4-24.4L694.5,245.4z"
+                                            className="st2"
+                                          ></path>
+                                          <path
+                                            data-v-3b6a8222=""
+                                            id="Path_4113_1_"
+                                            d="M719.3,245.3l-0.4,24.4l-1.2,0.7l0.4-24.4L719.3,245.3z"
+                                            className="st42"
+                                          ></path>
+                                          <path
+                                            data-v-3b6a8222=""
+                                            id="Path_4115_1_"
+                                            d="M754.2,246.5l-0.4,24.4l-1-0.7l0.4-24.4L754.2,246.5z"
+                                            className="st2"
+                                          ></path>
+                                          <path
+                                            data-v-3b6a8222=""
+                                            id="Path_4119_1_"
+                                            d="M718.1,246.1l-0.4,24.4l-1,0.3l0.4-24.4L718.1,246.1z"
+                                            className="st14"
+                                          ></path>
+                                          <path
+                                            data-v-3b6a8222=""
+                                            id="Path_4123_1_"
+                                            d="M754.5,247l-0.4,24.4l-0.3-0.5l0.4-24.4L754.5,247z"
+                                            className="st2"
+                                          ></path>
+                                          <path
+                                            data-v-3b6a8222=""
+                                            id="Path_4124_1_"
+                                            d="M755.4,246.8l-0.4,24.4l-0.9,0.2l0.4-24.4L755.4,246.8z"
+                                            className="st33"
+                                          ></path>
+                                          <path
+                                            data-v-3b6a8222=""
+                                            id="Path_4125_1_"
+                                            d="M717.1,246.4l-0.4,24.4l-2,0.2l0.4-24.4L717.1,246.4z"
+                                            className="st30"
+                                          ></path>
+                                          <path
+                                            data-v-3b6a8222=""
+                                            id="Path_4130_1_"
+                                            d="M695.3,246.6L695,271l-0.8-1.2l0.4-24.4L695.3,246.6z"
+                                            className="st2"
+                                          ></path>
+                                          <path
+                                            data-v-3b6a8222=""
+                                            id="Path_4133_1_"
+                                            d="M715.1,246.6l-0.4,24.4l-0.7,0.3l0.4-24.4L715.1,246.6z"
+                                            className="st29"
+                                          ></path>
+                                          <path
+                                            data-v-3b6a8222=""
+                                            id="Path_4145_1_"
+                                            d="M710.9,247.1l-0.4,24.4l-1.1,0.4l0.4-24.4L710.9,247.1z"
+                                            className="st32"
+                                          ></path>
+                                          <path
+                                            data-v-3b6a8222=""
+                                            id="Path_4151_1_"
+                                            d="M695.6,247.5l-0.4,24.4L695,271l0.4-24.4L695.6,247.5z"
+                                            className="st2"
+                                          ></path>
+                                          <path
+                                            data-v-3b6a8222=""
+                                            id="Path_4155_1_"
+                                            d="M712.6,247.9l-0.4,24.4l-1.6-0.8l0.4-24.4L712.6,247.9z"
+                                            className="st2"
+                                          ></path>
+                                          <path
+                                            data-v-3b6a8222=""
+                                            id="Path_4156_1_"
+                                            d="M713.1,247.9l-0.4,24.4h-0.6l0.4-24.4H713.1z"
+                                            className="st9"
+                                          ></path>
+                                          <path
+                                            data-v-3b6a8222=""
+                                            id="Path_4157_1_"
+                                            d="M714.4,246.9l-0.4,24.4l-1.3,1l0.4-24.4L714.4,246.9z"
+                                            className="st6"
+                                          ></path>
+                                          <path
+                                            data-v-3b6a8222=""
+                                            id="Path_4161_1_"
+                                            d="M706.7,248.2l-0.4,24.4l-0.5,0.1l0.4-24.4L706.7,248.2z"
+                                            className="st21"
+                                          ></path>
+                                          <path
+                                            data-v-3b6a8222=""
+                                            id="Path_4162_1_"
+                                            d="M709.8,247.6l-0.4,24.4l-1.1,0.9l0.4-24.4L709.8,247.6z"
+                                            className="st26"
+                                          ></path>
+                                          <path
+                                            data-v-3b6a8222=""
+                                            id="Path_4163_1_"
+                                            d="M696.2,248.3l-0.4,24.4l-0.7-0.8l0.4-24.4L696.2,248.3z"
+                                            className="st2"
+                                          ></path>
+                                          <path
+                                            data-v-3b6a8222=""
+                                            id="Path_4164_1_"
+                                            d="M708.1,248.5l-0.4,24.4l-1.4-0.3l0.4-24.4L708.1,248.5z"
+                                            className="st2"
+                                          ></path>
+                                          <path
+                                            data-v-3b6a8222=""
+                                            id="Path_4165_1_"
+                                            d="M708.7,248.4l-0.4,24.4h-0.6l0.4-24.4H708.7z"
+                                            className="st24"
+                                          ></path>
+                                          <path
+                                            data-v-3b6a8222=""
+                                            id="Path_4176_1_"
+                                            d="M697.6,249.1l-0.4,24.4l-1.4-0.8l0.4-24.4L697.6,249.1z"
+                                            className="st2"
+                                          ></path>
+                                          <path
+                                            data-v-3b6a8222=""
+                                            id="Path_4188_1_"
+                                            d="M698.5,249.8l-0.4,24.4l-0.9-0.8l0.4-24.4L698.5,249.8z"
+                                            className="st2"
+                                          ></path>
+                                          <path
+                                            data-v-3b6a8222=""
+                                            id="Path_4190_1_"
+                                            d="M699.5,250l-0.4,24.4l-1-0.2l0.4-24.4L699.5,250z"
+                                            className="st2"
+                                          ></path>
+                                          <path
+                                            data-v-3b6a8222=""
+                                            id="Path_4208_1_"
+                                            d="M706.2,248.3l-0.4,24.4l-1.8,2.6l0.4-24.4L706.2,248.3z"
+                                            className="st10"
+                                          ></path>
+                                          <path
+                                            data-v-3b6a8222=""
+                                            id="Path_4210_1_"
+                                            d="M699.9,250.9l-0.4,24.4l-0.5-0.9l0.4-24.4L699.9,250.9z"
+                                            className="st2"
+                                          ></path>
+                                          <path
+                                            data-v-3b6a8222=""
+                                            id="Path_4228_1_"
+                                            d="M700.4,251.4l-0.4,24.4l-0.5-0.5l0.4-24.4L700.4,251.4z"
+                                            className="st2"
+                                          ></path>
+                                          <path
+                                            data-v-3b6a8222=""
+                                            id="Path_4230_1_"
+                                            d="M704.4,250.9l-0.4,24.4l-1.2,0.6l0.4-24.4L704.4,250.9z"
+                                            className="st29"
+                                          ></path>
+                                          <path
+                                            data-v-3b6a8222=""
+                                            id="Path_4232_1_"
+                                            d="M703.2,251.5l-0.4,24.4l-1.9,0.1l0.4-24.4L703.2,251.5z"
+                                            className="st24"
+                                          ></path>
+                                          <path
+                                            data-v-3b6a8222=""
+                                            id="Path_4233_1_"
+                                            d="M701.3,251.6l-0.4,24.4l-0.9-0.2l0.4-24.4L701.3,251.6z"
+                                            className="st2"
+                                          ></path>
+                                        </g>
+                                        <g data-v-3b6a8222="">
+                                          <g data-v-3b6a8222="">
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_4561_1_"
+                                              d="M788.4,270.8l-0.4,24.4l-0.4-0.7l0.4-24.4L788.4,270.8z"
+                                              className="st2"
+                                            ></path>
+                                            <g data-v-3b6a8222="">
+                                              <path
+                                                data-v-3b6a8222=""
+                                                id="Path_4406_1_"
+                                                d="M743.8,265.4l-0.4,24.4l-0.6-0.4l0.4-24.4L743.8,265.4z"
+                                                className="st2"
+                                              ></path>
+                                              <path
+                                                data-v-3b6a8222=""
+                                                id="Path_4409_1_"
+                                                d="M743.9,265.7l-0.4,24.4l-0.1-0.3l0.4-24.4L743.9,265.7z"
+                                                className="st2"
+                                              ></path>
+                                              <path
+                                                data-v-3b6a8222=""
+                                                id="Path_4430_1_"
+                                                d="M744.3,267.7l-0.4,24.4l-0.6-1.3l0.4-24.4L744.3,267.7z"
+                                                className="st2"
+                                              ></path>
+                                              <path
+                                                data-v-3b6a8222=""
+                                                id="Path_4439_1_"
+                                                d="M766.2,268l-0.4,24.4l-2.1,0.7l0.4-24.4L766.2,268z"
+                                                className="st13"
+                                              ></path>
+                                              <path
+                                                data-v-3b6a8222=""
+                                                id="Path_4442_1_"
+                                                d="M788.2,269l-0.4,24.4l-1.2-0.1l0.4-24.4L788.2,269z"
+                                                className="st36"
+                                              ></path>
+                                              <path
+                                                data-v-3b6a8222=""
+                                                id="Path_4443_1_"
+                                                d="M764.1,268.7l-0.4,24.4l-0.3,0.1l0.4-24.4L764.1,268.7z"
+                                                className="st20"
+                                              ></path>
+                                              <path
+                                                data-v-3b6a8222=""
+                                                id="Path_4502_1_"
+                                                d="M733.4,261.3l-0.4,24.4l-1-1.5l0.4-24.4L733.4,261.3z"
+                                                className="st2"
+                                              ></path>
+                                              <path
+                                                data-v-3b6a8222=""
+                                                id="Path_4506_1_"
+                                                d="M733.6,262l-0.4,24.4l-0.2-0.7l0.4-24.4L733.6,262z"
+                                                className="st2"
+                                              ></path>
+                                              <path
+                                                data-v-3b6a8222=""
+                                                id="Path_4507_1_"
+                                                d="M734,262.1l-0.4,24.4l-0.4-0.1l0.4-24.4L734,262.1z"
+                                                className="st2"
+                                              ></path>
+                                              <path
+                                                data-v-3b6a8222=""
+                                                id="Path_4508_1_"
+                                                d="M734.2,262.3l-0.4,24.4l-0.2-0.1l0.4-24.4L734.2,262.3z"
+                                                className="st2"
+                                              ></path>
+                                              <path
+                                                data-v-3b6a8222=""
+                                                id="Path_4513_1_"
+                                                d="M734.6,263.1l-0.4,24.4l-0.4-0.8l0.4-24.4L734.6,263.1z"
+                                                className="st2"
+                                              ></path>
+                                              <path
+                                                data-v-3b6a8222=""
+                                                id="Path_4517_1_"
+                                                d="M735.1,263.5l-0.4,24.4l-0.4-0.4l0.4-24.4L735.1,263.5z"
+                                                className="st2"
+                                              ></path>
+                                              <path
+                                                data-v-3b6a8222=""
+                                                id="Path_4519_1_"
+                                                d="M738.6,263.7l-0.4,24.4l-1.2-0.3l0.4-24.4L738.6,263.7z"
+                                                className="st2"
+                                              ></path>
+                                              <path
+                                                data-v-3b6a8222=""
+                                                id="Path_4520_1_"
+                                                d="M735.7,263.7l-0.4,24.4l-0.7-0.3l0.4-24.4L735.7,263.7z"
+                                                className="st2"
+                                              ></path>
+                                              <path
+                                                data-v-3b6a8222=""
+                                                id="Path_4522_1_"
+                                                d="M736.5,263.8l-0.4,24.4l-0.8-0.1l0.4-24.4L736.5,263.8z"
+                                                className="st36"
+                                              ></path>
+                                              <path
+                                                data-v-3b6a8222=""
+                                                id="Path_4523_1_"
+                                                d="M737.4,263.4l-0.4,24.4l-1,0.3l0.4-24.4L737.4,263.4z"
+                                                className="st13"
+                                              ></path>
+                                              <path
+                                                data-v-3b6a8222=""
+                                                id="Path_4524_1_"
+                                                d="M740.2,264l-0.4,24.4l-1.6-0.2l0.4-24.4L740.2,264z"
+                                                className="st2"
+                                              ></path>
+                                              <path
+                                                data-v-3b6a8222=""
+                                                id="Path_4526_1_"
+                                                d="M743.1,265l-0.4,24.4l-2.9-1l0.4-24.4L743.1,265z"
+                                                className="st2"
+                                              ></path>
+                                              <path
+                                                data-v-3b6a8222=""
+                                                id="Path_4527_1_"
+                                                d="M775.6,265.7l-0.4,24.4l-0.9-0.1l0.4-24.4L775.6,265.7z"
+                                                className="st41"
+                                              ></path>
+                                              <path
+                                                data-v-3b6a8222=""
+                                                id="Path_4528_1_"
+                                                d="M774.7,265.7l-0.4,24.4l-0.8,0.1l0.4-24.4L774.7,265.7z"
+                                                className="st30"
+                                              ></path>
+                                              <path
+                                                data-v-3b6a8222=""
+                                                id="Path_4529_1_"
+                                                d="M776.7,266l-0.4,24.4l-1.1-0.3l0.4-24.4L776.7,266z"
+                                                className="st2"
+                                              ></path>
+                                              <path
+                                                data-v-3b6a8222=""
+                                                id="Path_4530_1_"
+                                                d="M777.9,265.9l-0.4,24.4l-1.2,0.1l0.4-24.4L777.9,265.9z"
+                                                className="st24"
+                                              ></path>
+                                              <path
+                                                data-v-3b6a8222=""
+                                                id="Path_4532_1_"
+                                                d="M773.9,265.7l-0.4,24.4l-1.4,0.4l0.4-24.4L773.9,265.7z"
+                                                className="st31"
+                                              ></path>
+                                              <path
+                                                data-v-3b6a8222=""
+                                                id="Path_4869_1_"
+                                                d="M771.1,290.5l0.4-24.4h1l-0.4,24.4H771.1z"
+                                                className="st9"
+                                              ></path>
+                                              <path
+                                                data-v-3b6a8222=""
+                                                id="Path_4533_1_"
+                                                d="M771.5,266.1l-0.4,24.4l-0.5,0.1l0.4-24.4L771.5,266.1z"
+                                                className="st31"
+                                              ></path>
+                                              <path
+                                                data-v-3b6a8222=""
+                                                id="Path_4534_1_"
+                                                d="M777.9,266.4l-0.4,24.4v-0.5l0.4-24.4V266.4z"
+                                                className="st2"
+                                              ></path>
+                                              <path
+                                                data-v-3b6a8222=""
+                                                id="Path_4536_1_"
+                                                d="M780.9,266.6l-0.4,24.4l-1.2,0.3l0.4-24.4L780.9,266.6z"
+                                                className="st31"
+                                              ></path>
+                                              <path
+                                                data-v-3b6a8222=""
+                                                id="Path_4538_1_"
+                                                d="M778.8,267l-0.4,24.4l-0.6-0.2l0.4-24.4L778.8,267z"
+                                                className="st2"
+                                              ></path>
+                                              <path
+                                                data-v-3b6a8222=""
+                                                id="Path_4539_1_"
+                                                d="M779.7,266.9l-0.4,24.4l-0.9,0.1l0.4-24.4L779.7,266.9z"
+                                                className="st30"
+                                              ></path>
+                                              <path
+                                                data-v-3b6a8222=""
+                                                id="Path_4540_1_"
+                                                d="M782.8,266.9l-0.4,24.4l-0.5,0.2l0.4-24.4L782.8,266.9z"
+                                                className="st14"
+                                              ></path>
+                                              <path
+                                                data-v-3b6a8222=""
+                                                id="Path_4541_5_"
+                                                d="M783.4,267.2l-0.4,24.4l-0.3-0.2l0.4-24.4L783.4,267.2z"
+                                                className="st2"
+                                              ></path>
+                                              <path
+                                                data-v-3b6a8222=""
+                                                id="Path_4541_4_"
+                                                d="M783.1,266.9l-0.4,24.4l-0.3-0.2l0.4-24.4L783.1,266.9z"
+                                                className="st2"
+                                              ></path>
+                                              <path
+                                                data-v-3b6a8222=""
+                                                id="Path_4541_3_"
+                                                d="M778.5,266.8l-0.6,24.4l-0.5-0.2l0.4-25.1L778.5,266.8z"
+                                                className="st2"
+                                              ></path>
+                                              <path
+                                                data-v-3b6a8222=""
+                                                id="Path_4542_1_"
+                                                d="M781.3,267.2l-0.4,24.4l-0.4-0.6l0.4-24.4L781.3,267.2z"
+                                                className="st2"
+                                              ></path>
+                                              <path
+                                                data-v-3b6a8222=""
+                                                id="Path_4543_1_"
+                                                d="M782.3,267.1l-0.4,24.4l-1,0.1l0.4-24.4L782.3,267.1z"
+                                                className="st24"
+                                              ></path>
+                                              <path
+                                                data-v-3b6a8222=""
+                                                id="Path_4544_1_"
+                                                d="M771,266.2l-0.4,24.4l-2.8,1.4l0.4-24.4L771,266.2z"
+                                                className="st20"
+                                              ></path>
+                                              <path
+                                                data-v-3b6a8222=""
+                                                id="Path_4546_1_"
+                                                d="M784.6,268.1l-0.4,24.4l-1.2-1l0.4-24.4L784.6,268.1z"
+                                                className="st2"
+                                              ></path>
+                                              <path
+                                                data-v-3b6a8222=""
+                                                id="Path_4547_1_"
+                                                d="M768.2,267.7l-0.4,24.4l-2,0.3l0.4-24.4L768.2,267.7z"
+                                                className="st23"
+                                              ></path>
+                                              <path
+                                                data-v-3b6a8222=""
+                                                id="Path_4548_1_"
+                                                d="M785.2,268.5l-0.4,24.4l-0.7-0.4l0.4-24.4L785.2,268.5z"
+                                                className="st2"
+                                              ></path>
+                                              <path
+                                                data-v-3b6a8222=""
+                                                id="Path_4550_1_"
+                                                d="M787,268.9l-0.4,24.4l-1.8-0.4l0.4-24.4L787,268.9z"
+                                                className="st2"
+                                              ></path>
+                                              <path
+                                                data-v-3b6a8222=""
+                                                id="Path_4563_1_"
+                                                d="M764,270.6l-0.4,24.4l-2.9,0.1l0.4-24.4L764,270.6z"
+                                                className="st7"
+                                              ></path>
+                                              <path
+                                                data-v-3b6a8222=""
+                                                id="Path_4564_1_"
+                                                d="M744.5,270.6l-0.4,24.4l-0.8-1.1l0.4-24.4L744.5,270.6z"
+                                                className="st2"
+                                              ></path>
+                                              <path
+                                                data-v-3b6a8222=""
+                                                id="Path_4566_1_"
+                                                d="M761.1,270.7l-0.4,24.4l-2.1,0.3L759,271L761.1,270.7z"
+                                                className="st23"
+                                              ></path>
+                                              <path
+                                                data-v-3b6a8222=""
+                                                id="Path_4567_1_"
+                                                d="M790.4,271.4l-0.4,24.4l-2-0.7l0.4-24.4L790.4,271.4z"
+                                                className="st2"
+                                              ></path>
+                                              <path
+                                                data-v-3b6a8222=""
+                                                id="Path_4568_1_"
+                                                d="M745.2,270.9l-0.4,24.4l-0.7-0.3l0.4-24.4L745.2,270.9z"
+                                                className="st2"
+                                              ></path>
+                                              <path
+                                                data-v-3b6a8222=""
+                                                id="Path_4575_1_"
+                                                d="M745.5,271.5l-0.4,24.4l-0.3-0.6l0.4-24.4L745.5,271.5z"
+                                                className="st2"
+                                              ></path>
+                                              <path
+                                                data-v-3b6a8222=""
+                                                id="Path_4576_1_"
+                                                d="M759,271l-0.3,24.4l-1.8,0.9l0.4-24.4L759,271z"
+                                                className="st29"
+                                              ></path>
+                                              <path
+                                                data-v-3b6a8222=""
+                                                id="Path_4595_1_"
+                                                d="M757.2,271.9l-0.4,24.4l-2.7,0.9l0.4-24.4L757.2,271.9z"
+                                                className="st13"
+                                              ></path>
+                                              <path
+                                                data-v-3b6a8222=""
+                                                id="Path_4601_1_"
+                                                d="M754.5,272.8l-0.4,24.4l-1.7,0.3l0.4-24.4L754.5,272.8z"
+                                                className="st4"
+                                              ></path>
+                                              <path
+                                                data-v-3b6a8222=""
+                                                id="Path_4602_1_"
+                                                d="M752.9,273l-0.4,24.4l-1.5,0.1l0.4-24.4L752.9,273z"
+                                                className="st24"
+                                              ></path>
+                                              <path
+                                                data-v-3b6a8222=""
+                                                id="Path_4606_1_"
+                                                d="M746.8,273.3l-0.4,24.4l-1.3-1.8l0.4-24.4L746.8,273.3z"
+                                                className="st2"
+                                              ></path>
+                                              <path
+                                                data-v-3b6a8222=""
+                                                id="Path_4609_1_"
+                                                d="M751.4,273.1l-0.4,24.4l-3.3,0.6l0.4-24.4L751.4,273.1z"
+                                                className="st4"
+                                              ></path>
+                                              <path
+                                                data-v-3b6a8222=""
+                                                id="Path_4610_1_"
+                                                d="M748,273.7l-0.4,24.4l-1.2-0.4l0.4-24.4L748,273.7z"
+                                                className="st2"
+                                              ></path>
+                                            </g>
+                                          </g>
+                                          <g data-v-3b6a8222="">
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_4051_1_"
+                                              d="M867.9,241l-0.4,24.4L867,267l0.4-24.4L867.9,241z"
+                                              className="st8"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_4057_1_"
+                                              d="M867.4,242.6L867,267l-0.6,0.6l0.4-24.4L867.4,242.6z"
+                                              className="st12"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_4058_1_"
+                                              d="M866.8,243.1l-0.4,24.4l-0.6,0.3l0.4-24.4L866.8,243.1z"
+                                              className="st20"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_4066_1_"
+                                              d="M866.3,243.4l-0.4,24.4l-3.1,1l0.4-24.4L866.3,243.4z"
+                                              className="st14"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_4068_1_"
+                                              d="M863.2,244.4l-0.4,24.4l-1.5,0.2l0.4-24.4L863.2,244.4z"
+                                              className="st30"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_4073_1_"
+                                              d="M861.6,244.6l-0.4,24.4l-0.6,0.6l0.4-24.4L861.6,244.6z"
+                                              className="st12"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_4079_1_"
+                                              d="M861,245.2l-0.4,24.4l-1.2,0.6l0.4-24.4L861,245.2z"
+                                              className="st20"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_4091_1_"
+                                              d="M859.8,245.9l-0.4,24.4l-1.6,0.7l0.4-24.4L859.8,245.9z"
+                                              className="st22"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_4094_1_"
+                                              d="M858.2,246.5l-0.4,24.4l-0.5,0.1l0.4-24.4L858.2,246.5z"
+                                              className="st4"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_4097_1_"
+                                              d="M857.6,246.6l-0.4,24.4l-0.1,0.2l0.4-24.4L857.6,246.6z"
+                                              className="st8"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_4102_1_"
+                                              d="M857.6,246.8l-0.4,24.4l-1.1,0.2l0.4-24.4L857.6,246.8z"
+                                              className="st4"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_4112_1_"
+                                              d="M856.4,247l-0.4,24.4l-1.3,0.5l0.4-24.4L856.4,247z"
+                                              className="st22"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_4126_1_"
+                                              d="M855.2,247.6l-0.4,24.4l-1.1,0.8l0.4-24.4L855.2,247.6z"
+                                              className="st6"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_4134_1_"
+                                              d="M851.1,248.7l-0.4,24.4l-0.6,0.1l0.4-24.4L851.1,248.7z"
+                                              className="st30"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_4135_1_"
+                                              d="M852.3,248.8l-0.4,24.4l-1.2-0.1l0.4-24.4L852.3,248.8z"
+                                              className="st36"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_4136_1_"
+                                              d="M854.1,248.3l-0.4,24.4l-1.8,0.4l0.4-24.4L854.1,248.3z"
+                                              className="st37"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_4137_1_"
+                                              d="M850.5,248.7l-0.4,24.4l-0.1,0.2l0.4-24.4L850.5,248.7z"
+                                              className="st43"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_4170_1_"
+                                              d="M851,250.1l-0.4,24.4l-0.8,0.5l0.4-24.4L851,250.1z"
+                                              className="st42"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_4173_1_"
+                                              d="M850.1,250.6l-0.4,24.4v0.2l0.4-24.4V250.6z"
+                                              className="st8"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_4195_1_"
+                                              d="M832.6,251.6l-0.4,24.4l-1,0.3l0.4-24.4L832.6,251.6z"
+                                              className="st14"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_4196_1_"
+                                              d="M831.6,251.9l-0.4,24.4h-0.9l0.4-24.4H831.6z"
+                                              className="st9"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_4211_1_"
+                                              d="M834.1,252.5l-0.4,24.4l-1.5-0.9l0.4-24.4L834.1,252.5z"
+                                              className="st2"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_4231_1_"
+                                              d="M847.3,253.2l-0.4,24.4l-1.1-0.2l0.4-24.4L847.3,253.2z"
+                                              className="st2"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_4241_1_"
+                                              d="M834.6,253.3l-0.4,24.4l-0.6-0.8l0.4-24.4L834.6,253.3z"
+                                              className="st2"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_4243_1_"
+                                              d="M846.1,253l-0.4,24.4l-0.1,0.7l0.4-24.4L846.1,253z"
+                                              className="st10"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_4247_1_"
+                                              d="M848.2,253.9l-0.4,24.4l-0.9-0.7l0.4-24.4L848.2,253.9z"
+                                              className="st2"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_4255_1_"
+                                              d="M850.2,254l-0.4,24.4l-1.2,0.3l0.4-24.4L850.2,254z"
+                                              className="st37"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_4256_1_"
+                                              d="M849,254.3l-0.4,24.4l-0.8-0.4l0.4-24.4L849,254.3z"
+                                              className="st2"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_4258_1_"
+                                              d="M846.1,253.7l-0.4,24.4l-1.1,0.6l0.4-24.4L846.1,253.7z"
+                                              className="st15"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_4265_1_"
+                                              d="M837.7,254.7l-0.4,24.4l-0.2-0.1l0.4-24.4L837.7,254.7z"
+                                              className="st2"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_4268_1_"
+                                              d="M836.2,254.7l-0.4,24.4l-1.6-1.4l0.4-24.4L836.2,254.7z"
+                                              className="st2"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_4271_1_"
+                                              d="M837.4,254.6L837,279l-0.7,0.2l0.4-24.4L837.4,254.6z"
+                                              className="st44"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_4272_1_"
+                                              d="M836.8,254.8l-0.4,24.4l-0.5-0.1l0.4-24.4L836.8,254.8z"
+                                              className="st2"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_4274_1_"
+                                              d="M834.2,254.1l-0.4,24.4l-0.1,0.7l0.4-24.4L834.2,254.1z"
+                                              className="st10"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_4280_1_"
+                                              d="M838.5,255.3l-0.4,24.4l-0.9-0.6l0.4-24.4L838.5,255.3z"
+                                              className="st2"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_4281_1_"
+                                              d="M845,254.3l-0.4,24.4l-0.2,1.2l0.4-24.4L845,254.3z"
+                                              className="st8"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_4282_1_"
+                                              d="M834.1,254.8l-0.4,24.4l-0.6,0.5l0.4-24.4L834.1,254.8z"
+                                              className="st25"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_4284_1_"
+                                              d="M833.5,255.4l-0.4,24.4l-1.2,0.1l0.4-24.4L833.5,255.4z"
+                                              className="st24"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_4285_1_"
+                                              d="M839.5,255.7l-0.4,24.4l-0.9-0.4l0.4-24.4L839.5,255.7z"
+                                              className="st2"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_4286_1_"
+                                              d="M841,255.7l-0.4,24.4l-1.5-0.1l0.4-24.4L841,255.7z"
+                                              className="st9"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_4299_1_"
+                                              d="M844.8,255.5l-0.4,24.4l-0.7,1l0.4-24.4L844.8,255.5z"
+                                              className="st18"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_4302_1_"
+                                              d="M842.4,256.6L842,281l-1.4-0.9l0.4-24.4L842.4,256.6z"
+                                              className="st2"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_4303_1_"
+                                              d="M844.1,256.5l-0.4,24.4l-1,0.2l0.4-24.4L844.1,256.5z"
+                                              className="st4"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_4304_1_"
+                                              d="M843.1,256.7l-0.4,24.4H842l0.4-24.4H843.1z"
+                                              className="st41"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_4306_1_"
+                                              d="M824.7,257.7l-0.4,24.4l-0.4-3.3l0.4-24.4L824.7,257.7z"
+                                              className="st2"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_4316_1_"
+                                              d="M823.4,257.7l-0.4,24.4l-1.1-0.2l0.4-24.4L823.4,257.7z"
+                                              className="st2"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_4317_1_"
+                                              d="M824.5,257.7l-0.4,24.4l-1.1,0.1l0.4-24.4L824.5,257.7z"
+                                              className="st24"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_4325_1_"
+                                              d="M822.3,257.5l-0.4,24.4l-0.5,0.9l0.4-24.4L822.3,257.5z"
+                                              className="st8"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_4332_1_"
+                                              d="M821.9,258.5l-0.4,24.4l-0.4,0.5l0.4-24.4L821.9,258.5z"
+                                              className="st3"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_4338_1_"
+                                              d="M825.3,259.4l-0.4,24.4l-0.6-0.2l0.4-24.4L825.3,259.4z"
+                                              className="st2"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_4339_1_"
+                                              d="M826.1,259.3l-0.4,24.4h-0.9l0.4-24.4L826.1,259.3z"
+                                              className="st9"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_4343_1_"
+                                              d="M821.4,259l-0.4,24.4l-0.8,0.5l0.4-24.4L821.4,259z"
+                                              className="st16"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_4344_1_"
+                                              d="M818.7,259.6l-0.4,24.4l-0.4-0.2l0.4-24.4L818.7,259.6z"
+                                              className="st2"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_4348_1_"
+                                              d="M818.2,259.4l-0.4,24.4l-0.2,0.3l0.4-24.4L818.2,259.4z"
+                                              className="st11"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_4349_1_"
+                                              d="M820.7,259.5l-0.4,24.4l-0.6,0.2l0.4-24.4L820.7,259.5z"
+                                              className="st13"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_4350_1_"
+                                              d="M820.1,259.8l-0.4,24.4l-0.5,0.1l0.4-24.4L820.1,259.8z"
+                                              className="st23"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_4351_1_"
+                                              d="M819.5,259.8l-0.4,24.4l-0.9-0.2l0.4-24.4L819.5,259.8z"
+                                              className="st2"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_4352_1_"
+                                              d="M826.7,259.9l-0.4,24.4l-0.6-0.6l0.4-24.4L826.7,259.9z"
+                                              className="st2"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_4353_1_"
+                                              d="M828.3,260l-0.4,24.4l-0.9,0.3l0.4-24.4L828.3,260z"
+                                              className="st14"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_4354_1_"
+                                              d="M827.4,260.3l-0.4,24.4l-0.7-0.4l0.4-24.4L827.4,260.3z"
+                                              className="st2"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_4355_1_"
+                                              d="M828.9,260.3l-0.4,24.4l-0.6-0.3l0.4-24.4L828.9,260.3z"
+                                              className="st2"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_4358_1_"
+                                              d="M834.9,258.4l-0.4,24.4l-1.2,2.1l0.4-24.4L834.9,258.4z"
+                                              className="st11"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_4369_1_"
+                                              d="M830.5,261.6l-0.4,24.4l-1.6-1.3l0.4-24.4L830.5,261.6z"
+                                              className="st2"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_4370_1_"
+                                              d="M818.6,261l-0.4,24.4l-0.3,0.5l0.4-24.4L818.6,261z"
+                                              className="st11"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_4373_1_"
+                                              d="M831.1,261.9l-0.4,24.4l-0.6-0.3l0.4-24.4L831.1,261.9z"
+                                              className="st2"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_4374_1_"
+                                              d="M833.9,261.8l-0.4,24.4l-0.4,0.3l0.4-24.4L833.9,261.8z"
+                                              className="st16"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_4375_1_"
+                                              d="M818.3,261.5l-0.4,24.4l-0.6,0.5l0.4-24.4L818.3,261.5z"
+                                              className="st26"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_4376_1_"
+                                              d="M833.5,262.1l-0.4,24.4l-0.6,0.1l0.4-24.4L833.5,262.1z"
+                                              className="st4"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_4396_1_"
+                                              d="M814.2,264.5l-0.4,24.4l-0.9,0.9l0.4-24.4L814.2,264.5z"
+                                              className="st3"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_4403_1_"
+                                              d="M813.3,265.5l-0.4,24.4l-1.3,0.4l0.4-24.4L813.3,265.5z"
+                                              className="st13"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_4411_1_"
+                                              d="M812.1,265.9l-0.4,24.4l-0.8,0.6l0.4-24.4L812.1,265.9z"
+                                              className="st16"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_4446_1_"
+                                              d="M795.7,269.3l-0.4,24.4l-0.8,0.1l0.4-24.4L795.7,269.3z"
+                                              className="st24"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_4456_1_"
+                                              d="M808.1,269.9l-0.4,24.4L806,294l0.4-24.4L808.1,269.9z"
+                                              className="st2"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_4482_1_"
+                                              d="M795.1,270.8l-0.4,24.4l-0.2,0.8l0.4-24.4L795.1,270.8z"
+                                              className="st8"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_4501_1_"
+                                              d="M832.9,262.2l-0.4,24.4l-1.8-0.4l0.4-24.4L832.9,262.2z"
+                                              className="st2"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_4505_1_"
+                                              d="M817.6,262.4l-0.4,24.4l-0.5,0.5l0.4-24.4L817.6,262.4z"
+                                              className="st12"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_4509_1_"
+                                              d="M817.2,262.9l-0.4,24.4l-1.4,0.3l0.4-24.4L817.2,262.9z"
+                                              className="st21"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_4515_1_"
+                                              d="M815.7,263.2l-0.4,24.4l-1.1,1l0.4-24.4L815.7,263.2z"
+                                              className="st12"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_4518_1_"
+                                              d="M814.7,264.3l-0.4,24.4l-0.5,0.3l0.4-24.4L814.7,264.3z"
+                                              className="st19"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_4549_1_"
+                                              d="M813.4,268.3l-0.4,24.4l-1.2,0.8l0.4-24.4L813.4,268.3z"
+                                              className="st16"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_4551_1_"
+                                              d="M796.4,269.4l-0.4,24.4h-0.7l0.4-24.4H796.4z"
+                                              className="st41"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_4553_1_"
+                                              d="M796.7,269.5l-0.4,24.4l-0.4-0.2l0.4-24.4L796.7,269.5z"
+                                              className="st2"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_4554_1_"
+                                              d="M812.2,269.2l-0.4,24.4l-0.5,0.9l0.4-24.4L812.2,269.2z"
+                                              className="st11"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_4555_1_"
+                                              d="M797.3,270.2l-0.4,24.4l-0.6-0.6l0.4-24.4L797.3,270.2z"
+                                              className="st2"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_4556_1_"
+                                              d="M811.7,270.1l-0.4,24.4l-0.4,0.3l0.4-24.4L811.7,270.1z"
+                                              className="st6"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_4558_1_"
+                                              d="M809.5,270.7l-0.4,24.4l-1.4-0.7l0.4-24.4L809.5,270.7z"
+                                              className="st2"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_4559_1_"
+                                              d="M810.4,270.7l-0.4,24.4h-0.9l0.4-24.4H810.4z"
+                                              className="st9"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_4560_1_"
+                                              d="M811.2,270.4l-0.4,24.4l-0.8,0.3l0.4-24.4L811.2,270.4z"
+                                              className="st13"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_4570_1_"
+                                              d="M793,271.8l-0.4,24.4h-0.7l0.4-24.4H793z"
+                                              className="st9"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_4571_1_"
+                                              d="M791.6,272l-0.4,24.4l-1.2-0.6l0.4-24.4L791.6,272z"
+                                              className="st2"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_4572_1_"
+                                              d="M792.3,271.8l-0.4,24.4l-0.7,0.2l0.4-24.4L792.3,271.8z"
+                                              className="st14"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_4573_1_"
+                                              d="M805.8,272.2l-0.4,24.4h-0.6l0.4-24.4H805.8z"
+                                              className="st9"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_4574_1_"
+                                              d="M807,271.6l-0.4,24.4l-1.1,0.6l0.4-24.4L807,271.6z"
+                                              className="st20"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_4577_1_"
+                                              d="M793.8,272.5l-0.4,24.4l-0.8-0.7l0.4-24.4L793.8,272.5z"
+                                              className="st2"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_4578_1_"
+                                              d="M797.5,272.6l-0.4,24.4l-0.2-0.4l0.4-24.4L797.5,272.6z"
+                                              className="st2"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_4579_1_"
+                                              d="M794.6,272.6l-0.4,24.4l-0.8-0.1l0.4-24.4L794.6,272.6z"
+                                              className="st41"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_4580_1_"
+                                              d="M795,272.1l-0.4,24.4l-0.4,0.5l0.4-24.4L795,272.1z"
+                                              className="st3"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_4589_1_"
+                                              d="M798.1,273.1l-0.4,24.4l-0.6-0.5l0.4-24.4L798.1,273.1z"
+                                              className="st2"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_4591_1_"
+                                              d="M798.4,273.1l-0.4,24.4h-0.2l0.4-24.4H798.4z"
+                                              className="st2"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_4598_1_"
+                                              d="M805.2,272.2l-0.4,24.4l-2.6,1.2l0.4-24.4L805.2,272.2z"
+                                              className="st29"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_4599_1_"
+                                              d="M798.7,273.4l-0.4,24.4l-0.3-0.3l0.4-24.4L798.7,273.4z"
+                                              className="st2"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_4603_1_"
+                                              d="M802.7,273.4l-0.4,24.4l-1.3,0.3l0.4-24.4L802.7,273.4z"
+                                              className="st37"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_4607_1_"
+                                              d="M799.2,274.1l-0.4,24.4l-0.5-0.7l0.4-24.4L799.2,274.1z"
+                                              className="st2"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_4608_1_"
+                                              d="M801.4,273.7l-0.4,24.4l-1,0.5l0.4-24.4L801.4,273.7z"
+                                              className="st19"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_4611_1_"
+                                              d="M800.4,274.3l-0.4,24.4l-0.7,0.1l0.4-24.4L800.4,274.3z"
+                                              className="st23"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_4612_1_"
+                                              d="M799.7,274.4l-0.4,24.4l-0.5-0.2l0.4-24.4L799.7,274.4z"
+                                              className="st2"
+                                            ></path>
+                                          </g>
+                                        </g>
+                                        <g data-v-3b6a8222="">
+                                          <g data-v-3b6a8222="">
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_1897_1_"
+                                              d="M671.4,271.2l-0.4,24.4h-2.6l0.4-24.4H671.4z"
+                                              className="st9"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_1902_1_"
+                                              d="M668.8,271.2l-0.4,31l-3.4,0.4l0.4-31L668.8,271.2z"
+                                              className="st24"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_1906_1_"
+                                              d="M665.3,271.5l-0.4,24.4l-1.6,0.3l0.4-24.4L665.3,271.5z"
+                                              className="st4"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_1913_1_"
+                                              d="M663.7,271.8l-0.4,24.4l-1.7,0.8l0.4-24.4L663.7,271.8z"
+                                              className="st29"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_1914_1_"
+                                              d="M658.1,272.3l-0.4,24.4l-0.9,0.3l0.4-24.4L658.1,272.3z"
+                                              className="st13"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_1915_1_"
+                                              d="M660.5,272.9l-0.4,24.4l-2.5-0.5l0.4-24.4L660.5,272.9z"
+                                              className="st2"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_1916_1_"
+                                              d="M662,272.6l-0.4,38.5l-1.5,0.5l0.4-38.5L662,272.6z"
+                                              className="st33"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_1921_1_"
+                                              d="M657.2,272.6l-0.4,24.4l-5.4,1.3l0.4-24.4L657.2,272.6z"
+                                              className="st37"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_1924_1_"
+                                              d="M651.8,274l-0.4,24.4h-0.3l0.4-24.4H651.8z"
+                                              className="st23"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_1931_1_"
+                                              d="M650.8,274.1l-0.4,24.4l-0.7,0.1l0.4-24.4L650.8,274.1z"
+                                              className="st23"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_1932_1_"
+                                              d="M651.5,274l-0.4,24.4l-0.7,0.2l0.4-24.4L651.5,274z"
+                                              className="st37"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_2773_1_"
+                                              d="M685.6,265.8l-0.4,24.4l-0.3,0.4l0.4-24.4L685.6,265.8z"
+                                              className="st3"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_2780_1_"
+                                              d="M685.2,267l-0.4,28.5l-1.6,1.4l0.6-28.6L685.2,267z"
+                                              className="st6"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_2781_1_"
+                                              d="M683.8,268l-0.4,24.4l-1.1,0.1l0.4-24.4L683.8,268z"
+                                              className="st24"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_2782_1_"
+                                              d="M682.7,268.1l-0.4,24.4l-1.5-0.1l0.4-24.4L682.7,268.1z"
+                                              className="st2"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_2785_1_"
+                                              d="M681.6,268.4l-0.4,24.4l-0.2,0.6l0.4-24.4L681.6,268.4z"
+                                              className="st8"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_2798_1_"
+                                              d="M672.1,271.4l-0.4,24.4l-0.7-0.2l0.4-24.4L672.1,271.4z"
+                                              className="st2"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_2813_1_"
+                                              d="M650.1,274.2l-0.4,24.4l-3,0.8l0.4-24.4L650.1,274.2z"
+                                              className="st37"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_4582_1_"
+                                              d="M672.6,271.5l-0.4,24.4h-0.5l0.4-24.4H672.6z"
+                                              className="st9"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_4586_1_"
+                                              d="M673.1,271.6l-0.4,24.4l-0.6-0.1l0.4-24.4L673.1,271.6z"
+                                              className="st2"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_4587_1_"
+                                              d="M675.3,271.6l-0.4,24.4l-2.2-0.1l0.4-24.4L675.3,271.6z"
+                                              className="st9"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_4588_1_"
+                                              d="M675.8,271.6l-0.4,24.4h-0.6l0.4-24.4H675.8z"
+                                              className="st24"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_4592_1_"
+                                              d="M679,271.6l-0.4,24.4l-0.8,0.2l0.4-24.4L679,271.6z"
+                                              className="st37"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_4593_1_"
+                                              d="M680.2,271.9l-0.4,24.4l-1.2-0.2l0.4-24.4L680.2,271.9z"
+                                              className="st2"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_4594_1_"
+                                              d="M682.2,271.9l-0.4,24.4h-2l0.4-24.4H682.2z"
+                                              className="st9"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_4596_1_"
+                                              d="M678.2,271.8l-0.4,24.4l-1.2,0.1l0.4-24.4L678.2,271.8z"
+                                              className="st24"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_4597_1_"
+                                              d="M676.9,271.9l-0.4,24.4l-1.1-0.3l0.4-24.4L676.9,271.9z"
+                                              className="st2"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_4604_1_"
+                                              d="M683.6,272.5l-0.4,24.4l-1.4-0.6l0.4-24.4L683.6,272.5z"
+                                              className="st2"
+                                            ></path>
+                                          </g>
+                                          <g data-v-3b6a8222="">
+                                            <g data-v-3b6a8222="">
+                                              <path
+                                                data-v-3b6a8222=""
+                                                id="Path_4620_1_"
+                                                d="M666.8,278.1l-0.4,24.4h-0.9l0.4-24.4H666.8z"
+                                                className="st9"
+                                              ></path>
+                                              <path
+                                                data-v-3b6a8222=""
+                                                id="Path_4622_1_"
+                                                d="M670.1,277.5l-0.4,24.4l-0.5,0.8l0.4-24.4L670.1,277.5z"
+                                                className="st10"
+                                              ></path>
+                                              <path
+                                                data-v-3b6a8222=""
+                                                id="Path_4623_1_"
+                                                d="M668.4,278.4l-0.4,24.4l-1.6-0.3l0.4-24.4L668.4,278.4z"
+                                                className="st2"
+                                              ></path>
+                                              <path
+                                                data-v-3b6a8222=""
+                                                id="Path_4624_1_"
+                                                d="M669.6,278.3l-0.4,24.4l-1.1,0.1l0.4-24.4L669.6,278.3z"
+                                                className="st24"
+                                              ></path>
+                                            </g>
+                                            <g data-v-3b6a8222="">
+                                              <path
+                                                data-v-3b6a8222=""
+                                                id="Path_4716_3_"
+                                                d="M648,300.9l-0.3,24.3l-0.4,0.3l0.4-24.5L648,300.9z"
+                                                className="st8"
+                                              ></path>
+                                              <path
+                                                data-v-3b6a8222=""
+                                                id="Path_3130_1_"
+                                                d="M601.1,300.9l-0.4,24.4l-3.8,1.1l0.4-24.4L601.1,300.9z"
+                                                className="st14"
+                                              ></path>
+                                              <path
+                                                data-v-3b6a8222=""
+                                                id="Path_3139_1_"
+                                                d="M594.2,303.9l-0.4,24.4l-0.3,0.4l0.4-24.4L594.2,303.9z"
+                                                className="st3"
+                                              ></path>
+                                              <path
+                                                data-v-3b6a8222=""
+                                                id="Path_3140_1_"
+                                                d="M597.5,303.6l-0.4,24.4l-0.7,0.7l0.4-24.4L597.5,303.6z"
+                                                className="st12"
+                                              ></path>
+                                              <path
+                                                data-v-3b6a8222=""
+                                                id="Path_3141_1_"
+                                                d="M596.7,304.3l-0.4,24.4l-2.5-0.5l0.4-24.4L596.7,304.3z"
+                                                className="st2"
+                                              ></path>
+                                              <path
+                                                data-v-3b6a8222=""
+                                                id="Path_3220_1_"
+                                                d="M609.2,298.7l-0.4,24.4l-2.2-0.7L607,298L609.2,298.7z"
+                                                className="st2"
+                                              ></path>
+                                              <path
+                                                data-v-3b6a8222=""
+                                                id="Path_3221_1_"
+                                                d="M607,298.1l-0.4,24.4l-0.8,0.8l0.4-24.4L607,298.1z"
+                                                className="st25"
+                                              ></path>
+                                              <path
+                                                data-v-3b6a8222=""
+                                                id="Path_3223_1_"
+                                                d="M606.1,298.8l-0.4,24.4l-1.2,0.3l0.4-24.4L606.1,298.8z"
+                                                className="st31"
+                                              ></path>
+                                              <path
+                                                data-v-3b6a8222=""
+                                                id="Path_3224_1_"
+                                                d="M604.9,299.1l-0.4,24.4l-0.5,0.3l0.4-24.4L604.9,299.1z"
+                                                className="st19"
+                                              ></path>
+                                              <path
+                                                data-v-3b6a8222=""
+                                                id="Path_3227_1_"
+                                                d="M604.4,299.4l-0.4,24.4l-1,1.3l0.4-24.4L604.4,299.4z"
+                                                className="st3"
+                                              ></path>
+                                              <path
+                                                data-v-3b6a8222=""
+                                                id="Path_3228_1_"
+                                                d="M603.4,300.7l-0.4,24.4l-0.9,0.2l0.4-24.4L603.4,300.7z"
+                                                className="st33"
+                                              ></path>
+                                              <path
+                                                data-v-3b6a8222=""
+                                                id="Path_3229_1_"
+                                                d="M602.5,300.9l-0.4,24.4h-1.4l0.4-24.4H602.5z"
+                                                className="st7"
+                                              ></path>
+                                              <path
+                                                data-v-3b6a8222=""
+                                                id="Path_3364_1_"
+                                                d="M625.9,302.3l-0.4,24.4l-1-0.4l0.4-24.4L625.9,302.3z"
+                                                className="st2"
+                                              ></path>
+                                              <path
+                                                data-v-3b6a8222=""
+                                                id="Path_3366_1_"
+                                                d="M629.1,302.4l-0.4,24.4l-0.6,0.1l0.4-24.4L629.1,302.4z"
+                                                className="st30"
+                                              ></path>
+                                              <path
+                                                data-v-3b6a8222=""
+                                                id="Path_3368_1_"
+                                                d="M628.5,302.5l-0.4,24.4l-2.6-0.2l0.4-24.4L628.5,302.5z"
+                                                className="st41"
+                                              ></path>
+                                              <path
+                                                data-v-3b6a8222=""
+                                                id="Path_3373_1_"
+                                                d="M633.3,302.7L633,327l-1.3,0.1l0.4-24.4H633.3z"
+                                                className="st24"
+                                              ></path>
+                                              <path
+                                                data-v-3b6a8222=""
+                                                id="Path_3374_1_"
+                                                d="M635.1,302.8l-0.4,24.4L633,327l0.4-24.4L635.1,302.8z"
+                                                className="st36"
+                                              ></path>
+                                              <path
+                                                data-v-3b6a8222=""
+                                                id="Path_3376_1_"
+                                                d="M630.1,302.8l-0.4,24.4l-0.9-0.4l0.4-24.4L630.1,302.8z"
+                                                className="st2"
+                                              ></path>
+                                              <path
+                                                data-v-3b6a8222=""
+                                                id="Path_3378_3_"
+                                                d="M632.1,302.8l-0.4,24.4l-1,0.2l0.4-24.4L632.1,302.8z"
+                                                className="st21"
+                                              ></path>
+                                              <path
+                                                data-v-3b6a8222=""
+                                                id="Path_3378_2_"
+                                                d="M631.5,302.6l-0.8,24.8l-1.1-0.2l0.4-24.4L631.5,302.6z"
+                                                className="st13"
+                                              ></path>
+                                              <path
+                                                data-v-3b6a8222=""
+                                                id="Path_3381_1_"
+                                                d="M636.5,303.1l-0.4,24.4l-1.4-0.2l0.4-24.4L636.5,303.1z"
+                                                className="st2"
+                                              ></path>
+                                              <path
+                                                data-v-3b6a8222=""
+                                                id="Path_3384_1_"
+                                                d="M636.9,303.2l-0.4,24.4l-0.4-0.2l0.4-24.4L636.9,303.2z"
+                                                className="st2"
+                                              ></path>
+                                              <path
+                                                data-v-3b6a8222=""
+                                                id="Path_3386_1_"
+                                                d="M643.5,303.7l-0.4,24.4l-3-0.4l0.4-24.4L643.5,303.7z"
+                                                className="st2"
+                                              ></path>
+                                              <path
+                                                data-v-3b6a8222=""
+                                                id="Path_3387_1_"
+                                                d="M637.8,303.8l-0.4,24.4l-0.9-0.6l0.4-24.4L637.8,303.8z"
+                                                className="st2"
+                                              ></path>
+                                              <path
+                                                data-v-3b6a8222=""
+                                                id="Path_3388_1_"
+                                                d="M640.5,303.3l-0.4,24.4l-2,0.7l0.4-24.4L640.5,303.3z"
+                                                className="st13"
+                                              ></path>
+                                              <path
+                                                data-v-3b6a8222=""
+                                                id="Path_3389_1_"
+                                                d="M638.5,304l-0.4,24.4l-0.7-0.2l0.4-24.4L638.5,304z"
+                                                className="st2"
+                                              ></path>
+                                              <path
+                                                data-v-3b6a8222=""
+                                                id="Path_4633_1_"
+                                                d="M661.3,286.7l-0.4,24.4l-0.1-1.4l0.4-24.4L661.3,286.7z"
+                                                className="st2"
+                                              ></path>
+                                              <path
+                                                data-v-3b6a8222=""
+                                                id="Path_4635_1_"
+                                                d="M665.3,286.5l-0.4,24.4l-0.3,0.7l0.4-24.4L665.3,286.5z"
+                                                className="st8"
+                                              ></path>
+                                              <path
+                                                data-v-3b6a8222=""
+                                                id="Path_4644_1_"
+                                                d="M662.1,287.7l-0.4,24.4l-0.8-0.9l0.4-24.4L662.1,287.7z"
+                                                className="st2"
+                                              ></path>
+                                              <path
+                                                data-v-3b6a8222=""
+                                                id="Path_4645_1_"
+                                                d="M661.1,287l-0.4,24.4l-0.5,0.8l0.4-24.4L661.1,287z"
+                                                className="st11"
+                                              ></path>
+                                              <path
+                                                data-v-3b6a8222=""
+                                                id="Path_4646_1_"
+                                                d="M665.1,287.1l-0.4,24.4l-0.9,0.7l0.4-24.4L665.1,287.1z"
+                                                className="st6"
+                                              ></path>
+                                              <path
+                                                data-v-3b6a8222=""
+                                                id="Path_4647_1_"
+                                                d="M664.1,287.9l-0.4,24.4l-1.2,0.1L663,288L664.1,287.9z"
+                                                className="st24"
+                                              ></path>
+                                              <path
+                                                data-v-3b6a8222=""
+                                                id="Path_4648_1_"
+                                                d="M663,288l-0.4,24.4l-0.9-0.3l0.4-24.4L663,288z"
+                                                className="st2"
+                                              ></path>
+                                              <path
+                                                data-v-3b6a8222=""
+                                                id="Path_4651_1_"
+                                                d="M660.6,287.8l-0.4,24.4l-0.7,0.3l0.4-24.4L660.6,287.8z"
+                                                className="st20"
+                                              ></path>
+                                              <path
+                                                data-v-3b6a8222=""
+                                                id="Path_4654_1_"
+                                                d="M659.9,288.1l-0.4,24.4l-0.8,0.1l0.4-24.4L659.9,288.1z"
+                                                className="st4"
+                                              ></path>
+                                              <path
+                                                data-v-3b6a8222=""
+                                                id="Path_4655_1_"
+                                                d="M659.2,288.3l-0.4,24.4l-0.1,0.1l0.4-24.4L659.2,288.3z"
+                                                className="st12"
+                                              ></path>
+                                              <path
+                                                data-v-3b6a8222=""
+                                                id="Path_4656_1_"
+                                                d="M656.2,288.5l-0.4,24.4l-0.7-0.6l0.4-24.4L656.2,288.5z"
+                                                className="st2"
+                                              ></path>
+                                              <path
+                                                data-v-3b6a8222=""
+                                                id="Path_4657_1_"
+                                                d="M653.1,288.6l-0.4,24.4l-0.6-0.1l0.4-24.4L653.1,288.6z"
+                                                className="st36"
+                                              ></path>
+                                              <path
+                                                data-v-3b6a8222=""
+                                                id="Path_4658_1_"
+                                                d="M653.9,288.9l-0.4,24.4l-0.7-0.3l0.4-24.4L653.9,288.9z"
+                                                className="st2"
+                                              ></path>
+                                              <path
+                                                data-v-3b6a8222=""
+                                                id="Path_4659_1_"
+                                                d="M655.5,287.9l-0.4,24.4l-1.6,1l0.4-24.4L655.5,287.9z"
+                                                className="st17"
+                                              ></path>
+                                              <path
+                                                data-v-3b6a8222=""
+                                                id="Path_4663_1_"
+                                                d="M656.5,289.5l-0.4,24.4l-0.4-1l0.4-24.4L656.5,289.5z"
+                                                className="st2"
+                                              ></path>
+                                              <path
+                                                data-v-3b6a8222=""
+                                                id="Path_4664_1_"
+                                                d="M659,288.4l-0.4,24.4l-0.3,1.2l0.4-24.4L659,288.4z"
+                                                className="st8"
+                                              ></path>
+                                              <path
+                                                data-v-3b6a8222=""
+                                                id="Path_4665_1_"
+                                                d="M658.8,289.6l-0.4,24.4l-0.5,0.3l0.4-24.4L658.8,289.6z"
+                                                className="st16"
+                                              ></path>
+                                              <path
+                                                data-v-3b6a8222=""
+                                                id="Path_4666_1_"
+                                                d="M658.3,289.9l-0.4,24.4l-0.8,0.2l0.4-24.4L658.3,289.9z"
+                                                className="st4"
+                                              ></path>
+                                              <path
+                                                data-v-3b6a8222=""
+                                                id="Path_4667_1_"
+                                                d="M657.5,290l-0.4,24.4l-0.9-0.5l0.4-24.4L657.5,290z"
+                                                className="st2"
+                                              ></path>
+                                              <path
+                                                data-v-3b6a8222=""
+                                                id="Path_4670_1_"
+                                                d="M652.8,290.4l-0.4,24.4L652,316l0.4-24.4L652.8,290.4z"
+                                                className="st8"
+                                              ></path>
+                                              <path
+                                                data-v-3b6a8222=""
+                                                id="Path_4671_1_"
+                                                d="M652.4,291.6L652,316l-0.5,0.6l0.4-24.4L652.4,291.6z"
+                                                className="st43"
+                                              ></path>
+                                              <path
+                                                data-v-3b6a8222=""
+                                                id="Path_4672_1_"
+                                                d="M651.9,292.2l-0.4,24.4l-0.3,0.8l0.4-24.4L651.9,292.2z"
+                                                className="st8"
+                                              ></path>
+                                              <path
+                                                data-v-3b6a8222=""
+                                                id="Path_4673_1_"
+                                                d="M651.6,293l-0.4,24.4l-0.4,0.6l0.4-24.4L651.6,293z"
+                                                className="st18"
+                                              ></path>
+                                              <path
+                                                data-v-3b6a8222=""
+                                                id="Path_4680_1_"
+                                                d="M611.1,298.2l-0.4,24.4l-0.6,0.2l0.4-24.4L611.1,298.2z"
+                                                className="st32"
+                                              ></path>
+                                              <path
+                                                data-v-3b6a8222=""
+                                                id="Path_4683_1_"
+                                                d="M610.6,298.4l-0.4,24.4l-1.4,0.3l0.4-24.4L610.6,298.4z"
+                                                className="st33"
+                                              ></path>
+                                              <path
+                                                data-v-3b6a8222=""
+                                                id="Path_4686_1_"
+                                                d="M613.6,299.4l-0.4,24.4l-2.4-1.2l0.4-24.4L613.6,299.4z"
+                                                className="st2"
+                                              ></path>
+                                              <path
+                                                data-v-3b6a8222=""
+                                                id="Path_4688_1_"
+                                                d="M615,299.5l-0.4,24.4l-1.4-0.1l0.4-24.4L615,299.5z"
+                                                className="st9"
+                                              ></path>
+                                              <path
+                                                data-v-3b6a8222=""
+                                                id="Path_4689_1_"
+                                                d="M651.6,298l-0.4,24.4l-2.6,2.2l0.4-24.4L651.6,298z"
+                                                className="st26"
+                                              ></path>
+                                              <path
+                                                data-v-3b6a8222=""
+                                                id="Path_4694_1_"
+                                                d="M615.8,300.1l-0.4,24.4l-0.9-0.6l0.4-24.4L615.8,300.1z"
+                                                className="st2"
+                                              ></path>
+                                              <path
+                                                data-v-3b6a8222=""
+                                                id="Path_4697_1_"
+                                                d="M649.1,300.2l-0.4,24.4l-1.1,0.7l0.4-24.4L649.1,300.2z"
+                                                className="st42"
+                                              ></path>
+                                              <path
+                                                data-v-3b6a8222=""
+                                                id="Path_4699_1_"
+                                                d="M620.4,300.8l-0.4,24.4l-1.4-0.1l0.4-24.4L620.4,300.8z"
+                                                className="st9"
+                                              ></path>
+                                              <path
+                                                data-v-3b6a8222=""
+                                                id="Path_4700_1_"
+                                                d="M618,300.9l-0.4,24.4l-2.2-0.8l0.4-24.4L618,300.9z"
+                                                className="st2"
+                                              ></path>
+                                              <path
+                                                data-v-3b6a8222=""
+                                                id="Path_4701_1_"
+                                                d="M619,300.8l-0.4,24.4l-1,0.1l0.4-24.4L619,300.8z"
+                                                className="st24"
+                                              ></path>
+                                              <path
+                                                data-v-3b6a8222=""
+                                                id="Path_4703_1_"
+                                                d="M621.2,301.1l-0.4,24.4l-0.8-0.3l0.4-24.4L621.2,301.1z"
+                                                className="st2"
+                                              ></path>
+                                              <path
+                                                data-v-3b6a8222=""
+                                                id="Path_4708_1_"
+                                                d="M622.3,301.7l-0.4,24.4l-1.1-0.6l0.4-24.4L622.3,301.7z"
+                                                className="st2"
+                                              ></path>
+                                              <path
+                                                data-v-3b6a8222=""
+                                                id="Path_4709_1_"
+                                                d="M647.6,301l-0.4,24.4l-0.2,1l0.4-24.4L647.6,301z"
+                                                className="st8"
+                                              ></path>
+                                              <path
+                                                data-v-3b6a8222=""
+                                                id="Path_4710_1_"
+                                                d="M624.3,301.8l-0.4,24.4l-1.1,0.1l0.4-24.4L624.3,301.8z"
+                                                className="st24"
+                                              ></path>
+                                              <path
+                                                data-v-3b6a8222=""
+                                                id="Path_4711_1_"
+                                                d="M623.2,301.9l-0.4,24.4l-0.9-0.2l0.4-24.4L623.2,301.9z"
+                                                className="st2"
+                                              ></path>
+                                              <path
+                                                data-v-3b6a8222=""
+                                                id="Path_4712_1_"
+                                                d="M624.9,302l-0.4,24.4l-0.6-0.1l0.4-24.4L624.9,302z"
+                                                className="st2"
+                                              ></path>
+                                              <path
+                                                data-v-3b6a8222=""
+                                                id="Path_4716_2_"
+                                                d="M647.5,302.1l-0.4,24.4l-0.4,1l0.4-24.4L647.5,302.1z"
+                                                className="st8"
+                                              ></path>
+                                              <path
+                                                data-v-3b6a8222=""
+                                                id="Path_4717_1_"
+                                                d="M644.6,303.5l-0.4,24.4l-1.1,0.2l0.4-24.4L644.6,303.5z"
+                                                className="st4"
+                                              ></path>
+                                              <path
+                                                data-v-3b6a8222=""
+                                                id="Path_4718_1_"
+                                                d="M647.1,303l-0.4,24.4l-1.2,0.8l0.4-24.4L647.1,303z"
+                                                className="st17"
+                                              ></path>
+                                              <path
+                                                data-v-3b6a8222=""
+                                                id="Path_4719_1_"
+                                                d="M645.9,303.8l-0.4,24.4l-1.3-0.3l0.4-24.4L645.9,303.8z"
+                                                className="st2"
+                                              ></path>
+                                            </g>
+                                          </g>
+                                        </g>
+                                      </g>
+                                      <g data-v-3b6a8222="">
+                                        <g data-v-3b6a8222="">
+                                          <path
+                                            data-v-3b6a8222=""
+                                            id="Path_3417_1_"
+                                            d="M631.5,332.6l-0.4,24.4l-0.2,1.2l0.4-24.4L631.5,332.6z"
+                                            className="st11"
+                                          ></path>
+                                          <path
+                                            data-v-3b6a8222=""
+                                            id="Path_3418_1_"
+                                            d="M631.3,333.8l-0.4,24.4l-0.3,0.1L631,334L631.3,333.8z"
+                                            className="st29"
+                                          ></path>
+                                          <path
+                                            data-v-3b6a8222=""
+                                            id="Path_3422_1_"
+                                            d="M631.3,335.7L631,360l-1.5,0.6l0.4-24.4L631.3,335.7z"
+                                            className="st32"
+                                          ></path>
+                                          <path
+                                            data-v-3b6a8222=""
+                                            id="Path_3427_1_"
+                                            d="M629.8,336.3l-0.4,24.4l-0.6,0.7l0.4-24.4L629.8,336.3z"
+                                            className="st3"
+                                          ></path>
+                                          <path
+                                            data-v-3b6a8222=""
+                                            id="Path_3428_1_"
+                                            d="M629.2,337l-0.4,24.4l-1.2,0.3l0.4-24.4L629.2,337z"
+                                            className="st21"
+                                          ></path>
+                                          <path
+                                            data-v-3b6a8222=""
+                                            id="Path_3429_1_"
+                                            d="M628,337.3l-0.4,24.4l-2.4,0.3l0.4-24.4L628,337.3z"
+                                            className="st23"
+                                          ></path>
+                                          <path
+                                            data-v-3b6a8222=""
+                                            id="Path_3441_1_"
+                                            d="M628.1,340.6l-0.4,24.4l-0.6,0.9l0.4-24.4L628.1,340.6z"
+                                            className="st18"
+                                          ></path>
+                                          <path
+                                            data-v-3b6a8222=""
+                                            id="Path_3443_1_"
+                                            d="M627.5,341.5l-0.4,24.4l-1.7,0.2l0.4-24.4L627.5,341.5z"
+                                            className="st30"
+                                          ></path>
+                                          <path
+                                            data-v-3b6a8222=""
+                                            id="Path_3450_1_"
+                                            d="M625.7,341.7l-0.4,24.4l-1,0.7l0.4-24.4L625.7,341.7z"
+                                            className="st6"
+                                          ></path>
+                                          <path
+                                            data-v-3b6a8222=""
+                                            id="Path_3467_1_"
+                                            d="M626,345.5l-0.4,24.4l-0.5,0.4l0.4-24.4L626,345.5z"
+                                            className="st25"
+                                          ></path>
+                                          <path
+                                            data-v-3b6a8222=""
+                                            id="Path_3475_1_"
+                                            d="M628.9,353l-0.4,24.4l-0.5,1.2l0.4-24.4L628.9,353z"
+                                            className="st8"
+                                          ></path>
+                                          <path
+                                            data-v-3b6a8222=""
+                                            id="Path_3479_1_"
+                                            d="M628.4,354.2l-0.4,24.4l-0.9,1.1l0.4-24.4L628.4,354.2z"
+                                            className="st3"
+                                          ></path>
+                                        </g>
+                                        <g data-v-3b6a8222="">
+                                          <path
+                                            data-v-3b6a8222=""
+                                            id="Path_3570_1_"
+                                            d="M555.9,399.1l-0.4,24.4l-4.8-4.4l0.4-24.4L555.9,399.1z"
+                                            className="st2"
+                                          ></path>
+                                          <g data-v-3b6a8222="">
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_3525_1_"
+                                              d="M637.5,373.5l-0.4,24.4l-1.6,2.3l0.4-24.4L637.5,373.5z"
+                                              className="st10"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_3535_1_"
+                                              d="M636,377.1l-0.4,24.4l-0.5,0.9l0.4-24.4L636,377.1z"
+                                              className="st8"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_3571_1_"
+                                              d="M615.3,396.9l-0.4,24.4l-1.2,2.9l0.4-24.4L615.3,396.9z"
+                                              className="st8"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_3603_1_"
+                                              d="M578.6,406l-0.4,24.4l-1.8-0.7l0.4-24.4L578.6,406z"
+                                              className="st2"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_3605_1_"
+                                              d="M578.8,406.4l-0.4,24.4l-0.2-0.4l0.4-24.4L578.8,406.4z"
+                                              className="st2"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_4783_1_"
+                                              d="M641.4,366.7l-0.4,24.4l-0.3,1l0.4-24.4L641.4,366.7z"
+                                              className="st8"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_4789_1_"
+                                              d="M641.1,367.7l-0.4,24.4l-1,2.8l0.4-24.4L641.1,367.7z"
+                                              className="st8"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_4791_1_"
+                                              d="M640.1,370.5l-0.4,24.4l-0.1,1l0.4-24.4L640.1,370.5z"
+                                              className="st11"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_4793_1_"
+                                              d="M639.9,371.6l-0.4,24.4l-2.4,2l0.4-24.4L639.9,371.6z"
+                                              className="st5"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_4799_1_"
+                                              d="M635.6,378.6l-0.4,24.4l-0.5,0.9l0.4-24.4L635.6,378.6z"
+                                              className="st8"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_4800_1_"
+                                              d="M635.1,379.5l-0.4,24.4l-2.9,1l0.4-24.4L635.1,379.5z"
+                                              className="st13"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_4801_1_"
+                                              d="M632.2,380.5l-0.4,24.4l-4,0.5l0.4-24.4L632.2,380.5z"
+                                              className="st23"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_4803_3_"
+                                              d="M627.5,382l-0.4,24.4l-3.2,5.3l0.4-24.4L627.5,382z"
+                                              className="st10"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_4803_2_"
+                                              d="M628.4,381l-0.1,24.2l-1.5,0.9l0.6-24L628.4,381z"
+                                              className="st10"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_4804_1_"
+                                              d="M624.3,387.3l-0.4,24.4l-1.3,1.5l0.4-24.4L624.3,387.3z"
+                                              className="st3"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_4805_1_"
+                                              d="M623,388.8l-0.4,24.4l-1.4,0.7l0.4-24.4L623,388.8z"
+                                              className="st19"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_4806_1_"
+                                              d="M621.6,389.5l-0.4,24.4l-2.3,2.3l0.4-24.4L621.6,389.5z"
+                                              className="st12"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_4807_1_"
+                                              d="M619.3,391.8l-0.4,24.4l-1,1.9l0.4-24.4L619.3,391.8z"
+                                              className="st11"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_4808_1_"
+                                              d="M618.3,393.7l-0.4,24.4l-1.4,2l0.4-24.4L618.3,393.7z"
+                                              className="st18"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_4809_1_"
+                                              d="M616.9,395.7l-0.4,24.4l-1.5,1.1l0.4-24.4L616.9,395.7z"
+                                              className="st6"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_4810_1_"
+                                              d="M573.3,403.5l-0.4,24.4l-1.8,0.1l0.4-24.4L573.3,403.5z"
+                                              className="st24"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_4811_1_"
+                                              d="M575.1,404l-0.4,24.4l-1.8-0.5l0.4-24.4L575.1,404z"
+                                              className="st2"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_4812_1_"
+                                              d="M575.5,404.2l-0.4,24.4l-0.4-0.2l0.4-24.4L575.5,404.2z"
+                                              className="st2"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_4813_1_"
+                                              d="M566,404.7l-0.4,24.4h-0.7l0.4-24.4H566z"
+                                              className="st24"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_4814_1_"
+                                              d="M567.7,404.9l-0.4,24.4l-1.7-0.2l0.4-24.4L567.7,404.9z"
+                                              className="st36"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_4815_1_"
+                                              d="M571.5,403.6l-0.4,24.4l-3.8,1.3l0.4-24.4L571.5,403.6z"
+                                              className="st13"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_4816_1_"
+                                              d="M560.7,405l-0.4,24.4h-0.8l0.4-24.4H560.7z"
+                                              className="st9"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_4817_1_"
+                                              d="M576.9,405.3l-0.4,24.4l-1.4-1.1l0.4-24.4L576.9,405.3z"
+                                              className="st2"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_4818_1_"
+                                              d="M557,405l-0.4,24.4l-1.5,0.2l0.4-24.4L557,405z"
+                                              className="st23"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_4819_1_"
+                                              d="M555.5,405.2l-0.4,24.4l-1.3-0.1l0.4-24.4L555.5,405.2z"
+                                              className="st41"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_4820_1_"
+                                              d="M554.2,405.1l-0.4,24.4l-1.7,0.1l0.4-24.4L554.2,405.1z"
+                                              className="st7"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_4821_1_"
+                                              d="M558.7,405.3l-0.4,24.4l-1.7-0.3L557,405L558.7,405.3z"
+                                              className="st2"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_4822_1_"
+                                              d="M559.9,405l-0.4,24.4l-1.2,0.3l0.4-24.4L559.9,405z"
+                                              className="st31"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_4823_1_"
+                                              d="M562.9,405.4l-0.4,24.4l-2.1-0.4l0.4-24.4L562.9,405.4z"
+                                              className="st2"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_4824_1_"
+                                              d="M565.3,404.8l-0.4,24.4l-2.4,0.6l0.4-24.4L565.3,404.8z"
+                                              className="st31"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_4825_1_"
+                                              d="M550.7,405.8l-0.4,24.4l-0.6-2.1l0.4-24.4L550.7,405.8z"
+                                              className="st2"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_4826_1_"
+                                              d="M552.5,405.2l-0.4,24.4l-1.8,0.6l0.4-24.4L552.5,405.2z"
+                                              className="st14"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_4827_1_"
+                                              d="M579.1,408.4l-0.4,24.4L578,432l0.4-24.4L579.1,408.4z"
+                                              className="st2"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_4828_1_"
+                                              d="M598.7,408.8l-0.4,24.4l-0.4,0.1l0.4-24.4L598.7,408.8z"
+                                              className="st4"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_4829_1_"
+                                              d="M599.3,409.1l-0.4,24.4l-0.6-0.2l0.4-24.4L599.3,409.1z"
+                                              className="st2"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_4830_1_"
+                                              d="M598.3,408.9l-0.4,24.4l-0.5,0.3l0.4-24.4L598.3,408.9z"
+                                              className="st20"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_4831_1_"
+                                              d="M580.8,409.1l-0.4,24.4l-1.7-0.7l0.4-24.4L580.8,409.1z"
+                                              className="st2"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_4832_1_"
+                                              d="M582.2,409.2l-0.4,24.4l-0.6,0.1l0.4-24.4L582.2,409.2z"
+                                              className="st4"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_4833_1_"
+                                              d="M581.5,409.3l-0.4,24.4l-0.7-0.1l0.4-24.4L581.5,409.3z"
+                                              className="st2"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_4834_1_"
+                                              d="M600,409.5l-0.4,24.4l-0.6-0.5l0.4-24.4L600,409.5z"
+                                              className="st2"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_4835_1_"
+                                              d="M582.5,409.3l-0.4,24.4l-0.3-0.2l0.4-24.4L582.5,409.3z"
+                                              className="st2"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_4836_1_"
+                                              d="M605.1,409.9l-0.4,24.4h-0.4l0.4-24.4H605.1z"
+                                              className="st30"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_4837_1_"
+                                              d="M583.6,409.8l-0.4,24.4l-1.2-0.4l0.4-24.4L583.6,409.8z"
+                                              className="st2"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_4839_1_"
+                                              d="M605.9,410.2l-0.4,24.4l-0.8-0.4l0.4-24.4L605.9,410.2z"
+                                              className="st2"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_4840_1_"
+                                              d="M604.7,409.9l-0.4,24.4l-1.3,0.4l0.4-24.4L604.7,409.9z"
+                                              className="st14"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_4841_1_"
+                                              d="M600.4,410.5l-0.4,24.4l-0.4-1l0.4-24.4L600.4,410.5z"
+                                              className="st2"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_4842_1_"
+                                              d="M597.8,409.2l-0.4,24.4l-2,1.4l0.4-24.4L597.8,409.2z"
+                                              className="st16"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_4843_1_"
+                                              d="M603.4,410.3l-0.4,24.4l-0.6,0.4l0.4-24.4L603.4,410.3z"
+                                              className="st42"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_4844_1_"
+                                              d="M584.1,410.5l-0.4,24.4l-0.4-0.8l0.4-24.4L584.1,410.5z"
+                                              className="st2"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_4845_1_"
+                                              d="M606.9,410.9l-0.4,24.4l-1-0.7l0.4-24.4L606.9,410.9z"
+                                              className="st2"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_4846_1_"
+                                              d="M609.6,411l-0.4,24.4l-0.6-0.1l0.4-24.4L609.6,411z"
+                                              className="st2"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_4847_1_"
+                                              d="M609,410.9l-0.4,24.4l-1.4,0.1l0.4-24.4L609,410.9z"
+                                              className="st24"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_4848_1_"
+                                              d="M607.6,411l-0.4,24.4l-0.6-0.1l0.4-24.4L607.6,411z"
+                                              className="st2"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_4849_1_"
+                                              d="M595.7,410.6l-0.4,24.4l-1.4,0.4l0.4-24.4L595.7,410.6z"
+                                              className="st31"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_4850_1_"
+                                              d="M584.9,410.8l-0.4,24.4l-0.8-0.3l0.4-24.4L584.9,410.8z"
+                                              className="st2"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_4851_1_"
+                                              d="M602.8,410.7l-0.4,24.4l-0.5,0.5l0.4-24.4L602.8,410.7z"
+                                              className="st12"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_4852_1_"
+                                              d="M585.1,411l-0.4,24.4l-0.2-0.2l0.4-24.4L585.1,411z"
+                                              className="st2"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_4853_1_"
+                                              d="M602.3,411.2l-0.4,24.4l-1.2,0.1l0.4-24.4L602.3,411.2z"
+                                              className="st30"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_4854_1_"
+                                              d="M601.1,411.3l-0.4,24.4l-0.7-0.8l0.4-24.4L601.1,411.3z"
+                                              className="st2"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_4855_1_"
+                                              d="M594.4,410.9l-0.4,24.4l-1.4,0.6l0.4-24.4L594.4,410.9z"
+                                              className="st22"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_4856_1_"
+                                              d="M593,411.5l-0.4,24.4l-1.3,0.1l0.4-24.4L593,411.5z"
+                                              className="st24"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_4857_1_"
+                                              d="M611,411.9l-0.4,24.4l-1.4-0.8l0.4-24.4L611,411.9z"
+                                              className="st2"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_4858_1_"
+                                              d="M591.7,411.6l-0.4,24.4l-1.7,0.3l0.4-24.4L591.7,411.6z"
+                                              className="st33"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_4859_1_"
+                                              d="M613.9,410.3l-0.4,24.4l-0.8,2.1l0.4-24.4L613.9,410.3z"
+                                              className="st8"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_4862_1_"
+                                              d="M590,411.9l-0.4,24.4l-1.1,0.8l0.4-24.4L590,411.9z"
+                                              className="st6"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_4863_1_"
+                                              d="M613.1,412.4l-0.4,24.4l-1.3,0.7l0.4-24.4L613.1,412.4z"
+                                              className="st29"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_4864_1_"
+                                              d="M611.8,413l-0.4,24.4l-0.8-1.2l0.4-24.4L611.8,413z"
+                                              className="st2"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_4865_1_"
+                                              d="M586.3,413l-0.4,24.4l-1.1-0.7l0.4-24.4L586.3,413z"
+                                              className="st2"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_4866_1_"
+                                              d="M588.9,412.7l-0.4,24.4l-1.7,0.6l0.4-24.4L588.9,412.7z"
+                                              className="st45"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_4867_1_"
+                                              d="M587.2,413.3l-0.4,24.4l-0.9-0.3l0.4-24.4L587.2,413.3z"
+                                              className="st2"
+                                            ></path>
+                                            <path
+                                              data-v-3b6a8222=""
+                                              id="Path_4860_1_"
+                                              d="M585.3,412.3l-0.4,24.4l-0.2-1.3l0.4-24.4L585.3,412.3z"
+                                              className="st2"
+                                            ></path>
+                                          </g>
+                                        </g>
+                                      </g>
+                                    </g>
+                                  </g>
+                                </g>
+                              </g>
+                            </g>
+                          </g>
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </g>
+              <g data-v-3b6a8222="">
+                <Link
+                  to={{
+                    pathname: "/mapPage",
+                    state: {
+                      centerCoor: [40.783374, 72.350573],
+                      viloyat: "Andijon viloyati",
+                    },
+                  }}
+                  xlinkTitle="Andijon"
+                >
+                  <path
+                    onMouseEnter={() => {
+                      props.changeRoadLength(CountRegionsRoad("Andijon viloyati"));
+                    }}
+                    onMouseLeave={() => {
+                      props.changeRoadLength(CountRespublicRoad());
+                    }}
+                    className="region"
+                    data-v-3b6a8222=""
+                    id="AN"
+                    d="M829.9,230.4l1.5,0.4l1.1,0.6h1l0.9,0.3l1-0.1l0.7,0.1l0.4,0.2l0.2,0.7l-0.1,0.4l-0.9,1.2
+v0.4l0.5,0.4l0.7-0.1l0.5-0.6l0.4,0.1l0.3,0.2l1.4,1.8l0.5,0.5l0.2,1.6l1,0.5l1.3,0.3l1.4,0.5l1.8,0.5l0.6-0.2l1.9,0.2l1-0.3
+l0.8-0.1l0.7,0.2l2.4-0.5h0.6l0.7,0.3l1.5,1.2l0.4,0.8l0.4,0.2l0.9,0.2h0.6l1-0.3l0.2-0.3l0.5-0.2l0.4-0.3h0.5l0.8-0.4l-0.3-0.8
+l-0.7-0.4l-0.2-0.2l0.3-0.8l1,1.1l1,0.2l1.4,0.7l1.1-0.5h1.2l0.2,0.1l0.2,0.6l-0.4,1.2l-0.3,0.4l-0.3,0.2l-2.9,0.9l-1.9,0.2
+l-0.7,0.8l-1.1,0.6l-1.4,0.6l-1.1,0.2l-0.1,0.2l-0.6,0.1l-1.5,0.6l-1,0.8l-1.4,0.3l-1.1-0.1l-1,0.2l-0.5,0.5l-0.1,0.5l0.2,0.4
+l0.4,0.4l-0.7,0.4l-0.1,0.5l0.2,2.2v0.6l-0.4-0.1l-1.1-0.8l-2-0.3l-0.6,0.6v0.5l-0.7,0.4l-0.3,0.3l-0.3,1.2l-0.4,0.6l-0.4,0.1
+H843l-1.5-0.9h-1.6l-0.6-0.2l-0.9-0.7l-0.9-0.3l-0.7,0.2l-1.2-1.1l-0.6-0.8l-1.6-1l-0.7-0.3l-1.1,0.4h-1.3l-0.7,0.8l0.4,0.6
+l1.3,0.3l0.2,0.1l0.5,0.9l1.2,0.3l0.2,0.2v0.2l-1.1,0.2l-0.5,0.3l-0.3,0.6l0.3,0.8l1.2-0.1l0.3,1.2l0.5,0.4l0.2,0.4l-1.2,2.1
+l0.3,0.7v0.3l-1.4-0.3l-0.4-0.2l-1.7-1.3l-0.7-0.4l-0.6-0.2l-0.8,0.2l-0.5-0.5l-0.6-0.3h-1l0.3-0.9l-0.1-0.5l-0.8-0.4h-0.4
+l-0.1-2.5l-0.4-1l-4.5-1.1l-2.5-0.4l-0.3,0.2l-9.6-1l-2.3-2.6l-0.7-0.5l-3.3-1.3l-5-0.5l-0.1,0.4l-2.2-2.3l2-1L793,241l1.7-1.2
+l1.2-0.6l8.8-1.7h3.7l0.4,0.1l0.7,0.4l3.8,0.7l1.6,0.1l5.1-0.4l0.7-0.3l0.6-0.5l1.2-4.3h0.5l3.1-1.1l0.7-0.1l1.5-0.8l1-0.9
+L829.9,230.4z"
+                  ></path>
+                </Link>
+
+                <Link
+                  to={{
+                    pathname: "/mapPage",
+                    state: {
+                      centerCoor: [41.549689, 60.631377],
+                      viloyat: "Xorazm viloyati",
+                    },
+                  }}
+                  xlinkTitle="Khorezm"
+                >
+                  <path
+                    onMouseEnter={() => {
+                      props.changeRoadLength(CountRegionsRoad("Xorazm viloyati"));
+                    }}
+                    onMouseLeave={() => {
+                      props.changeRoadLength(CountRespublicRoad());
+                    }}
+                    className="region"
+                    data-v-3b6a8222=""
+                    id="XO"
+                    d="M251,186.5l5.2,0.8l0.2,0.2l0.1,0.3l0.1,2.1l0.4,1.9l3.4,4.4l0.4,0.4l0.7,0.5l0.8,0.3l5.3,3.7
+l3.5,3.1l1.7,1.2l8.7,5.8l6.2,3.6l1.6,0.5l2.3,0.3l0.6,0.2l0.6,0.4l2.1,1.7l0.3,0.6l0.3,1.1l2.6,1.3h1.9l1-0.8l0.5-1.5l1.1-1.7
+l0.7-0.6l1.3-0.5l0.6-0.1h3l9.2,1.6l3.6,1.4l3.2,1.5l8.3,6.9l1.6,2.2l4.8,5.8l0.4,0.3l1,0.3l2.5-0.9l3.1,2.4l6.1,5.2l0.6,0.8v1
+l-0.8,2.9l-4.7,4l-6,5.6l-4.2-4.9l-1.4-2.3l-0.5-0.6l-0.7-0.5l-0.2-0.5l-0.2-2.2l-0.5-0.6l-0.3-0.8l-1.3-1.6l-0.1-0.8l0.2-1
+l-0.1-1.6l-0.2-0.4l-0.3-2.2l0.2-1.4l-0.4-0.5l-0.5-0.1l-0.1-0.3v-0.5l-0.3-0.7l-0.9-0.8l-1.7-0.7l-0.6-0.1l-0.4-0.3l0.2-0.7
+l-0.5-1l-0.6-0.8l-1.3-0.6l-2-1.6l-1.2-0.3l-1.4-0.7l-2.1-1.9l-0.7-0.4l-1-0.3l-0.6-0.2l-0.4-0.2l-0.3-0.2l-0.3-0.7l-0.4-0.6
+l-1.2-0.7H312l-1.3,0.4l-1.7-0.1l-0.7-0.2l-1.6-0.7l-2.1-0.3h-0.7l-0.7,0.4l-1,1.3l0.1,2.1l-0.4,0.5l-0.3,1.3l-0.4,0.6l-0.3,0.2
+l-0.4,0.2l-1.1,0.1l-1.6,0.2l-0.3-0.1h-1.3l-0.3-0.1l-0.4,0.1l-0.5-0.1l-3.1-1.1l-2.2-1.7l-0.6-0.2l-2,0.1l-1.4-1.2l-5.5-0.2
+l-0.4,0.2l-1-0.1l-2.2,0.3l-2.7-0.1l-1.7,0.2h-4.1l-4.9,0.2h-1l-2.7,0.3h-0.9l-0.6-0.2l-3.3-1.5l-3.1-2.1l-6.4-3.3l-3.5-1.5
+l-1.1-0.7l-0.5-0.8v-0.4l0.2-0.7v-2.3l0.3-1.4l0.3-0.5l2.1-1.5l0.4-0.6v-1.1l-0.3-0.8l-1.3-1.7l-1.2-1.2l-1.9-2.2l-0.3-1
+l0.5-0.9l0.5-1.6l1,0.4h1.1l1.9,0.5l1.1,0.4l1.4,0.9h1.2l0.7,0.4l1.4,0.4l0.3-0.4h0.6l0.6-0.3l0.1-0.7l-0.7-0.7l-1.2-0.7l-1.2-1
+l-1.5-0.5l-1.7-0.3l-1.3-0.6l-0.7-0.6l-0.2-0.3l2.6-3.9l1.8-0.6L251,186.5z"
+                  ></path>
+                </Link>
+
+                <path
+                  data-v-3b6a8222=""
+                  id="Path_3759_2_"
+                  fill="#ffffff66"
+                  d="M174.4,62.9l-0.3-5.1l-1.3-1.3v-2.2h0.8l1.2,2.1l2.2,0.9l3.3-0.9l1.5-2.5v-3.3l1.1-2.8
+l-3.4-1.6l-3.2-2l-0.5-1.6l1.6-1.4l1.6-0.3l2.6,1l0.2-6.8l3-0.3l-0.3-3.2l-2.9-0.5l-4.2-0.5l-1.6,0.9l-1.7,1.6l-0.7,0.2l0.6-0.7
+l2.9-4.1l2-2.2l-1.2-2.6l-2.1-2.2l0.5-2.8l1-2.6l3.2-4.7l23.4,12.7l0.4,5.8l-2,4.5l-3.3,4.3l-2.9,4.8l-1,3.1h-2l-2.1,0.2
+l-1.7,1.3l-0.7,2.2l0.9,3.7l1.3,2.1l0.7,1.9l-1.9,0.5l-3.2-1.3l-2.9,1.3l-1.9,3.3l-2.5,3.3l-2,1.7l-2.6-1.2L174.4,62.9z"
+                  className="st48"
+                ></path>
+
+                <Link
+                  to={{
+                    pathname: "/mapPage",
+                    state: {
+                      centerCoor: [42.460334, 59.617987],
+                      viloyat: "Qoraqalpog'iston Respublikasi",
+                    },
+                  }}
+                  xlinkTitle="Karakalpakstan"
+                >
+                  <path
+                    onMouseEnter={() => {
+                      props.changeRoadLength(
+                        CountRegionsRoad("Qoraqalpog'iston Respublikasi")
+                      );
+                    }}
+                    onMouseLeave={() => {
+                      props.changeRoadLength(CountRespublicRoad());
+                    }}
+                    className="region"
+                    data-v-3b6a8222=""
+                    id="QR"
+                    d="M317.2,192.3l22.3,23l14.1,14.8l-10.5,3.7l-2.8,1l-5.3-6l-1.6-2.2l-8.5-7l-3.4-1.6l-3.7-1.5
+l-9.5-1.6h-3.4l-2.3,0.8l-0.9,0.8l-1.3,1.9l-0.5,1.5l-1.7,0.4l-2.1-1l-0.3-0.8l-0.4-0.7l-2.3-1.9l-0.8-0.5L292,215l-2.3-0.3
+l-1.4-0.4l-6.2-3.5l-8.6-5.8l-1.6-1.2l-3.5-3.1l-5.4-3.8l-1.5-0.7l-1.4-1.8l-2.1-2.7l-0.4-1.8l-0.1-2.1l-0.8-1.2l-5.8-0.9
+l-4.6,1.2l-2.1,0.7l-2.4,3.6l-3.6-1.4l-2.8-2.2l-2.5-0.8l3.3-0.9l0.6-0.6l-0.6-0.8l-1.1-2.1l0.1-1.8l-1.1-1.1l1.3-1.6l1.8-2
+l-1.7-1.1l-1.9-0.2l-1.2-0.6l-0.8-0.8l-0.7-1.1l-0.8-0.6l-2.1-0.6l-0.9-0.1l-0.9,0.4l-1,0.6l-1.9-0.1l-4.1-0.5l-1.6,0.3H216
+l-1.3,0.1l-7.5,0.1l-1.7-1.3l-2.1-1.8l-3.2-2.4l0.5-1.1l-0.1-1.2l-3.9-3.7l-1.9-0.8l-1.4,0.2l-1.3,0.7H189l-2.1-1l-2.9-0.5
+l-1.9-1.3l-9.4-7.8l-3.3-3.1l-0.9-0.5l-0.5,1v1.1l0.7,1.2l-0.5,0.3l-0.3,1.1l-0.3,0.7l-1.1,1.1L165,153l-2.8,0.4h-1l-1.3-0.5
+l-1.3-0.2l-1.3-0.4l-1.6-0.3l-3.1-0.5h-1l-1.7,0.5l-1.1,0.5l-2.3,1.5l-1.6,1.3l0.5,0.8l2.1,1.2l2.5,1.1l1.1,0.3l1.5,0.2l3.6,6
+l-2-1.3l-5.3-0.8l-3.3,0.7l-1,0.3l-1.2-1l-0.5-1.2l-1.1-0.7l-1.2-0.2L139,161l-1.1,0.5l-1.5,1.9l-2.4-0.3l-0.7,1.9l0.4,0.7
+l1,0.7l0.7,1.2l-0.4,1.1v1.1l-0.2,0.9l0.1,1.2l-0.2,1.2l-3.1,0.1l-1.7,1.9l0.8,1l0.4,0.7l-3.8-0.3l-2.9,0.8l-1.8,0.7l-2.6-0.6
+l-2.2-0.3l-2.4-0.1l-5.4,0.2l-2.2,0.6l-2.7,1l-2.3,1.3l-1.3,0.9l-1.3,1.4l-1.1,2L98,187l-1.7,1.4l-2,0.7l-2.2,0.5l-0.9,0.4
+l-1,0.7l-1.1,1.6L89,194l-0.5,1.5l0.1,2.3l0.3,2.1l-0.1,2.2l0.6,2l0.4,0.8l1.5,2.3l-0.1,1.6v1.9l0.5,2.5l0.4,0.8l2.5,2.9h1.3
+l1.8-0.4l-2.9,1.6l-1,0.7l-0.6,0.9v1.2l-2.2,0.9l-1.9-0.3l-4.1-0.3l-4.4-0.5l-7-0.3l-3.9-0.1l-6.2-0.5l-3.7-0.2h-1.9l-5.4-0.4
+l-9.3-0.3L41.4,35.8l1.3-0.3l1.4-0.5l31.6-7.9l1.6-0.3l14.9-3.9l45.4-10.8l6.8-1.8l2.3-0.4L163.8,6l-0.1,2.2l-1.6,2.5l-0.2,3.8
+l-3.8,2.6l-2.2,2.7l-0.2,4.6l-2.7,2l-1.2,4.5l-3.1,3.8l-2.1,4.4l-0.4,3.8l0.3,4.8l1.3,2.4l2,2.8l-0.3,1.9l-3.1,6.8l0.5,4.2
+l2.4,4.2l2.4,2.2l3.4,1.2l4.2,1.3l3.2,0.2l2.6,1.5l2.7,0.6l1.1-1.7l1.4-0.3l2.6,0.2l1.9-0.7l5.3-1.3l2.5-0.9l1.3,0.6l0.8,2.5
+L183,77l-3.2,1.6l1.2,3.3l2.4,0.8l1.9,1.5l5.5,0.6l2.8,1.8l3.3,0.3l6.3,0.5l4.8,0.2l3.6-1.7l2.2,1l1.5,0.9l4.2-0.7l1.9-0.4
+l3.8,0.9l5.4-0.8l5-1.3l7.6-2.3l0.6-2h3.4l1.6-1.8l-1.1-1.5l1.5-2.4l6.4-4l4.8-3.7l3-4.1l0.9-3.3l-1.2-1.2l-1.7-1.1l-0.7-1
+l3.1-0.2l22.4,12.2l2.3,5.5l6.4,4.9l6.7,6l1,1l2.7,2.4l6,5.5l17.7,16.5l1.8,1.3l6.6,8.3l15.7,3.2L325,164.6l-1.3,12.7l6.9,9.4
+L317.2,192.3z"
+                  ></path>
+                </Link>
+
+                <Link
+                  to={{
+                    pathname: "/mapPage",
+                    state: {
+                      centerCoor: [41.311158, 69.279737],
+                      viloyat: "Toshkent shahar",
+                    },
+                  }}
+                  xlinkTitle="Tashkent City"
+                >
+                  <path
+                    onMouseEnter={() => {
+                      props.changeRoadLength(
+                        CountRegionsRoad("Toshkent shahar")
+                      );
+                    }}
+                    onMouseLeave={() => {
+                      props.changeRoadLength(CountRespublicRoad());
+                    }}
+                    className="region"
+                    data-v-3b6a8222=""
+                    id="TOSH"
+                    d="M686.4,215.2l0.3,0.3l0.2,0.1v0.1l-0.2,0.2l-0.2,0.1v0.1v0.1l-0.2,0.1l-0.2,0.1l-0.4,0.6
+l-0.1,0.6v0.1l-0.8,0.9v0.1l0.3,0.2l0.4,0.4l0.1,0.2v0.1l0.1,0.7l-0.3,0.4l-0.3,0.3l-0.6,0.5h-0.3l-0.1-0.1l-0.3-0.5l0.3-0.5
+l-1.3-0.3l-1.4-0.1l-1.4,0.9v0.2h-0.1l-0.4-0.1l-0.3-0.4l-0.4,0.2l-0.2-0.5l-0.9-0.4l-0.3,0.1l-0.9-0.2l0.1-1l0.1-0.6l0.5-1
+l0.1-0.6l0.8-0.7l0.7,0.1l0.6,0.1l0.9-0.3l0.3-0.1l0.2-0.2l1.6,0.6l0.6-0.1l0.9,0.3l0.5-0.6h0.6l0.8-0.6l0.7-0.1l0.1-0.1
+L686.4,215.2z"
+                  ></path>
+                </Link>
+
+                <Link
+                  to={{
+                    pathname: "/mapPage",
+                    state: {
+                      centerCoor: [40.492737, 68.777093],
+                      viloyat: "Sirdaryo viloyati",
+                    },
+                  }}
+                  xlinkTitle="Sirdaryo"
+                >
+                  <path
+                    onMouseEnter={() => {
+                      props.changeRoadLength(CountRegionsRoad("Sirdaryo viloyati"));
+                    }}
+                    onMouseLeave={() => {
+                      props.changeRoadLength(CountRespublicRoad());
+                    }}
+                    className="region"
+                    data-v-3b6a8222=""
+                    id="SI"
+                    d="M649.1,233.3l0.3,0.9l1.2,0.3l0.9-0.3l0.6,0.1l-1.2,0.4l-0.3,0.5v0.6l0.9,1.4l0.5-0.3l4.8,4.1
+l3.7,2.7l5.2,3.5l5.1,3.2l0.6,0.1l2.9,3.1l-0.5,3.5l-0.9,4.2l-1,3.9v0.9l0.2,0.6l0.5,0.8l-0.2,3.1l-0.5-0.1H669l-3.6,0.3
+l-1.8,0.3l-1.7,0.8l-1.1,0.2l-2.5-0.5l-1.1,0.4l-4.9,1.2l0.9-4.6l-0.6-0.9l-7.9,1.4l-2.3,0.6l-4.1,0.6l-4.7,0.1l-6.8-0.2
+l-0.7-0.6l-0.3-0.6l-0.1-0.7l0.2-1.1l5.1-8.7l0.8-1.6l0.2-0.8l-0.5-0.5l-0.7,0.2l-1.6,0.6l0.4-3.2l1.8-0.4l2.2,0.1l0.5-0.7
+l0.2-1.6l3.3,2.1l2-0.4l1.5,0.9l-0.6,1l6,1.3l0.9-0.9l2.3,0.1l5-1.6L653,251l-2.5-1l-1.1-2.5l-3.4-3.6l0.8-5.8l-1-1.9l0.9-0.8
+l-1.3-1.5l-3.6-0.2v-0.3l4.3,0.2l0.5,0.6L649.1,233.3z"
+                  ></path>
+                </Link>
+
+                <Link
+                  to={{
+                    pathname: "/mapPage",
+                    state: {
+                      centerCoor: [40.120288, 67.828508],
+                      viloyat: "Jizzax viloyati",
+                    },
+                  }}
+                  xlinkTitle="Jizzakh"
+                >
+                  <polygon
+                    onMouseEnter={() => {
+                      props.changeRoadLength(CountRegionsRoad("Jizzax viloyati"));
+                    }}
+                    onMouseLeave={() => {
+                      props.changeRoadLength(CountRespublicRoad());
+                    }}
+                    className="region"
+                    data-v-3b6a8222=""
+                    id="JZ"
+                    points="668.6,275.7 668.2,274.8 667.6,274.5 664.5,274.6 662.8,274.7 659.3,275.4
+658.1,275.8 655.1,276.5 653.8,276.9 651.4,277.3 649.9,277.3 647,276 645.8,275.2 646.3,274.4 649.4,273.5 650.9,273.3
+651.8,268.5 650.4,268.7 644.7,269.7 642.4,270.4 638.9,270.9 638.2,271 633.3,271.2 625.9,270.9 625,269.9 624.6,269.1
+624.4,268.3 624.7,266.9 629.8,258.2 630.6,256.5 628.3,257.4 627.8,256.8 628.3,252.5 630.9,252 632.7,251.9 632.7,249.8
+628.7,248.7 624.9,245.5 619,242.9 616.3,242.3 614.6,240.5 615.5,238.2 619.6,238.1 619.5,234.2 620.9,233.1 619.4,230.4
+621.2,228.9 622,228.8 621.1,228.2 617.9,229.8 617,228.9 615.6,229.9 611.8,227.2 609.7,225.3 608.8,225.1 607.4,224.1
+591.5,223.8 590.3,224 588.9,224.3 587.7,224.1 586.9,223.8 584.3,223.8 579.4,223.4 561.7,222.4 561,226.2 560.7,228.4
+553.9,228.6 555,236.5 555.7,237.3 556.5,237.7 561,238.5 561.5,238.9 561.7,239.3 563.5,244.9 563.1,245.6 559.9,249.9
+555.4,256.7 554.9,257.6 562.3,258.3 567.4,258.3 568.6,260.4 568.6,261.4 567.7,262.9 567.6,263.4 567.8,266.4 568.6,269.5
+570.6,270.8 572.1,273.2 572,274 571.5,275.2 571,275.4 570,275.6 570.1,276.4 570.3,278.3 576.2,281.3 578.3,281.8
+583.2,282.1 595.8,284.1 596.2,284.5 597.4,289.3 597.6,290.5 595.7,290.7 594.2,291 592.1,291.8 591.5,292.2 590.7,292.8
+587.4,297.1 587.5,300.3 587.7,300.9 588.3,301.6 589.3,302.4 592.9,304.6 592.9,304.1 593.4,303.3 594.2,303.1 596.4,303.4
+596.2,302.2 596.4,301.4 601,300.2 602.4,300.1 602.8,300.1 603.8,298.9 604.6,298.5 605.6,298.2 606.5,297.3 607.4,297.4
+609.2,298 610.2,297.7 611.2,297.3 613.9,298.7 615.4,298.8 616.4,299.5 618.2,300.1 619,300 620.7,300.1 621.8,300.5
+622.8,301.1 623.3,301.2 624.4,301.1 625.3,301.3 626.3,301.6 628.4,301.8 629.3,301.7 630.5,302.2 631,302.2 631.9,302.1
+633.3,301.9 635.2,302.1 636.9,302.4 637.5,302.6 638.4,303.2 640.3,302.6 643.4,302.9 644.7,302.7 645.7,303 646.2,302.6
+646.5,301.9 646.7,300.6 647.4,300.3 648.4,299.7 650.7,297.7 650.9,296.6 649,294.6 648.6,293.8 649.3,293.1 650.1,293.1
+650.5,292.9 650.7,292.7 651,291.9 651.5,291.3 651.8,290.4 651.5,289.1 651.6,287.7 653.8,288 655.2,287.1 656.1,287.3
+657.1,288.1 657.8,289.2 658.1,288.1 658.6,287.6 659.8,287.3 660.1,286.9 660,286.5 659.2,285 658.5,283.4 658.5,282.6
+658.4,282 658.9,281.6 660.3,282.5 662.2,285.2 662.3,286.5 662.8,287.1 663.1,287.2 663.7,287.2 664.2,286.8 664.3,286.4
+664.3,285.9 663.8,285.2 661.1,282.6 659.4,281.3 659.4,281 659.8,280 659.7,279.7 658.8,279 658.4,278.4 658.4,277.7
+658.9,277.3 659.7,277.1 660.7,277.2 661.7,278.4 661.8,278.9 661.9,278.6 663.5,277.7 665,277.4 665.9,277.4 667,277.4
+668.5,277.7 669.1,277.4"
+                  ></polygon>
+                </Link>
+
+                <Link
+                  to={{
+                    pathname: "/mapPage",
+                    state: {
+                      centerCoor: [38.841654, 65.790015],
+                      viloyat: "Qashqadaryo viloyati",
+                    },
+                  }}
+                  xlinkTitle="Kashkadarya"
+                >
+                  <path
+                    onMouseEnter={() => {
+                      props.changeRoadLength(CountRegionsRoad("Qashqadaryo viloyati"));
+                    }}
+                    onMouseLeave={() => {
+                      props.changeRoadLength(CountRespublicRoad());
+                    }}
+                    className="region"
+                    data-v-3b6a8222=""
+                    id="QD"
+                    d="M513,304.8l3.8,0.6l3.3,2.9l2.9,3.6l0.1,1.2l0.4,0.3l1,0.3l3.3,0.6h1.8l2.4-1.1l3.3-1.3
+l7.7-1.5l0.5,0.1l1.1,0.5l1.8,1.2l1.8,0.9l0.8,0.3h0.4l4.1-1.3l1-0.9l1.1-1.4l0.8-0.7l0.6-0.2h1.1l8.7,1.2l0.5,0.4l0.4,0.9
+l-0.1,0.8l-0.5,1.4l0.1,0.6l0.5,0.5l1.1,0.5l2.3,0.2l4.1-0.2l1-0.2l0.5-0.5l0.2-0.5l-0.1-1.3l0.8-0.2l4.5,1l2.7,0.9l4.1,0.9
+l1.8,0.3l0.6-0.1l0.3,0.9l1.5,2l0.8,0.7l1.1,0.5l1.9,0.3l0.6,0.3l1,0.3h1l1-0.2l1,0.1l0.8,0.3l0.7,1.3l0.8,0.2l1.6,0.1l-0.3,0.6
+l-0.2,2.2l0.5,1l0.2,1.7l0.3,0.3l-0.5,0.4l-0.8,0.4l-4,0.2l-1.1,0.2l-0.5,0.2l-0.8,0.5l-0.4,0.6l-0.3,0.7l0.6,2.5l1.1,1.8
+l0.4,0.4l0.3,3.5l-1.2,2.9l-1.4-1.1l-1.2-0.3l-1.7-0.1l-1.3,0.3l-0.7,0.4l-0.7,0.6l-0.9,1.1l-1.2,1.7l-9.2,7.1l-0.8,2.8
+l-0.1,1.1l-0.4,1.1l-0.4,0.6l-2.4,1.8l-0.8,0.4l-1.1,0.6l-3.7,1.5l-12.1,9.7l-0.6,1.2l-0.9,3l-1.5-1.3l-1.3-0.6l-1.6-0.5
+l-3.6-0.3l-2.7,0.7h-0.5l-1.1-0.2l-1.3-0.8l-2.9-1.2l-1.8-1.6l-1.4-1.9l-0.7-0.3l-2.1-0.1l-3.5-0.8l-0.5-0.2L530,366l-1.5-0.4
+l-0.7-0.1l-0.8-0.6l-0.7-0.2l-1.4,0.1l-0.7-0.2l-0.8-0.4l-2.1-1.6l-1.1-0.2H519l-1.4,0.3l-0.7,1h-0.4l-0.5,0.2l-0.1,0.5h-0.5
+l-4.8-0.7l-10.3-3.1l-2-0.9l-6.7-3.2L490,355l-2.8-2l-8.1-6.1l-0.7-0.3l-2.9-1l-3.6-1l-3-1l-1.7-0.9l-0.6-0.5l-9.5-4.4l-2.8-1.5
+l-5.8-4l-0.9-0.8l5.4-4.6l18.9-5.3l0.5-0.8l-0.4-0.6l-0.9-1l-0.8-0.7l-0.7-0.9l-0.1-0.5l0.3-0.6l4.4-3.6l0.4-0.1l3.7-1.9
+l3.9-2.8l1.1-0.6l0.7-0.3l1.4-0.3l2.7-0.3l0.7-0.2l0.4-0.3l0.5,0.1l18.4,0.4l1.5-0.1l1.5-0.5l1.6-0.9L513,304.8z"
+                  ></path>
+                </Link>
+
+                <Link
+                  to={{
+                    pathname: "/mapPage",
+                    state: {
+                      centerCoor: [39.654522, 66.96883],
+                      viloyat: "Samarqand viloyati",
+                    },
+                  }}
+                  xlinkTitle="Samarkand"
+                >
+                  <path
+                    onMouseEnter={() => {
+                      props.changeRoadLength(CountRegionsRoad("Samarqand viloyati"));
+                    }}
+                    onMouseLeave={() => {
+                      props.changeRoadLength(CountRespublicRoad());
+                    }}
+                    className="region"
+                    data-v-3b6a8222=""
+                    id="SA"
+                    d="M549.3,252.5l1.1,0.9l1.9,2.1l1.4,2.9l8.5,0.7l4.5,0.1l0.8,1.4v0.7l-0.8,1.4l-0.2,0.7l0.1,3.2
+l0.9,3.4l2,1.3l1.4,2.1v0.5l-0.4,0.9l-1.5,0.3l-0.2,0.6l0.4,3.2l6.3,3.2l2.3,0.7l5.1,0.3l12.2,2l1.1,4.6v0.4l-0.9,0.1l-1.6,0.3
+l-2.3,0.8l-0.8,0.5l-0.9,0.8l-3.3,4.1l-0.2,0.4l0.1,3.3l0.2,0.8l0.8,0.9l1.1,0.9l4.7,3l2.3,3.6l0.9,1.9l1,1.5l0.2,0.4l-1.3-0.2
+l-1.2,0.2l-3.6,1l-0.4,0.4l-0.6,0.1l-1.6-0.2l-4-0.9l-2.7-0.9l-4.7-1l-1.2,0.1l-0.7,0.6l0.1,1.5l-0.3,0.4l-0.6,0.1l-4,0.2
+l-1.9-0.1l-0.8-0.3l-0.2-0.2v-0.3l0.5-1.3l0.1-1.1l-0.6-1.1l-0.9-0.7l-9.2-1.2l-1.3,0.1l-1.1,0.3l-1,0.9l-1.1,1.4l-0.8,0.7
+l-3.6,1.2l-0.6-0.2l-1.7-0.9l-1.8-1.2l-1.2-0.6l-0.9-0.2l-8,1.5l-3.5,1.4l-2.2,1h-1.4l-3.1-0.6l-0.6-0.2l-0.1-1.1l-3-3.8
+l-3.6-3.1l-5.2-0.8l-0.1,0.6l-1.5,0.9l-1.2,0.4l-1.4,0.1l-18.2-0.4l-0.5-0.1l-2.1-2.8l-0.8-1.4l-0.2-0.5v-0.4l1.2-1.8l0.5-1.2
+l0.2-0.8l-1.5-4.2l-1.1-1.3l-1.1-0.7l-1.5-1.2l-0.2-0.4l0.3-0.2l8.7-2.3l0.9,0.3l3,0.7h0.8l0.8-0.3l0.8-1.2l1.9-4.4l0.4-4.7
+l-0.1-0.7l0.1-0.4l0.2-0.3l0.3-0.1l0.8,0.1l5.6,1.6l0.9,1.1l0.6,0.9l2.4,1l5.6,1.8l1.5,0.2l9.4-1.6l1.8-0.6l3.7-2.7l0.6-0.6
+l0.2-1.1l-0.4-0.7l-1.3-0.1l-1.5,0.7l-0.4-0.4l2.3-4.7l0.9-1l0.9-5l0.2-1.9l-0.5-0.8l-0.6-0.2l0.5-3.7l2.1-3.6l0.8-0.7l0.9-0.1
+l0.9,0.1l0.9,1.1l1.3,0.8l2.1,0.2l1.5-0.1l2.6-1.1L549.3,252.5z"
+                  ></path>
+                </Link>
+
+                <Link
+                  to={{
+                    pathname: "/mapPage",
+                    state: {
+                      centerCoor: [40.103086, 65.373961],
+                      viloyat: "Navoiy viloyati",
+                    },
+                  }}
+                  xlinkTitle="Navoiy"
+                  id="navoiy"
+                >
+                  <path
+                    onMouseEnter={() => {
+                      props.changeRoadLength(CountRegionsRoad("Navoiy viloyati"));
+                    }}
+                    onMouseLeave={() => {
+                      props.changeRoadLength(CountRespublicRoad());
+                    }}
+                    className="region"
+                    data-v-3b6a8222=""
+                    id="NA"
+                    d="M478.4,97.3h1.7l1.4,0.6l1,0.8l6,9.9l2.2,1.6l3.8,3l11.3,7.6l1.6,4.7l7.2,17.3l12.9-4.6
+l0.6,24.1v5.2l-2.5-1h-0.9l-0.1,5.5l-0.9,0.9l-0.2,13.3l0.1,2l25.2,2.3l3.9,31.4l8.1,0.4l-0.4,3l-0.5,2.4l-7.1,0.2l1.3,8.8
+l0.9,1.2l1.1,0.5l4.5,0.8l1.9,5.7l-3.4,4.6l-4.6,6.8l-1.1-1.3l-2.1-2.2l-1-0.9l-1.1-0.4l-2.4,1.7l-2.3,1l-1.3,0.1l-1.7-0.2
+l-0.9-0.5l-1.2-1.3l-1.5-0.1l-1.4,0.2l-1.1,1l-2.3,3.8l-0.7,4.2l1.1,2.6l-0.9,4.7l-0.8,1l-2.4,5l0.3,1.2l1.4,0.1l1.5-0.7
+l0.3,0.8l-3.8,2.9l-1.6,0.6l-9.1,1.5l-1.1-0.1l-5.5-1.8l-2-0.8l-0.4-0.8l-1.1-1.3l-6-1.7l-1.2-0.1l-0.8,0.3l-0.4,0.5l-0.2,0.7
+l0.1,0.8l-0.4,4.5l-1.8,4.3l-0.7,0.9l-3.5-0.5l-1.2-0.5l-9.2,2.4l-0.8,0.4l0.3,1.3l1.7,1.3l1,0.6l0.9,1l1.4,4l-0.1,0.6l-0.5,1.1
+l-1.2,1.9l-0.1,0.7l0.2,0.7l0.9,1.5l2,2.8l-3.2,0.5l-1.5,0.3l-0.9,0.3l-0.8-1.7l-0.4-1l-4.7-7.5l-5.4-3.1l-3.5,0.7h-1l-7.2-2
+l-1.1-0.8l-4.3-4.4l1.2-1.8l0.8-0.2l4.6-2.1l2.3-2l2.7-3.9l1.4-4.7l0.4-3.5l-0.4-2.5l1.1-0.6l1.9,0.1l1.9,0.9l0.9,0.6l2.2,0.9
+l3.2,0.5l4.1,0.2l1.1-0.3l0.9-0.6l3.5-3.3l1.6-3.4l0.1-0.7l4.1-2.2l1.5-7.9l-8.8-0.9l-6.2-0.5l-8.9-0.9l-1-0.2l-0.8-0.3l-1-0.8
+l-2.3-7.9l-0.9-2.5L464,236l-0.8,0.3l-0.8,1.8l-1.1,1.9l-2,0.3l-4,0.1l-5.2,0.5l-1,0.2l-0.9,3.7l-16.1-1.3l-0.2-5.8l-2-1.7
+l-1.3-0.2l-2.4,1l-1.2,0.9l-5.5,9.6l-3,0.3l-2.9,0.1l0.4-1.4l-0.4-1.3l-0.6-0.9l-2.4-1.5l-10.3-4.5l-8.9-3.6l-5.7-1.8l-3.4-0.7
+h-2.4l-1.3-0.4l-1.5-4.1l-2.2-3.4l-1.7-1.3l-3.8-1.5l-2.5-1.2l-2.2-1.8l-1.4-1.6l-3.7-5.5l-1.5,0.1l-14.1,2.6l-3.8,0.7
+l-21.7-21.9l13.3-5.6l-7.3-9.8l1.2-12.3l28.6-41.7l-16.5-3.4l-5.7-7.7l43.4-6.5l21.2-2.9l3.6,0.5l13.3,1.1l6.1,0.3l2.5,0.3
+l14.8,0.8l14.4,0.5l12-4.3l7.3-2.4l4.5-1.7l2-0.4L478.4,97.3z"
+                  ></path>
+                </Link>
+
+                <Link
+                  to={{
+                    pathname: "/mapPage",
+                    state: {
+                      centerCoor: [39.767945, 64.421701],
+                      viloyat: "Buxoro viloyati",
+                    },
+                  }}
+                  xlinkTitle="Bukhoro"
+                >
+                  <path
+                    onMouseEnter={() => {
+                      props.changeRoadLength(CountRegionsRoad("Buxoro viloyati"));
+                    }}
+                    onMouseLeave={() => {
+                      props.changeRoadLength(CountRespublicRoad());
+                    }}
+                    className="region"
+                    data-v-3b6a8222=""
+                    id="BX"
+                    d="M486.5,250.1l-6.2-0.5l-9-0.9l-1.2-0.3l-1-0.4l-1.3-0.9l-2.3-8.1l-0.8-2h-0.6l-0.7,1.5
+l-1.3,2.3l-2.6,0.3l-4,0.1l-5.4,0.5l-0.8,3.4l-0.3,0.7l-17.7-1.5L431,238l-1.5-1.3l-0.6-0.1l-2,0.8l-1,0.8l-5.6,9.7l-0.9,0.2
+l-2.8,0.2l-4.2,0.1l0.6-2.1l-0.3-1.1l-0.5-0.7l-2.1-1.3l-10.2-4.5l-8.9-3.6l-6-1.9l-2.7-0.6h-1.8l-0.4,0.3l-1.5,0.1l-0.8-1.4
+l-1.5-4.1l-2.1-3.3l-1.5-1.2l-3.6-1.5l-2.6-1.3l-2.2-1.8l-1.5-1.7l-3.4-5.1h-0.7l-17.8,3.3l14.5,15.1l-11.2,4l2.9,2.2l6.2,5.3
+l0.8,1.1v1.3l-0.8,3.2l-4.8,4.1l-6.1,5.9l1.3,0.6l1.4,0.5l1.3,1.1l1.3,0.6l1.6,0.5l0.1,0.5l-0.3,1.2l-0.4,1.4l0.6,0.7l1.3,0.9
+l0.8,1.1v1l-0.4,1v0.1l0.2,0.6l0.1,0.9l0.6,1.6l0.2,1l0.4,0.8l-0.1,2.2l-0.7,1.2l1.5,1.6l0.2,1.4l0.3,0.6l-0.1,0.5l0.3,1
+l0.9,0.9l1.2,0.8l15,8.3l7.3,3.8l10.7,5.8l4.4,2.2l4.7,2.5l4.5,2l4.2,2.2l2.2,1.7l3.8,2.8l0.8,0.9l0.5,0.4l0.3,0.5l1.2,1.1
+l1.3,1l4.8,2.7l1.9,0.9l7.1,4.1l3,1.6l3.1,1.9l0.8,0.3l1.4,0.1h1l0.9-0.2l2.3-1l1.3-0.2h0.7l2,1.6l5.5-4.7l18.7-5.7l-0.8-0.9
+l-0.9-0.7l-0.8-1.1l-0.2-0.8l0.5-1l4.7-3.8l0.7-0.1l3.4-1.7l3.7-2.7l-0.3-2.5l-0.4-0.9l-5-6.8l-4.8-2.7l-3.5,0.6l-1.1-0.1
+l-7.5-2.2l-1.3-0.9l-4.7-4.8l1.7-2.5l1.1-0.3l4.4-2l2.1-1.9l2.5-3.7l1.3-4.5l0.4-3.4l-0.4-2.7l0.5-0.7l1.4-0.5l2.4,0.1l2.2,1.1
+l0.9,0.6l2,0.7l2.9,0.4l3.8,0.2l0.8-0.2l0.6-0.4l3.4-3.2l1.5-3.2l0.2-0.9l4.1-2.2l1.3-6.8L486.5,250.1z"
+                  ></path>
+                </Link>
+
+                <path
+                  data-v-3b6a8222=""
+                  fill="rgba(40, 194, 255, 0.521)"
+                  id="ORL"
+                  d="M263.1,60.6L263.1,60.6l-0.9-1l-1.8-1.2l-1.4-2.1l3.5-0.3L205,24.9l0.4,5.4l-1.1,2.5l-1,2.3
+l-1.8,2.4l-1.5,2l-3,4.5l-0.3,1l-0.8,2.7h-2.7l-1.7,0.1l-1.2,0.9l-0.5,1.9l0.9,3.5l1.3,2l1,2.6l-0.5,0.1l-2.8,0.6l-2.9-1.2
+l-2.1,0.9l-1.8,3.1l-2.6,3.5l-2.6,2.1l-3.7-1.7l-0.5-3.4l-0.3-4.8l-1.3-1.3v-3.2h2.5l1.3,2.3l1.5,0.6l2.5-0.7l1.3-2.2v-3.2
+l0.9-2.3l-2.8-1.3l-3.6-2.2l-0.8-2.2l1.3-1.1l0.9-0.7l1.8-0.3l0.5-0.1l1.5,0.6l0.1-6.2l2.9-0.3l-0.2-1.9l-2.2-0.4l-3.7-0.4
+l-1.2,0.7l-1.7,1.6l-3.9,1.3l2.3-2.8l2.9-4.1l1.8-2l-0.4-0.9l-0.5-1.2l-2.2-2.3l0.6-3.2l1.1-2.8l3.5-5.1l-15-5l-0.2,2.8
+l-1.7,2.7l-0.2,3.9l-4.1,2.8l-2,2.4l-0.2,4.7l-2.7,2.1l-1.3,4.5l-3.1,3.8l-2,4.2l-0.4,3.6l0.3,4.7l1.2,2.1l2.2,3l-0.4,2.2
+l-3.1,6.7l0.1,0.7l0.4,3.3l2.3,4l2.2,2l3.1,1.1l4.1,1.2l3.2,0.2l2.8,1.6l1.6,0.4l0.9-1.5l2-0.4l2.5,0.1l1.8-0.6l5.3-1.3l2.9-1
+l2.1,1l0.3,1.1l0.6,2.1l-2.1,2l-2.6,1.3l0.9,2.4l2.2,0.8l1.8,1.3l5.4,0.6l0.4,0.3l2.3,1.5h0.3l2.7,0.3l6.3,0.5l4.4,0.1l3.9-1.8
+l2.8,1.2l0.7,0.4l0.5,0.3l3.7-0.6l2.2-0.5l3.8,1l5.1-0.8l5-1.3l7-2.2l0.6-2.2h3.7l0.9-1.1l-1-1.4l1.9-3l6.5-4l4.7-3.6l2.8-3.9
+L263.1,60.6z"
+                  className="st51"
+                ></path>
+
+                <Link
+                  to={{
+                    pathname: "/mapPage",
+                    state: {
+                      centerCoor: [41.000078, 71.67257],
+                      viloyat: "Namangan viloyati",
+                    },
+                  }}
+                  xlinkTitle="Namangan"
+                >
+                  <path
+                    onMouseEnter={() => {
+                      props.changeRoadLength(CountRegionsRoad("Namangan viloyati"));
+                    }}
+                    onMouseLeave={() => {
+                      props.changeRoadLength(CountRespublicRoad());
+                    }}
+                    className="region"
+                    data-v-3b6a8222=""
+                    id="NG"
+                    d="M743.1,233.8l-0.3-0.3l-0.3-0.2l-0.1-0.5l-1.2-0.7l-0.3-0.6l-1-0.4h-0.3l0.1-0.6v-1.4l-0.3-1.8
+l-0.8-1.2l-1.9-2l-0.7-5.5l3-3.1l0.5-1l2.7,0.1l1.9-1.2l0.5-0.6l0.9-0.6l1.4-0.3l1.4,0.1l1.2-0.7l1.2,0.2l0.4,0.8l2.7,3.2
+l0.5,1.5l-0.2,0.8l-0.5,0.8l0.1,1.5l0.3,0.7l0.7,0.8l-0.1,0.4l-0.8,0.8v1l0.3,0.8l0.7,0.7l1.2,0.4l0.7-0.2l0.4-0.4l0.9-1.7
+l0.4-0.4l0.5-0.2l0.4,0.3l0.6,0.6l1,0.5l0.9,0.6l0.6,1.1l1,0.3l2.8-1.5h0.3l1.1,0.6l0.8,0.2l0.5,0.7l0.5,0.4l1.5,0.4h0.5
+l0.7-0.3l0.9-0.7h0.7l0.6-0.7l0.4,0.7l0.8,0.1l0.7-0.4l-0.1-0.6l0.3-0.2l0.9,0.4l0.2,0.2l0.3,1l-0.2,1.9l0.3,0.5l0.7,0.2
+l0.8-0.1l0.9-0.7l0.5-0.7l0.3-1.1l0.2-0.2l0.3-0.2h0.3l0.2,0.1l0.7,0.6l0.2,0.3l0.2,1.3l0.3,0.4l0.5,0.3h0.9l1.3-1.1v-0.4
+l0.7-1.2l0.3-1.6l1-1.7l-0.5-0.9l-0.9-0.3l-0.1-0.4l0.3-0.7l-0.3-0.6l1.3-1.3l0.8,0.4l1-0.2l0.4-0.2h0.6l0.2,0.1l0.7,0.6l1,0.2
+l0.7-0.5l0.2-0.6l0.4-0.6l0.6-0.4l0.3-0.5h0.9l0.4-1l0.3-0.5l0.6-0.5l0.5-0.8l-0.9-1l0.4-0.7l0.4-1.1l-0.2-0.6l-0.7-0.8
+l-0.7-0.2l-1.2-0.1l1.3-0.4l0.5-0.5l0.8-1.1l0.6-0.5h1l-0.3,0.8l0.1,0.6l-0.1,0.3l0.3,1.2v0.2l-0.4,0.6l-0.9,0.9l-0.2,0.6
+l0.1,0.4l0.5,0.8l0.8,0.4l0.7-0.4l0.1-0.7l-0.4-0.5l0.4-0.2l0.2,0.4l0.4,0.7l0.9-0.2l0.4-0.4l0.1-0.7l0.7,1.2l1.5,1.1l0.5,0.7
+l-0.3,1l0.2,0.4l0.6,0.3l1.3-0.2l0.4-0.5v1.1l0.3,0.6l1,0.9l1,0.4l-0.5,0.8l-0.4,0.6l-0.8,0.6l-1,1.4l-0.7,1.8l0.2,0.4l0.6,0.2
+h0.3v0.5l0.5,0.5l1.8,0.5l0.6,0.1l0.7,0.2l1.3-0.7l1,0.1l1.1,0.2l1.8,0.9l0.9,0.3l0.5-0.1l2-1.1h0.5l1.2,0.3l0.5-0.2l0.5,0.2
+l0.4,0.4l0.8,3.7l0.4,0.6l-0.3,0.5l-0.4,0.2l-1.4,0.3l-0.4,0.6l0.7,0.6l0.3,0.2l-1.2,4.3l-0.3,0.2l-0.4,0.1l-4.9,0.4l-1.5-0.1
+l-3.4-0.6l-0.7-0.4l-0.7-0.2h-4.1l-9,1.8l-1.5,0.7l-2.4,1.7l2.3,2.1l-1.4,0.7l-3.5,0.8l-4.4,1.8l-1.4,0.7l-0.8,1.2l-0.7,0.7
+l-3.1,2.2l-0.6,0.2l-5.9-2.1l-1.8-1.4l-0.7-1.3l1.2-1.2l0.5-0.5v-0.7l-7.6,0.1l-3.5,0.5l-5.2,1.2l-1.3-0.9l-0.5-0.2h-0.3
+l-1.2-0.5l-1.1-0.1l-1.2,0.1v-0.8l0.4-0.9l0.4-1l-0.3-0.2l0.1-0.2l-0.5-1l-1-0.6l-0.2-0.4h-0.3l-0.4-0.7l-1.2-1.3l-0.4-0.7
+l-1.1-1l-1.2-1.4L743.1,233.8"
+                  ></path>
+                </Link>
+
+                <Link
+                  to={{
+                    pathname: "/mapPage",
+                    state: {
+                      centerCoor: [41.311151, 69.279737],
+                      viloyat: "Toshkent viloyati",
+                    },
+                  }}
+                  xlinkTitle="Tashkent"
+                >
+                  <path
+                    onMouseEnter={() => {
+                      props.changeRoadLength(CountRegionsRoad("Toshkent viloyati"));
+                    }}
+                    onMouseLeave={() => {
+                      props.changeRoadLength(CountRespublicRoad());
+                    }}
+                    className="region"
+                    data-v-3b6a8222=""
+                    id="TOV"
+                    d="M775.6,174.6l0.5,0.3l-0.3,0.3l-0.1,1.2l-0.4,0.1l-0.8,0.5l-0.3,0.4l-1-0.2h-0.9l-1.3,0.4
+l-2.9,2.1l-0.7,0.2l-1.9,1.5l-0.6,0.2l-1.4,0.9l-0.9,0.4H762l-0.7-0.1l-2-0.8H758l-0.9,0.3l-0.3,0.3l-0.2,0.6l-0.6,0.4l-0.5,1
+l1,1.3l-0.1,1.2l-0.2,0.3l-0.8,0.6l-1,0.1l-0.9-0.3l-1-0.5l-0.6,0.4l-0.2,0.6l-1-0.3h-0.8l-1.4,0.5l-1.2,0.9l-0.8,1.3l-0.3,0.3
+l-1.3,0.7l-0.3,1l-2,1.1l-1.3,0.4l-0.8,0.5l-0.4,0.5L740,197l-0.6,0.9l-1.5,0.8l-0.5,0.1l-2.3,1l-1,1l-1.5,1.1l-0.7,0.2h-1.4
+l-1.7,1.2l-1.2-0.1l-0.8,0.1l-1.6,0.5l-0.5,0.5l-0.3,0.7l-0.1,1.7l0.2,1l0.3,0.5l0.9,0.4l1.4-0.1l1,0.2l1-0.1l0.6-0.2h0.8l1,0.1
+l1.2,0.4l0.9,1.2l0.8,0.6l1.2,0.1l1.1,1l0.9,0.5l0.4,0.4l0.4,0.6l-0.6,1.3l-3.1,3.3l0.8,6l2,2.1l0.7,1l0.3,1.7v1.3l-0.1,0.6
+l-0.4-0.1l-1.5,0.5l-0.8,0.6l-0.4,0.8l-0.4,0.2l-0.2,0.6l0.3,1l-0.3,0.4v0.6l-0.7,0.6l-0.2,0.8l0.3,0.8l-0.4,0.8l-0.8,0.3h-1.3
+l-1.8,0.8l-0.8,0.8l-0.9,0.3l-1.4,0.7l-0.9-0.1l-1.2-0.3l-0.9,0.1l-0.6,0.6l-0.4,0.8l-2.6,2l-1.4,0.4l-1.2,0.7l-0.7,0.2l-2,0.2
+l-1.1,0.5l-1,0.7l-1.6-0.7h-0.7l-1.3,0.6l-0.9,0.8l-1.6-0.3l-0.9,0.2l-0.7,0.4l-1.5,2.4l-0.7,0.4l-1.5,0.1l-0.4-0.1l-0.7-1.3
+l-0.6-0.2l-0.7-0.1l-0.6-0.6l-1.3-0.7l-0.5-0.5l-0.2-0.9l-0.9-1.4l-1-0.8l-1.4-0.1l-2.6-0.5l-0.8-0.3l-2.1,0.2l-2,2.2l-0.3,0.8
+l-0.3,0.3l-0.3,3.2l0.4,1l0.5,0.9l-0.2,0.7l-0.4,0.2l-0.6,0.8h-0.9l-2.1,0.2l-1.8,0.9l-0.4,0.7l0.1,0.4l1.5,1.6l0.6,0.4
+l-0.4,0.6v0.9l0.5,0.4l0.7,1.7l0.1,0.7l0.6,0.4l0.2,0.5v0.7l0.6,0.6l0.9,0.5v0.7l-0.3,0.4v0.7l-0.9,0.6h-0.6l-2.2-0.2l-0.4,1
+l0.4,0.5l-0.3,0.7l0.7,0.6l1.5,0.2l0.9,1.5l-0.9-0.4h-2.1l-1.4-0.3L678,271l-1,0.1l-1.1-0.3h-0.7l-2.2-0.1l0.2-3.5l-0.6-0.9
+l-0.1-0.4v-0.8l1-3.9l0.9-4.2l0.5-3.9l-3.4-3.6l-0.7-0.1l-4.8-3l-5.1-3.5l-3.6-2.7l-4.8-4.1l0.6-0.4l1.8-0.5l1.5-1l0.3-0.4
+l0.2-1.3l0.7-1.2l1.7-1.6l0.5-0.9l0.7-0.9l1.5-1.6l1.5-1.1l0.6-0.6l0.5-0.2l0.9,0.1l0.6-0.3l0.3-1.5l1.3-0.8l0.4-0.5l0.2-2.1
+l1.9-2.2l0.9,0.5l0.9,0.1l1-0.5l1.2-2.2l2.2-0.9l0.6-0.5l0.7-1.5l1-0.4l1.3-0.2h1.5l0.4,0.1l1.1,0.5h0.7l1.4-0.3h0.8l0.6-0.2
+l2.3,0.3l0.8-0.3l0.5-1.2l-1.5-0.7l-0.2-0.3l0.6-0.9l1.6-1l2-0.3l0.8-0.3l0.4-0.3l0.6-1.3l0.3-0.3l1.3-1.1l1-0.6l0.4-0.5
+l1.2-0.8l0.4-0.1l2.8-0.5l0.8-0.3l0.7-0.5l0.2-0.4l0.7-0.1l2.5-0.2l1.8-0.8l0.9,0.2l1.4,0.9l3.5-1.1l1.7-3.2l0.6-0.2l0.2,0.7
+l0.3,0.5l0.7,0.2l0.5-0.1l0.6-0.4l0.7-1.7l1.2-0.7l3.4-1.3l0.7-1l0.7-1.5l0.4-0.5l1-0.7l0.9-1l1-0.4h0.7l0.6-0.5l0.9-0.2
+l1.4-0.7l0.1-1.1l-0.4-1.1l-0.1-0.8l1.8-1l0.3-0.6l0.9-0.6l0.3-0.4l0.1-1.4l1-0.8l2.7,2.2l2.6,1.1l0.4,0.5l-0.1,1.2l0.3,0.8
+l1,0.2l1.3,0.9h0.7l1.1-0.3l0.4-0.6l1-2.4l0.9-1.4l0.2-1l0.7-0.7l1-0.6l0.6-0.8l0.8-0.5l0.9-1.1l0.7-0.6l0.5-0.4l1.2,0.7h1.1
+l1.3-0.8l1-0.4l1-0.5l1.8-1.7l1.1,0.3h1l1.4-1l1-0.4l0.8-0.2l1.5,0.5l1.9,0.2l0.8,0.4l3.5,2.3L775.6,174.6z M687.7,217.2
+l-0.2-0.9l0.5-0.5l-0.1-0.1l-0.1-0.5l-0.5-0.4l-0.1-0.9l-1.3,0.2l-0.4,0.5l-0.6,0.1l-0.7,0.5l-0.8-0.1l-0.3,0.4l-0.3-0.1
+l-0.6,0.1l-1.6-0.7H680l-0.3,0.3l-0.6,0.2l-0.7-0.1l-0.1-0.2h-0.7l-1.5,1.3L676,217l-0.5,1l-0.1,0.7l-0.1,1.2l0.2,0.5l1.2,0.2
+l0.5,0.3l0.4-0.2h0.1l0.4,0.7l0.6,0.1l0.2-0.1l1,0.2l1.1-0.1V221l0.8-0.5l0.9,0.1h0.2l-0.1,0.1l0.6,1l0.7,0.3l1-0.1l0.4-0.2
+l1.1-1l0.2-0.6v-0.8l-0.2-0.5l-0.5-0.5l0.3-0.3l0.6-0.3l-0.3-0.5V217l0.2-0.3L687.7,217.2"
+                  ></path>
+                </Link>
+
+                <Link
+                  to={{
+                    pathname: "/mapPage",
+                    state: {
+                      centerCoor: [40.38942, 71.783009],
+                      viloyat: "Farg'ona viloyati",
+                    },
+                  }}
+                  xlinkTitle="Ferghana"
+                >
+                  <path
+                    onMouseEnter={() => {
+                      props.changeRoadLength(CountRegionsRoad("Farg'ona viloyati"));
+                    }}
+                    onMouseLeave={() => {
+                      props.changeRoadLength(CountRespublicRoad());
+                    }}
+                    className="region"
+                    data-v-3b6a8222=""
+                    id="FG"
+                    d="M792.6,244.5l3.7,4.1l0.3-1.8l3.8,0.4l3,1.2l0.5,0.4l2.5,2.9l9.9,1.3h0.5l0.2-0.1l2.1,0.3
+l4,0.9l0.2,0.4l0.1,2.4l-1.1-0.2l-0.8,0.1l-0.6,1.2l-0.3,0.3l-0.6,0.4l-0.4,0.1l-0.6-0.1l-1.4-0.7l-0.8,1.4l0.5,1.4l-0.7,0.7
+l-0.1,0.5l-1.5,0.5l-1.1,1.1l-0.5,0.3l-0.8,0.9l-1.1,0.4l-1.1,0.8l-0.3,0.5l0.4,0.7l1.1,0.2l0.7,0.5l-1,0.8l-0.6,0.9l-0.2,0.2
+L810,270h-0.4l-1.2-0.7l-2.5-0.5l-0.8,0.5l-0.2,0.6l0.1,0.3l0.8,0.9l-0.4,0.3h-0.6l-2.7,1.3L801,273l-1,0.5l-0.5-0.6l-0.6-0.6
+l-0.3-0.1l-0.2-0.2l0.1-1.6l-0.2-0.7l-0.8-0.9l-0.8-0.4l-1-0.1l-1.7,0.1l-0.2,1l0.3,1.1l-0.2,0.6l-0.5-0.4h-1.3l-0.5,0.1
+l-0.8-0.4l-1.7-0.6l-0.1-0.2l0.2-1.1l-0.4-0.7h-1.6l-1.5-0.3l-0.5-0.3l-1.1-1l-0.5-0.3l-0.8-0.2l-0.6,0.2v-0.3l-0.8-0.5
+l-1.8,0.6l-0.6,0.1v-1.1l-2,0.1l-1-0.2l-1.2-0.1l-1,0.1l-1.4,0.3h-1l-0.7,0.2l-2.7,1.4l-1.9,0.3l-2.3,0.8l-0.6,0.3l-0.3,0.5
+l0.4,0.8l-0.1,0.4l-2.1,0.1l-1.9,0.3l-0.4-0.1l-1.9,1.1l-2.5,0.8l-1.5,0.2l-1.5,0.1l-3.1,0.5l-0.6-0.2l-1.1-1.5l-0.4-0.8
+l-0.8-0.3l-0.3-0.4l0.1-1.1l0.4-0.9L745,266l0.1-0.8l-0.3-0.5l-0.9-0.7l-3.2-1.1l-1.7-0.3l-1-0.3h-0.5l-1,0.3h-0.2l-0.3-0.1
+l-0.2-0.2l-0.4-0.8l-0.5-0.4l-0.2-0.4l-1-1.4v-0.2l0.6-0.1l1.1-0.7l1.1-0.2l1.2-0.5l2-0.6h0.9l0.8-0.5l0.1-0.7l0.5-0.3l0.1-0.8
+l0.1-0.2l0.2-0.1h0.5l0.9,0.1l0.5-0.3h0.6l0.7-0.2l1-1l1.2-1.8l0.2-0.2l0.7-0.1l0.7-0.6l0.6-0.2l0.1-0.2l0.4-0.1l0.4-0.4
+l0.6-0.1l0.3,0.2l1,0.1l0.1-1l-0.1-0.4h1l0.6-0.6l0.3-0.8l0.6-0.4l0.3-0.1l0.3-0.2l4.9-1l3.4-0.5l6.2-0.1l-1.5,1.4l1,1.8
+l2.1,1.6l6,2.2l0.7,0.1l1-0.4l3.3-2.4l0.8-0.8l0.7-1.1l1.1-0.6l4.2-1.8l0.5-0.1L792.6,244.5z"
+                  ></path>
+                </Link>
+
+                <Link
+                  to={{
+                    pathname: "/mapPage",
+                    state: {
+                      centerCoor: [37.229019, 67.276754],
+                      viloyat: "Surxondaryo viloyati",
+                    },
+                  }}
+                  xlinkTitle="Surkhandarya"
+                >
+                  <path
+                    onMouseEnter={() => {
+                      props.changeRoadLength(CountRegionsRoad("Surxondaryo viloyati"));
+                    }}
+                    onMouseLeave={() => {
+                      props.changeRoadLength(CountRespublicRoad());
+                    }}
+                    className="region surxon"
+                    // data-v-3b6a8222=""
+                    id="SU"
+                    d="M619.7,327.4l1.3,0.9l1.4,0.3l1.9-0.8l1,0.1l1.1,0.5l0.8,1.3l0.4,0.9l2.8,1.6l0.1,0.4l-0.1,0.8
+l-0.4,0.2l0.3,1.7l-1.1,0.4l-0.6,0.7l-0.8,0.2l-2.8,0.3l-0.7,0.8l2.7,2.9l-1.7,0.3l-1.6,1.2l0.6,1.4l0.9,1.5l-0.5,0.6l-0.3,4.5
+l2.7,2.6l0.9,0.5l-0.3,0.6l-0.9,1.1l-0.5,1.4h1.2l1.5-0.5l1.8,0.6l1.4,1.8l0.2,0.5l0.1,1.2l0.4,0.3l1.5,0.4l1.4,0.5l1,0.5
+l1.9,1.9l0.9,1.4l1.1,1.1v0.5l-0.3,1l-1.1,2.9l-0.1,0.8l-2.3,1.8l-1.8,2.6l0.1,1.3l-0.5,0.9l0.1,0.6l-0.2,0.5l-2.4,0.8l-4.4,0.6
+l-1,1.3l-3.2,5.3l-1.1,1.3L621,389l-2.5,2.4l-1.1,2l-1.3,1.9l-1.7,1.2l-1.2,3.2l-0.1,2.2l0.3,3.1l-0.5,5.2l-0.7,1.8l-0.5-0.5
+l-1.7-1.1l-1-0.3l-1.5,0.1l-1.1-0.6l-1.2-0.5l-0.8,0.1l-1.5,0.5l-0.8,0.5l-0.4,0.3l-0.5-0.3l-0.5-1.1l-0.9-0.6l-1.1-0.4
+l-0.9,0.1l-0.8,0.4l-1.8,1.3l-1.3,0.3l-1.2,0.5l-1.3,0.1l-2.1,0.4l-1,0.8l-1.3,0.4l-1-0.5l-0.2-1.1l-0.4-0.6l-0.8-0.3l-0.3-0.6
+l-0.4-0.3l-1.1-0.4l-0.6-0.3l-0.8,0.1l-1.7-0.7l-0.3-0.3l0.3-1.2l-0.5-0.9l-1.9-0.7l-1.4-1.1l-0.6-0.3l-2.1-0.6l-2.1,0.1
+l-3.8,1.3H566l-0.9,0.1l-2.3,0.6l-1.9-0.4h-1.1l-1.2,0.3l-1.6-0.3l-1.5,0.2l-1.2-0.1l-1.9,0.1l-1,0.3l-0.3-1.1l0.1-0.4l0.3-0.4
+l0.8-0.4l1.1-0.4l3.4-0.8l0.4-0.7v-0.8l-0.5-0.9l-4.8-4.4l-0.2-1l0.5-4.4l-0.3-1.2v-0.4l0.4-2.4l0.7-1.3l0.7-0.9l0.8-0.6
+l0.6-1.1l0.5-0.5l2.3-1l0.6-0.4l0.3-0.8v-0.8l-0.6-0.9L558,376l1-3.2l0.4-0.9l11.8-9.5l3.6-1.5l2-1.1l2.5-1.9l0.6-0.8l0.4-1.2
+l0.1-1.2l0.7-2.5l9.1-7l1.3-1.8l0.8-1l0.5-0.5l0.4-0.2l1-0.2h1.3l0.9,0.2l1.5,1.1l1.2,0.3l1.5-3.8l-0.2-3.4l-0.2-0.5l-0.5-0.5
+l-1-1.6l-0.6-2.4l0.4-0.7l0.6-0.4l0.4-0.2l0.8-0.2l4.2-0.2l1.1-0.5l0.5-0.4l1.2,0.5l1-0.3l0.7,0.2l1.2-0.6l1.8-0.1l1.3,0.6
+l2,0.2l1.1-1.1l2-0.1L619.7,327.4z"
+                  ></path>
+                </Link>
+              </g>
+            </g>
+          </g>
+        </svg>
+
+        {/* <!-- end svg --> */}
+      </div>
+      <div className="bino" />
+    </>
+  );
+}
+
+export default Uzbmapsvg;

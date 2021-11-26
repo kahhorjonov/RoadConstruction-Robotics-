@@ -1,0 +1,48 @@
+.contact {
+  width: 100%;
+  background-color: #191919;
+  color: #fff;
+}
+
+form label {
+  width: 150px;
+}
+
+form input,
+.district,
+.regionSelect {
+  height: 50px;
+}
+
+.form input,
+.form textarea,
+.district,
+.regionSelect {
+  background-color: #373233;
+  color: white;
+  outline: none;
+  border: none;
+  padding: 10px;
+  margin: 10px;
+  width: 400px;
+}
+
+.form button {
+  width: 150px;
+  height: 50px;
+  outline: none;
+  border: none;
+  border-radius: 3px;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: black;
+  color: white;
+  margin-left: 160px;
+  margin-top: 10px;
+}
+
+form button:hover {
+  background-color: #fff;
+  color: #000;
+  transition: 1s ease;
+}

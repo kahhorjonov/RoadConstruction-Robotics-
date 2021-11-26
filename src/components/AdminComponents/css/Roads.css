@@ -1,0 +1,54 @@
+.roadsmain {
+  margin-left: 18%;
+  width: 80%;
+}
+.creatcompany{
+  float: right;
+  width: 80%;
+  margin-top: -50px;
+}
+
+.rigisterForm{
+  float: right;
+  width: 80%;
+}
+
+.marBot {
+  margin-bottom: 15px;
+  margin-left: 10%;
+
+}
+
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.formcontrol {
+  width: 400px;
+  height: 30px;
+  margin: 10px;
+  border: 3px solid rgb(48, 142, 230);
+  border-radius: 3px;
+  font-size: 15px;
+}
+
+.formcontrol-text {
+  height: auto !important;
+}
+
+.formcontrol-btn {
+  width: 150px;
+  height: 40px;
+}
+
+.invalid {
+  border: 1px solid red !important;
+}
+input,
+textarea {
+  outline: none !important;
+  box-shadow: none !important;
+}
