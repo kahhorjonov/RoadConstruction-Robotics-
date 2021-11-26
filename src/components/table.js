@@ -80,7 +80,7 @@ const Table = () => {
 
   return (
     <>
-      <div className="w-75 vh-100 m-auto">
+      <div className="w-100 vh-100 m-auto">
         <table className="adminTable table table-striped">
           <thead>
             <tr>
