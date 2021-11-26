@@ -30,7 +30,7 @@ class Roads extends Component {
       );
       const Tayyor = roads.filter((road) => road.status === "Tayyor");
       const Tamirlanayotkan = roads.filter(
-        (road) => road.status === "Ta'mirlanayotkan"
+        (road) => road.status === "Ta'mirlanmoqda"
       );
 
       this.setState({ Rejalashtirilmoqda, Tayyor, Tamirlanayotkan });
