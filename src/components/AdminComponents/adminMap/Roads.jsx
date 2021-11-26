@@ -53,7 +53,7 @@ class Roads extends Component {
             <ol className="breadcrumb">
               <li>
                 <a href="/admin">
-                  <em className="fa fa-home"></em>
+                  <em className="fa fa-home mr-2"></em>
                 </a>
               </li>
               <li className="active">Constructor Maps</li>
