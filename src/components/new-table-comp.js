@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 //Bootstrap and jQuery libraries
 import "bootstrap/dist/css/bootstrap.min.css";
 import "jquery/dist/jquery.min.js";
@@ -11,7 +11,6 @@ import tabletemplates from "./tabletemplate"
 import { FiFilePlus } from "react-icons/fi";
 import axios from "axios";
 import { Link } from "react-router-dom";
-import {useState} from 'react'
 import Image from "../images/userImage.jpg";
 
 
@@ -51,8 +50,8 @@ class NewTableComp extends React.Component {
     function selectFilter(val, statusVal) {
       if (statusVal === "barchasi" || statusVal === "") return val;
       else if (val.status.toLowerCase() === statusVal) return val;
-    }
-    
+    } 
+
     
     // selectni filtrlash tugatish
     
@@ -127,7 +126,6 @@ class NewTableComp extends React.Component {
                       <td>
                         <Link to={{ pathname: "/more", state: { dataItem } }}>
                           <FiFilePlus /> batafsil...
-                          {/* <FiFilePlus /><button>Open Popup</button> */}
                         </Link>
                       </td>
                     </tr>
