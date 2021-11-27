@@ -21,7 +21,7 @@ function About() {
             data-aos-duration="1000"
             data-aos-delay="500"
           >
-            Biz haqimizdaaaaaaaa
+            Biz haqimizda
           </h3>
           <h5
             className="text-light fw-light my-3 w-75"
