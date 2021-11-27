@@ -11,9 +11,6 @@ import "jquery/dist/jquery.min.js";
 import "datatables.net-dt/js/dataTables.dataTables.min.js";
 import "datatables.net-dt/css/jquery.dataTables.min.css";
 
-import ReactPaginate from "react-paginate";
-import $, { data } from "jquery";
-
 const apiEndpoint = "http://yolproject.herokuapp.com/api/road/deleteroad";
 const api = "http://yolproject.herokuapp.com/api/road/getroads";
 
@@ -23,7 +20,7 @@ const Table = () => {
   const [error, setError] = useState(null);
   const [posts, setPosts] = useState([]);
   const [currentPage, setCurrentPage] = useState(1);
-  const [postsPerPage] = useState(5);
+  const [postsPerPage] = useState(10);
 
   useEffect(() => {
     const fetchPosts = async () => {
@@ -68,7 +65,7 @@ const Table = () => {
 
   return (
     <div className="MainDiv my-4 overflow-hidden" id="table">
-      <h1 class="jumbotron text-center text-primary mb-3">Yo'llar ro'yxati</h1>
+      {/* <h1 class="jumbotron text-center text-primary mb-3">Yo'llar ro'yxati</h1> */}
       <div className="container">
         <div className="container mt-5">
           <Posts

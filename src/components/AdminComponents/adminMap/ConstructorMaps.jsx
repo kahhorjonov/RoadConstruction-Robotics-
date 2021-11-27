@@ -7,6 +7,7 @@ import "../css/Roads.css";
 import "../css/styles.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "font-awesome/css/font-awesome.min.css";
+import Table from "./../../table";
 
 class ConstructorMaps extends Component {
   async componentDidMount() {}
@@ -25,7 +26,9 @@ class ConstructorMaps extends Component {
                   All Roads Table
                 </div>
                 <div className="panel-body no-padding">
-                  <div className="App"></div>
+                  <div className="App">
+                    <Table />
+                  </div>
                   {/* <CreateTableAdmin /> */}
                 </div>
               </div>

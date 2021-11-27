@@ -37,7 +37,7 @@ const Posts = ({ posts, loading, error, onEdit, onDelete }) => {
                     <td>{post.region}</td>
                     <td>{post.name}</td>
                     <td>{post.status}</td>
-                    <td>{post.length}</td>
+                    <td>{post.lenghth}</td>
                     <td>{post.separatedMoney}</td>
                     <td>{post.usedMoney}</td>
                     <td>{post.startedAt}</td>
