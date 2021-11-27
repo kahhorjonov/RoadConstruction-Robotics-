@@ -23,9 +23,12 @@ class AllRoads extends Component {
             <div className="row">
               <div className="col-md-12">
                 <div className="panel panel-default">
-                  <div className="panel-heading">All Roads Table</div>
+                  <div className="panel-heading d-flex align-items-center">
+                    All Roads Table
+                  </div>
                   <div className="panel-body no-padding">
-                    <div className="App">{<Table />}</div>
+                    {<Table />}
+                    <div className="App"></div>
                     {/* <CreateTableAdmin /> */}
                   </div>
                 </div>
