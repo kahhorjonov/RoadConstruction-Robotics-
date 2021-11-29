@@ -30,6 +30,12 @@ class ClientMap extends Component {
     }
   }
 
+  changeColor = (status) => {
+    if (status === "Ta'mirlanmoqda") return "#00FF00";
+    else if (status === "Tayyor") return "#0000FF";
+    else return "#DC143C";
+  };
+
   render() {
     const roads = this.state.roads;
     return (
@@ -49,19 +55,13 @@ class ClientMap extends Component {
                         defaultState={mapState}
                       >
                         {roads.map((obj) => {
-                          let rang;
-                          console.log(obj);
-                          if (obj.status === "Rejalashtirilmoqda")
-                            rang = "#00FF00";
-                          if (obj.status === "Tayyor") rang = "#0000FF";
-                          else rang = "#DC143C";
                           return (
                             <Polyline
                               key={obj.id}
                               geometry={obj.coordinates}
                               options={{
-                                fillColor: rang,
-                                strokeColor: rang,
+                                fillColor: this.changeColor(obj.status),
+                                strokeColor: this.changeColor(obj.status),
                                 strokeWidth: 2,
                               }}
                             />

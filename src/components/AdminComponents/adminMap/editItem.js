@@ -9,7 +9,7 @@ const getCompanyApi =
   "http://yolproject.herokuapp.com/api/company/getcompanies";
 
 function EditItem({ onCancel, id }) {
-  const { register, handleSubmit } = useForm();
+  const { register, handleSubmit, reset } = useForm();
   const [company, setCompany] = useState([]);
   const [data, setDataApi] = useState([]);
 
@@ -43,8 +43,10 @@ function EditItem({ onCancel, id }) {
         adminId: "8d202dd6-7aa4-4b70-a749-84c55195d1e8",
         cordinates: data.cordinates,
       });
-      window.location = "/";
+      alert("Muvaffaqiyatli yangilandi.");
+      reset();
     } catch (error) {
+      alert("Yangilashda xatolik bor.");
       console.log("ERR", error);
     }
   }

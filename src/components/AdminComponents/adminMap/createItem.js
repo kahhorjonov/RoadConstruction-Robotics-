@@ -3,8 +3,6 @@ import React, { useEffect, useState } from "react";
 import { useForm } from "react-hook-form";
 
 function CreateDataItem(props) {
-  console.log(props);
-
   const [company, setCompany] = useState([]);
 
   useEffect(() => {
@@ -15,10 +13,13 @@ function CreateDataItem(props) {
       });
   }, []);
 
-  const { register, handleSubmit } = useForm({});
+  const { register, handleSubmit, reset } = useForm({});
 
   const onSubmit = (data) => {
-    postNewItem(data);
+    if (props.coor) {
+      postNewItem(data);
+      alert("Muvaffaqiyatli qo'shildi");
+    } else alert("Yo'lni belgilang");
   };
 
   const addNewItemPost = "http://yolproject.herokuapp.com/api/road/createroad";
@@ -37,9 +38,9 @@ function CreateDataItem(props) {
         responsible: newData.responsible,
         companyId: newData.companyId,
         adminId: "8d202dd6-7aa4-4b70-a749-84c55195d1e8",
-        cordinates: [props],
+        cordinates: props.coor,
       });
-      // window.location("/");
+      reset();
     } catch (error) {
       console.log("ERR", error);
     }

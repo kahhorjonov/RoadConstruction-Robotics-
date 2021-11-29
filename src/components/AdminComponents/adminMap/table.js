@@ -14,7 +14,7 @@ import "datatables.net-dt/css/jquery.dataTables.min.css";
 const apiEndpoint = "http://yolproject.herokuapp.com/api/road/deleteroad";
 const api = "http://yolproject.herokuapp.com/api/road/getroads";
 
-const Table = () => {
+const Table = ({ newCoor }) => {
   const [editId, setEditId] = useState(null);
   const [isLoaded, setIsLoaded] = useState(false);
   const [error, setError] = useState(null);
@@ -27,12 +27,6 @@ const Table = () => {
       setIsLoaded(true);
       const res = await axios.get(api);
       setPosts(res.data.data);
-      // (error) => {
-      //   setError(error);
-      //   // console.error(error);
-      //   setIsLoaded(true);
-      // };
-      // console.log(res.data.data);
       setIsLoaded(false);
     };
 
@@ -60,12 +54,11 @@ const Table = () => {
       {
         return <EditItem id={editId} onCancel={() => setEditId(null)} />;
       }
-    } else return <CreateDataItem />;
+    } else return <CreateDataItem coor={newCoor} />;
   };
 
   return (
     <div className="MainDiv my-1 overflow-hidden" id="table">
-      {/* <h1 class="jumbotron text-center text-primary mb-3">Yo'llar ro'yxati</h1> */}
       <div>
         <div>
           <Posts
