@@ -6,7 +6,7 @@ import Posts from "./posts";
 import Pagination from "./pagination";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import "../components/AdminComponents/css/tableStyle.css";
+import "../css/tableStyle.css";
 import "jquery/dist/jquery.min.js";
 import "datatables.net-dt/js/dataTables.dataTables.min.js";
 import "datatables.net-dt/css/jquery.dataTables.min.css";
@@ -64,10 +64,10 @@ const Table = () => {
   };
 
   return (
-    <div className="MainDiv my-4 overflow-hidden" id="table">
+    <div className="MainDiv my-1 overflow-hidden" id="table">
       {/* <h1 class="jumbotron text-center text-primary mb-3">Yo'llar ro'yxati</h1> */}
-      <div className="container">
-        <div className="container mt-5">
+      <div>
+        <div>
           <Posts
             posts={currentPosts}
             loading={isLoaded}

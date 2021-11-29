@@ -40,8 +40,8 @@ const Posts = ({ posts, loading, error, onEdit, onDelete }) => {
                     <td>{post.lenghth}</td>
                     <td>{post.separatedMoney}</td>
                     <td>{post.usedMoney}</td>
-                    <td>{post.startedAt}</td>
-                    <td>{post.finishedAt}</td>
+                    <td>{post.startedAt.substr(0, 10)}</td>
+                    <td>{post.finishedAt.substr(0, 10)}</td>
                     <td>{post.source}</td>
                     <td>{post.responsible}</td>
                     <td>

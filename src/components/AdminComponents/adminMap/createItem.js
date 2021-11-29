@@ -2,7 +2,9 @@ import axios from "axios";
 import React, { useEffect, useState } from "react";
 import { useForm } from "react-hook-form";
 
-function CreateDataItem({ onChangeApiState }) {
+function CreateDataItem(props) {
+  console.log(props);
+
   const [company, setCompany] = useState([]);
 
   useEffect(() => {
@@ -17,7 +19,6 @@ function CreateDataItem({ onChangeApiState }) {
 
   const onSubmit = (data) => {
     postNewItem(data);
-    // onChangeApiState(data);
   };
 
   const addNewItemPost = "http://yolproject.herokuapp.com/api/road/createroad";
@@ -36,15 +37,7 @@ function CreateDataItem({ onChangeApiState }) {
         responsible: newData.responsible,
         companyId: newData.companyId,
         adminId: "8d202dd6-7aa4-4b70-a749-84c55195d1e8",
-        cordinates: [
-          [41.171650839592864, 69.21888695032128],
-          [41.17528261681081, 69.20704231531151],
-          [41.182804938531916, 69.19863090784084],
-          [41.19473511155064, 69.1878162410928],
-          [41.19981198980439, 69.18447450667651],
-          [41.20785002528566, 69.18773607283859],
-          [41.22042366565926, 69.19837907820974],
-        ],
+        cordinates: [props],
       });
       // window.location("/");
     } catch (error) {
