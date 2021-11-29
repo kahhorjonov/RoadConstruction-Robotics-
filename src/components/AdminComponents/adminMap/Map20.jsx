@@ -1,7 +1,5 @@
 import React, { Component } from "react";
 import { YMaps, Map, Polyline } from "react-yandex-maps";
-import CreateDataItem from "./createItem";
-// import axios from "axios";
 import "../css/Roads.css";
 
 const mapState = {
@@ -33,8 +31,8 @@ class Map20 extends Component {
         planningRoads.push(coor);
         this.props.changeCoor(coor);
       }
-      // console.log(event.originalEvent.target.geometry._coordPath._coordinates);
-      // console.log(planningRoads);
+      console.log(event.originalEvent.target.geometry._coordPath._coordinates);
+      console.log(planningRoads);
     });
   };
 
