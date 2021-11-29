@@ -21,12 +21,7 @@ function Contact() {
   const Tumanlar = () => {
     return (
       <div>
-        <label
-          for="district"
-          data-aos="fade-right"
-          data-aos-duration="400"
-          data-aos-delay="800"
-        >
+        <label for="district" data-aos="fade-right" data-aos-duration="400">
           Tuman *
         </label>
         <select
@@ -35,7 +30,6 @@ function Contact() {
           id="district"
           data-aos="fade-right"
           data-aos-duration="400"
-          data-aos-delay="900"
           {...register("tuman")}
         >
           <option selected disabled>
@@ -60,7 +54,6 @@ function Contact() {
             for="regionSelect"
             data-aos="fade-right"
             data-aos-duration="400"
-            data-aos-delay="600"
           >
             Viloyat *
           </label>
@@ -70,7 +63,6 @@ function Contact() {
             className="regionSelect"
             data-aos="fade-right"
             data-aos-duration="400"
-            data-aos-delay="700"
             {...register("viloyat")}
           >
             <option selected disabled>
@@ -96,18 +88,13 @@ function Contact() {
         >
           <FaEnvelope /> Biz bilan aloqa
         </h1>
-        <div className="d-flex justify-content-center gap-5">
+        <div className="contactCont d-flex justify-content-center gap-5">
           <form
             className="d-flex flex-column form"
             onSubmit={handleSubmit(onReg)}
           >
             <div>
-              <label
-                for="name"
-                data-aos="fade-right"
-                data-aos-duration="400"
-                data-aos-delay="200"
-              >
+              <label for="name" data-aos="fade-right" data-aos-duration="400">
                 F.I.O. *
               </label>
               <input
@@ -117,16 +104,10 @@ function Contact() {
                 required
                 data-aos="fade-right"
                 data-aos-duration="400"
-                data-aos-delay="300"
               />
             </div>
             <div>
-              <label
-                for="email"
-                data-aos="fade-right"
-                data-aos-duration="400"
-                data-aos-delay="400"
-              >
+              <label for="email" data-aos="fade-right" data-aos-duration="400">
                 Email *
               </label>
               <input
@@ -136,17 +117,11 @@ function Contact() {
                 required
                 data-aos="fade-right"
                 data-aos-duration="400"
-                data-aos-delay="500"
               />
             </div>
             <Viloyatlar change={handleChange} />
             <div>
-              <label
-                for="adres"
-                data-aos="fade-right"
-                data-aos-duration="400"
-                data-aos-delay="1000"
-              >
+              <label for="adres" data-aos="fade-right" data-aos-duration="400">
                 Ko'cha nomi *
               </label>
               <input
@@ -156,7 +131,6 @@ function Contact() {
                 required
                 data-aos="fade-right"
                 data-aos-duration="400"
-                data-aos-delay="1100"
               />
             </div>
             <div className="d-flex align-items-start">
@@ -165,7 +139,6 @@ function Contact() {
                 className="my-2"
                 data-aos="fade-right"
                 data-aos-duration="400"
-                data-aos-delay="1200"
               >
                 Xabar matni *
               </label>
@@ -176,7 +149,6 @@ function Contact() {
                 rows="6"
                 data-aos="fade-right"
                 data-aos-duration="400"
-                data-aos-delay="1300"
               />
             </div>
             <div>
@@ -184,7 +156,6 @@ function Contact() {
                 for="fileSend"
                 data-aos="fade-right"
                 data-aos-duration="400"
-                data-aos-delay="1400"
                 data-aos-offset="0"
               >
                 Rasm yuborish
@@ -197,7 +168,6 @@ function Contact() {
                 className="text-decoration-underline"
                 data-aos="fade-right"
                 data-aos-duration="400"
-                data-aos-delay="1500"
                 data-aos-offset="0"
               />
             </div>
@@ -205,18 +175,16 @@ function Contact() {
               type="submit"
               data-aos="fade-up"
               data-aos-duration="400"
-              data-aos-delay="1600"
               data-aos-offset="0"
             >
               JO'NATISH
             </button>
           </form>
 
-          <div className="w-25">
+          <div className="contactAboutCont w-25">
             <h3
               data-aos="fade-down"
               data-aos-duration="400"
-              data-aos-delay="1900"
               className="text-light"
             >
               Tashkilot haqida ma'lumot
@@ -225,7 +193,6 @@ function Contact() {
               className="fw-light text-light"
               data-aos="fade-left"
               data-aos-duration="400"
-              data-aos-delay="1800"
               data-aos-offset="0"
             >
               Use this bio section as your way of describing yourself and saying
@@ -238,7 +205,6 @@ function Contact() {
             <h3
               data-aos="fade-down"
               data-aos-duration="400"
-              data-aos-delay="1700"
               className="text-light"
             >
               Manzil va telefon
@@ -247,10 +213,9 @@ function Contact() {
               className="fw-light text-light"
               data-aos="fade-left"
               data-aos-duration="400"
-              data-aos-delay="2000"
             >
-              Tashkilot nomi <br /> (Manzili) <br /> (Toshkent shahar), <br />{" "}
-              (O'zbekiston Respublika) 10080 <br />{" "}
+              Tashkilot nomi (Manzili) (Toshkent shahar), (O'zbekiston
+              Respublika) 10080 <br />
               <a
                 className="text-decoration-none text-"
                 href="tel: +998 99 999 99 99"
@@ -267,7 +232,6 @@ function Contact() {
               frameborder="0"
               data-aos="zoom-in"
               data-aos-duration="1000"
-              data-aos-delay="2200"
             ></iframe>
           </div>
         </div>

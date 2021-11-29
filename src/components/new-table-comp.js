@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 //Bootstrap and jQuery libraries
 import "bootstrap/dist/css/bootstrap.min.css";
 import "jquery/dist/jquery.min.js";
@@ -6,58 +6,49 @@ import "jquery/dist/jquery.min.js";
 import "datatables.net-dt/js/dataTables.dataTables.js";
 import "datatables.net-dt/css/jquery.dataTables.min.css";
 import $, { data } from "jquery";
-import dataTable from "./table-data.json";
-import tabletemplates from "./tabletemplate"
 import { FiFilePlus } from "react-icons/fi";
 import axios from "axios";
 import { Link } from "react-router-dom";
-import Image from "../images/userImage.jpg";
-
-
 
 class NewTableComp extends React.Component {
-  
-  
-  
   state = {
     selectStatus: "",
     dataAPI: [],
   };
-  
+
   async componentDidMount() {
     const dataApiRead = await axios.get(
       "http://yolproject.herokuapp.com/api/road/getroads"
-      );
-      
-      // console.log(dataApiRead);
-      this.setState({ dataAPI: dataApiRead.data.data });
-      
-      //initialize datatable
-      $(document).ready(function () {
-        $("#example").DataTable();
-      });
-    }
-    
-    render() {
-      let id = 0;
-      
-      // selectni filtrlash boshlash
+    );
+
+    // console.log(dataApiRead);
+    this.setState({ dataAPI: dataApiRead.data.data });
+
+    //initialize datatable
+    $(document).ready(function () {
+      $("#example").DataTable();
+    });
+  }
+
+  render() {
+    let id = 0;
+
+    // selectni filtrlash boshlash
     const handleSelectStatusChange = (e) => {
       const selectStatus = e.target.value;
       this.setState({ selectStatus: selectStatus });
     };
-    
+
     function selectFilter(val, statusVal) {
       if (statusVal === "barchasi" || statusVal === "") return val;
       else if (val.status.toLowerCase() === statusVal) return val;
-    } 
+    }
 
-    
     // selectni filtrlash tugatish
-    
+
     //Datatable HTML
     return (
-      <div className="MainDiv my-4 overflow-hidden" id="table">
+      <div className="MainDiv my-4 overflow-hidden m-auto" id="table">
         <div class="jumbotron text-center bg-sky">
           <h3 data-aos="fade-down" data-aos-duration="1000">
             Yo'llar ro'yxati
@@ -88,8 +79,8 @@ class NewTableComp extends React.Component {
           </select>
         </div>
 
-        <div className="container">
-          <table id="example" class="display">
+        <div className="w-75 m-auto">
+          <table id="example" className="display">
             <thead>
               <tr
                 data-aos="flip-up"
@@ -154,4 +145,3 @@ class NewTableComp extends React.Component {
   }
 }
 export default NewTableComp;
-

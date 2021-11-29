@@ -10,14 +10,16 @@ import "font-awesome/css/font-awesome.min.css";
 import Table from "./../../table";
 
 class ConstructorMaps extends Component {
-  async componentDidMount() {}
+  state = {
+    coor: [],
+  };
 
   render() {
     return (
       <>
         <Sidebar />
         <Roads />
-        <Map20 />
+        <Map20 changeCoor={(coor) => this.setState(coor)} />
         <div className="roadsmain main">
           <div className="row">
             <div className="col-xl-12 col-md-12">

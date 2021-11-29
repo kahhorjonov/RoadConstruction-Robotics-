@@ -4,11 +4,11 @@
   color: #fff;
 }
 
-form label {
+.form label {
   width: 150px;
 }
 
-form input,
+.form input,
 .district,
 .regionSelect {
   height: 50px;
@@ -25,6 +25,7 @@ form input,
   padding: 10px;
   margin: 10px;
   width: 400px;
+  transition: 0.3s;
 }
 
 .form button {
@@ -41,8 +42,78 @@ form input,
   margin-top: 10px;
 }
 
-form button:hover {
+.form button:hover {
   background-color: #fff;
   color: #000;
   transition: 1s ease;
+}
+
+@media screen and (max-width: 1120px) {
+  .form {
+    width: 80%;
+  }
+
+  .contactCont {
+    flex-direction: column;
+    align-items: center;
+  }
+  .contactCont .contactAboutCont {
+    width: 75% !important;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 730px) {
+  .form {
+    width: 80%;
+  }
+  .form label {
+    width: 30% !important;
+    font-size: 10px;
+    padding-left: 10px;
+  }
+  .form input,
+  .form textarea,
+  .district,
+  .regionSelect {
+    width: 65%;
+    font-size: 10px;
+    margin: 5px;
+  }
+  .form input,
+  .district,
+  .regionSelect {
+    height: 35px;
+  }
+  .form textarea {
+    height: 70px;
+  }
+  .form button {
+    width: 100px;
+    height: 30px;
+    font-size: 10px;
+    margin-left: 32%;
+  }
+}
+
+@media screen and (max-width: 590px) {
+  .contact h1 {
+    font-size: 25px;
+  }
+
+  .contactCont .contactAboutCont {
+    width: 75% !important;
+    text-align: center;
+    padding: 0px 10px;
+  }
+  .contactCont .contactAboutCont h3 {
+    font-size: 20px;
+  }
+  .contactCont .contactAboutCont h5 {
+    font-size: 15px;
+  }
+  .contactCont .contactAboutCont iframe {
+    width: 220px !important;
+    height: 120px;
+  }
 }

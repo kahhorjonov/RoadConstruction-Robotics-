@@ -2,6 +2,7 @@ import axios from "axios";
 import { useEffect, useState } from "react";
 import { FaCalendarAlt } from "react-icons/fa";
 import dataTable from "../components/table-data";
+import "../styles/news.css";
 
 function News() {
   // const [dataAPI, setDataAPI] = useState([]);
@@ -22,7 +23,7 @@ function News() {
     return (
       <div className="w-100 d-flex justify-content-center">
         <div className="d-flex flex-column align-items-center">
-          <div className="w-100 d-flex py-4 justify-content-center">
+          <div className="newsCont w-100 d-flex py-4 justify-content-center">
             <h4
               className="w-25 mx-5 text-decoration-underline text-lg-end"
               data-aos="fade-right"
@@ -34,7 +35,7 @@ function News() {
               <h4
                 data-aos="fade-down"
                 data-aos-duration="1000"
-                data-aos-delay="300"
+                // data-aos-delay="300"
               >
                 {props.data.nomi}
               </h4>
@@ -42,15 +43,15 @@ function News() {
                 className="fst-italic fw-light"
                 data-aos="fade-right"
                 data-aos-duration="1000"
-                data-aos-delay="500"
+                // data-aos-delay="500"
               >
                 <FaCalendarAlt /> Dushanba, {props.data.sana}
               </h6>
               <h5
-                className="fw-light"
+                className="fw-light px-3"
                 data-aos="fade-up"
                 data-aos-duration="1000"
-                data-aos-delay="700"
+                // data-aos-delay="700"
               >
                 Describe your experience at school, what you learned, what
                 useful skills you have acquired etc.

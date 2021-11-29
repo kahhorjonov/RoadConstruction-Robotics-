@@ -19,6 +19,10 @@
   column-gap: 50px;
 }
 
+.map {
+  transition: 0.5s;
+}
+
 .imageContainer {
   z-index: 1;
   width: 400px;
@@ -114,7 +118,50 @@
     margin: 20px;
   }
   .map {
-    margin-top: -130px;
+    margin-top: -150px !important;
     transform: scale(0.75);
+  }
+}
+
+@media screen and (max-width: 660px) {
+  .malumotCont {
+    width: 300px !important;
+  }
+  .malumotCont h2 {
+    font-size: 20px;
+    margin: 0;
+  }
+  .malumotCont h4 {
+    font-size: 20px;
+  }
+  .map {
+    transform: scale(0.6);
+    margin-top: -200px !important;
+  }
+  .messengers {
+    margin-top: -80px;
+    width: 200px;
+  }
+}
+
+@media screen and (max-width: 530px) {
+  .map {
+    transform: scale(0.5);
+  }
+}
+@media screen and (max-width: 440px) {
+  .malumotCont h2 {
+    font-size: 15px;
+    margin: 0;
+  }
+  .malumotCont h4 {
+    font-size: 15px;
+  }
+  .map {
+    transform: scale(0.35);
+  }
+  .messengers {
+    margin-top: -100px;
+    width: 150px;
   }
 }

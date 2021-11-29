@@ -1,6 +1,7 @@
 .about {
   width: 100%;
   background-color: #2b2b2b;
+  padding: 30px 0px;
 }
 .aboutContainer {
   /* height: 400px; */
@@ -8,10 +9,32 @@
   justify-content: center;
   column-gap: 50px;
 }
+.aboutContainer h3 {
+  padding-top: 0 !important;
+}
 
 .userImage {
   width: 120px;
   height: 120px;
   border-radius: 50%;
-  margin-top: 70px;
+  /* margin-top: 70px; */
+}
+
+@media screen and (max-width: 520px) {
+  .aboutContainer {
+    padding: 10px !important;
+    column-gap: 20px;
+  }
+  .aboutContainer .userImage {
+    width: 80px;
+    height: 80px;
+  }
+
+  .aboutContainer h3 {
+    font-size: 17px;
+  }
+  .aboutContainer h5 {
+    width: 100% !important;
+    font-size: 15px;
+  }
 }

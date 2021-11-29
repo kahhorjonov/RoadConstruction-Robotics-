@@ -15,12 +15,9 @@ class Roads extends Component {
       "http://yolproject.herokuapp.com/api/company/getcompanies"
     );
 
-    console.log(companies);
-
     const total = companies.data.total;
 
     this.setState({ total });
-    console.log(this.state);
 
     try {
       const { data: roads } = await axios.get(
