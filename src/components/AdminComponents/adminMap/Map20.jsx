@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { Component, useState } from "react";
 import { YMaps, Map, Polyline } from "react-yandex-maps";
 import "../css/Roads.css";
 
@@ -8,13 +8,12 @@ const mapState = {
   controls: [],
 };
 
-export let planningRoads = [];
+export const planningRoads = [];
 
 class Map20 extends Component {
   state = {
     geom: [],
   };
-
   handleDelete = () => {
     const geom = [];
     this.setState({ geom });
@@ -22,14 +21,13 @@ class Map20 extends Component {
   };
 
   draw = (ref) => {
-    planningRoads = [];
+    // planningRoads = [];
     ref.editor.startDrawing();
 
     ref.editor.events.add("statechange", (event) => {
       const coor = event.originalEvent.target.geometry._coordPath._coordinates;
       if (coor.length !== 0) {
         planningRoads.push(coor);
-        this.props.changeCoor(coor);
       }
       // console.log(event.originalEvent.target.geometry._coordPath._coordinates);
       // console.log(planningRoads);
