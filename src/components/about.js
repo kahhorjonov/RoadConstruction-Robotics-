@@ -14,12 +14,11 @@ function About() {
           data-aos="zoom-in"
           data-aos-duration="1000"
         />
-        <div className="w-50 py-lg-5">
+        <div className="w-50">
           <h3
-            className="text-light my-3"
+            className="text-light pt-0"
             data-aos="fade-down"
             data-aos-duration="1000"
-            data-aos-delay="500"
           >
             Biz haqimizda
           </h3>
@@ -27,7 +26,6 @@ function About() {
             className="text-light fw-light my-3 w-75"
             data-aos="fade-down"
             data-aos-duration="1000"
-            data-aos-delay="800"
           >
             Use this bio section as your way of describing yourself and saying
             what you do, what technologies you like to use or feel most
@@ -38,7 +36,6 @@ function About() {
             className="text-light my-3"
             data-aos="fade-down"
             data-aos-duration="1000"
-            data-aos-delay="1000"
           >
             Aloqa ma'lumotlari
           </h3>
@@ -46,7 +43,6 @@ function About() {
             className="text-light fw-light my-3"
             data-aos="fade-down"
             data-aos-duration="1000"
-            data-aos-delay="1200"
           >
             Tim Baker (Your Street) (Your City) (Your State), (Your Zip/Postal
             Code) 555-555-5555 youremailhere@gmail.com

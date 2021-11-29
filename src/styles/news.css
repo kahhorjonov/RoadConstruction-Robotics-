@@ -1,0 +1,19 @@
+@media screen and (max-width: 500px) {
+  .newsCont {
+    column-gap: 5px;
+    padding: 0px !important;
+  }
+  .newsCont h4 {
+    width: 50% !important;
+    font-size: 17px;
+    margin: 0px 10px !important;
+  }
+  .newsCont h5 {
+    font-size: 15px;
+  }
+  .newsCont h6 {
+    font-size: 10px;
+    margin: 0;
+    padding: 5px 15px !important;
+  }
+}
