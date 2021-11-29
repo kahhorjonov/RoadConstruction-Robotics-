@@ -1,7 +1,7 @@
 import { Redirect, Route, Switch, Link } from "react-router-dom";
-import MapPage from "./components/mapPage";
 import { useEffect } from "react";
 import Aos from "aos";
+import MapPage from "./components/mapPage";
 import Home from "./components/home";
 import MoreData from "./components/tabletemplate";
 import LoginForm from "./components/AdminComponents/login";
