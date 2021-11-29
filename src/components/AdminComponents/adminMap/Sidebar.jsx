@@ -49,11 +49,6 @@ class Sidebar extends Component {
               </NavLink>
             </li>
             <li>
-              <NavLink className="nav-item nav-link" to="/AllRoads">
-                <em className="fa fa-bar-chart color-grey">&nbsp;</em> All Roads
-              </NavLink>
-            </li>
-            <li>
               <NavLink className="nav-item nav-link" to="/news">
                 <em className="fa fa-newspaper-o" aria-hidden="true">
                   &nbsp;

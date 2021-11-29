@@ -17,7 +17,6 @@ import "aos/dist/aos.css";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "font-awesome/css/font-awesome.min.css";
-import AllRoads from "./components/AdminComponents/adminMap/AllRoads";
 
 function App() {
   useEffect(() => {
@@ -38,7 +37,6 @@ function App() {
           <ProtectedRoute path="/clientPageMap" component={ClientPageMap} />
           <ProtectedRoute path="/news" component={News} />
           <ProtectedRoute path="/createCompany" component={CreateCompany} />
-          <ProtectedRoute path="/allRoads" component={AllRoads} />
 
           <Route path="/not-found" component={NotFound} />
           <Redirect from="/" exact to="/login" />
