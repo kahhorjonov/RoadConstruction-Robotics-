@@ -33,6 +33,7 @@ class Map20 extends Component {
       }
       // console.log(event.originalEvent.target.geometry._coordPath._coordinates);
       // console.log(planningRoads);
+      //SALOM
     });
   };
 
