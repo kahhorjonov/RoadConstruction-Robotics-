@@ -1,6 +1,7 @@
 import React, { Component, useState } from "react";
 import { YMaps, Map, Polyline } from "react-yandex-maps";
 import "../css/Roads.css";
+import Table from "../adminMap/table.js";
 
 const mapState = {
   center: [41.31983620420839, 69.28014875411984],
@@ -8,7 +9,7 @@ const mapState = {
   controls: [],
 };
 
-export const planningRoads = [];
+let planningRoads = [];
 
 class Map20 extends Component {
   state = {
@@ -21,7 +22,6 @@ class Map20 extends Component {
   };
 
   draw = (ref) => {
-    // planningRoads = [];
     ref.editor.startDrawing();
 
     ref.editor.events.add("statechange", (event) => {
@@ -31,7 +31,6 @@ class Map20 extends Component {
       }
       // console.log(event.originalEvent.target.geometry._coordPath._coordinates);
       // console.log(planningRoads);
-      //SALOM
     });
   };
 
@@ -45,7 +44,6 @@ class Map20 extends Component {
                 <div className="panel-heading d-flex align-items-center justify-content-between">
                   Draw lines to the map
                   <button
-                    // getPlanningRoads={planningRoads}
                     onClick={() => this.handleDelete()}
                     className="pull-right btn btn-danger"
                   >
@@ -82,6 +80,14 @@ class Map20 extends Component {
                   </div>
                 </div>
               </div>
+            </div>
+          </div>
+          <div className="panel-heading d-flex align-items-center justify-content-between">
+            All Roads Table
+          </div>
+          <div className="panel-body no-padding">
+            <div className="App">
+              <Table newCoor={planningRoads[planningRoads.length - 1]} />
             </div>
           </div>
         </div>
