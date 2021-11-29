@@ -1,13 +1,12 @@
 import React, { Component } from "react";
-import axios from "axios";
 import Map20 from "./Map20";
 import Roads from "./Roads";
 import Sidebar from "./Sidebar";
+import Table from "./table";
 import "../css/Roads.css";
 import "../css/styles.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "font-awesome/css/font-awesome.min.css";
-import Table from "./../../table";
 
 class ConstructorMaps extends Component {
   async componentDidMount() {}
@@ -29,7 +28,6 @@ class ConstructorMaps extends Component {
                   <div className="App">
                     <Table />
                   </div>
-                  {/* <CreateTableAdmin /> */}
                 </div>
               </div>
             </div>
