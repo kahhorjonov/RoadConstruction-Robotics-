@@ -31,8 +31,8 @@ class Map20 extends Component {
         planningRoads.push(coor);
         this.props.changeCoor(coor);
       }
-      console.log(event.originalEvent.target.geometry._coordPath._coordinates);
-      console.log(planningRoads);
+      // console.log(event.originalEvent.target.geometry._coordPath._coordinates);
+      // console.log(planningRoads);
     });
   };
 
