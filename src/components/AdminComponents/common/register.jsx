@@ -2,6 +2,7 @@ import React from "react";
 import Joi from "joi-browser";
 import Form from "./form";
 import * as userService from "../services/userService";
+import Sidebar from "./../adminMap/Sidebar";
 import "../css/Roads.css";
 
 class RegisterForm extends Form {
@@ -42,20 +43,23 @@ class RegisterForm extends Form {
 
   render() {
     return (
-      <div className="rigisterForm">
-        <h1>Register Form</h1>
-        <form onSubmit={this.handleSubmit}>
-          {this.renderInput("firstName", "Ism")}
-          {this.renderInput("lastName", "Familiya")}
-          {this.renderInput("middleName", "Otasining Ismi")}
-          {this.renderInput("region", "Hudud")}
-          {this.renderInput("username", "Username")}
-          {this.renderInput("password", "Password", "password")}
-          <h2>Admin or SuperAdmin?</h2>
-          {this.renderInput("role", "Role")}
-          {this.renderButton("Register")}
-        </form>
-      </div>
+      <>
+        <Sidebar />
+        <div className="rigisterForm">
+          <h1>Register Form</h1>
+          <form onSubmit={this.handleSubmit}>
+            {this.renderInput("firstName", "Ism")}
+            {this.renderInput("lastName", "Familiya")}
+            {this.renderInput("middleName", "Otasining Ismi")}
+            {this.renderInput("region", "Hudud")}
+            {this.renderInput("username", "Username")}
+            {this.renderInput("password", "Password", "password")}
+            <h2>Admin or SuperAdmin?</h2>
+            {this.renderInput("role", "Role")}
+            {this.renderButton("Register")}
+          </form>
+        </div>
+      </>
     );
   }
 }
