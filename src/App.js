@@ -15,6 +15,8 @@ import "aos/dist/aos.css";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "font-awesome/css/font-awesome.min.css";
+import { useEffect } from "react";
+import Aos from "aos";
 
 function App() {
   const config = {
@@ -23,15 +25,11 @@ function App() {
     },
   };
 
-  console.log(config);
+  useEffect(() => {
+    Aos.init();
+  }, []);
 
-  //   useEffect(() => {
-  //     axios
-  //       .get("http://yolproject.herokuapp.com/api/admin/getadmins", config)
-  //       .then((apiData) => {
-  //         console.log(apiData);
-  //       });
-  //   }, []);
+  // console.log(config);
 
   return (
     <>
