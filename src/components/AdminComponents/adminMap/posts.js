@@ -10,7 +10,7 @@ const Posts = ({ posts, loading, error, onEdit, onDelete }) => {
   {
     return (
       <>
-        <table class="table">
+        <table className="table">
           <thead>
             <tr>
               <th>№</th>
@@ -46,7 +46,7 @@ const Posts = ({ posts, loading, error, onEdit, onDelete }) => {
                     <td>{post.responsible}</td>
                     <td>
                       <button
-                        class="btn btn-warning"
+                        className="btn btn-warning"
                         onClick={() => onEdit(post.id)}
                       >
                         {"🖋"}
@@ -54,7 +54,7 @@ const Posts = ({ posts, loading, error, onEdit, onDelete }) => {
                     </td>
                     <td>
                       <button
-                        class="btn btn-danger"
+                        className="btn btn-danger"
                         onClick={() => onDelete(post.id)}
                       >
                         {"🗑"}

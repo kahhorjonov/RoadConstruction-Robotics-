@@ -4,11 +4,11 @@ import CreateDataItem from "./createItem";
 import EditItem from "./editItem";
 import Posts from "./posts";
 import Pagination from "./pagination";
+import "jquery/dist/jquery.min.js";
+import "datatables.net-dt/js/dataTables.dataTables.min.js";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../css/tableStyle.css";
-import "jquery/dist/jquery.min.js";
-import "datatables.net-dt/js/dataTables.dataTables.min.js";
 import "datatables.net-dt/css/jquery.dataTables.min.css";
 
 const apiEndpoint = "http://yolproject.herokuapp.com/api/road/deleteroad";

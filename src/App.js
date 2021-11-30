@@ -11,19 +11,21 @@ import ClientPageMap from "./components/AdminComponents/adminMap/ClientPageMap";
 import CreateCompany from "./components/AdminComponents/createCompany";
 import CreateAdmin from "./components/AdminComponents/common/register";
 import CreateNews from "./components/AdminComponents/adminMap/CreateNews";
+import { useEffect } from "react";
+import Aos from "aos";
 import "aos/dist/aos.css";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "font-awesome/css/font-awesome.min.css";
 
 function App() {
-  const config = {
-    headers: {
-      Authorization: "Bearer Token" + localStorage.getItem("token"),
-    },
-  };
+  // const config = {
+  //   headers: {
+  //     Authorization: "Bearer" + localStorage.getItem("token"),
+  //   },
+  // };
 
-  console.log(config);
+  // console.log(config);
 
   //   useEffect(() => {
   //     axios
@@ -32,6 +34,9 @@ function App() {
   //         console.log(apiData);
   //       });
   //   }, []);
+  useEffect(() => {
+    Aos.init();
+  }, []);
 
   return (
     <>

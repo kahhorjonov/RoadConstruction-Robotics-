@@ -1,7 +1,7 @@
 import React, { Component, useState } from "react";
 import { YMaps, Map, Polyline } from "react-yandex-maps";
-import "../css/Roads.css";
 import Table from "../adminMap/table.js";
+import "../css/Roads.css";
 
 const mapState = {
   center: [41.31983620420839, 69.28014875411984],

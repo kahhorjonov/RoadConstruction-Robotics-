@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Sidebar from "./Sidebar";
 import { useForm } from "react-hook-form";
-import { tsAnyKeyword } from "@babel/types";
+// import { tsAnyKeyword } from "@babel/types";
 
 const CreateNews = () => {
   const { register, handleSubmit, reset } = useForm({});

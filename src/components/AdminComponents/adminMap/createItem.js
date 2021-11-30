@@ -25,6 +25,8 @@ function CreateDataItem(props) {
   const addNewItemPost = "http://yolproject.herokuapp.com/api/road/createroad";
   async function postNewItem(newData) {
     try {
+      const image = newData.image[0];
+      console.log(image);
       const data = await axios.post(addNewItemPost, {
         region: newData.region,
         name: newData.name,
@@ -39,7 +41,9 @@ function CreateDataItem(props) {
         companyId: newData.companyId,
         adminId: "8d202dd6-7aa4-4b70-a749-84c55195d1e8",
         cordinates: props.coor,
+        images: image,
       });
+      console.log(data);
       reset();
     } catch (error) {
       console.log("ERR", error);
@@ -51,7 +55,7 @@ function CreateDataItem(props) {
       <h3 className="text-center p-2">Yangi ma'lumot qo'shish</h3>
       <form className="addNewItems" onSubmit={handleSubmit(onSubmit)}>
         <select {...register("region")} required>
-          <option disabled selected>
+          <option disabled defaultValue>
             Viloyatni tanlang*
           </option>
           <option>Andijon viloyati</option>
@@ -77,7 +81,7 @@ function CreateDataItem(props) {
         />
 
         <select {...register("status")} required>
-          <option selected disabled>
+          <option defaultValue disabled>
             Holatni tanlang*
           </option>
           <option>Rejalashtirilmoqda</option>
@@ -127,13 +131,24 @@ function CreateDataItem(props) {
           required
         />
         <select {...register("companyId")} required>
-          <option selected disabled>
+          <option defaultValue disabled>
             Pudratchini tanlang*
           </option>
           {company.map((comp) => {
-            return <option value={comp.id}>{comp.fullname}</option>;
+            return (
+              <>
+                <option value={comp.id}>{comp.fullname}</option>
+              </>
+            );
           })}
         </select>
+        <input
+          type="file"
+          accept="image/*"
+          {...register("image")}
+          placeholder="image*"
+          required
+        />
 
         <button type="submit" className="btn btn-primary">
           QO'SHISH
