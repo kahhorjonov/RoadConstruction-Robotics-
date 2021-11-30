@@ -9,21 +9,21 @@ import $, { data } from "jquery";
 import { FiFilePlus } from "react-icons/fi";
 import axios from "axios";
 import { Link } from "react-router-dom";
+import { CountRegionsRoad } from "./countRegionsRoad";
 
-class NewTableComp extends React.Component {
+const getDataTableApi = "http://yolproject.herokuapp.com/api/road/getroads";
+class TableComp extends React.Component {
   state = {
     selectStatus: "",
     dataAPI: [],
   };
 
   async componentDidMount() {
-    const dataApiRead = await axios.get(
-      "http://yolproject.herokuapp.com/api/road/getroads"
-    );
+    const dataApiRead = await axios.get(getDataTableApi);
 
-    // console.log(dataApiRead);
     this.setState({ dataAPI: dataApiRead.data.data });
-
+    this.props.readData(dataApiRead.data.data);
+    CountRegionsRoad({ data: dataApiRead.data.data });
     //initialize datatable
     $(document).ready(function () {
       $("#example").DataTable();
@@ -144,4 +144,4 @@ class NewTableComp extends React.Component {
     );
   }
 }
-export default NewTableComp;
+export default TableComp;

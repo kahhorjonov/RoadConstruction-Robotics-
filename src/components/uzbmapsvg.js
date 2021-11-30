@@ -4436,7 +4436,9 @@ function Uzbmapsvg(props) {
                 >
                   <path
                     onMouseEnter={() => {
-                      props.changeRoadLength(CountRegionsRoad("Andijon viloyati"));
+                      props.changeRoadLength(
+                        CountRegionsRoad("Andijon viloyati")
+                      );
                     }}
                     onMouseLeave={() => {
                       props.changeRoadLength(CountRespublicRoad());
@@ -4471,7 +4473,9 @@ L829.9,230.4z"
                 >
                   <path
                     onMouseEnter={() => {
-                      props.changeRoadLength(CountRegionsRoad("Xorazm viloyati"));
+                      props.changeRoadLength(
+                        CountRegionsRoad("Xorazm viloyati")
+                      );
                     }}
                     onMouseLeave={() => {
                       props.changeRoadLength(CountRespublicRoad());
@@ -4592,7 +4596,9 @@ L686.4,215.2z"
                 >
                   <path
                     onMouseEnter={() => {
-                      props.changeRoadLength(CountRegionsRoad("Sirdaryo viloyati"));
+                      props.changeRoadLength(
+                        CountRegionsRoad("Sirdaryo viloyati")
+                      );
                     }}
                     onMouseLeave={() => {
                       props.changeRoadLength(CountRespublicRoad());
@@ -4621,7 +4627,9 @@ l-1.3-1.5l-3.6-0.2v-0.3l4.3,0.2l0.5,0.6L649.1,233.3z"
                 >
                   <polygon
                     onMouseEnter={() => {
-                      props.changeRoadLength(CountRegionsRoad("Jizzax viloyati"));
+                      props.changeRoadLength(
+                        CountRegionsRoad("Jizzax viloyati")
+                      );
                     }}
                     onMouseLeave={() => {
                       props.changeRoadLength(CountRespublicRoad());
@@ -4667,7 +4675,9 @@ l-1.3-1.5l-3.6-0.2v-0.3l4.3,0.2l0.5,0.6L649.1,233.3z"
                 >
                   <path
                     onMouseEnter={() => {
-                      props.changeRoadLength(CountRegionsRoad("Qashqadaryo viloyati"));
+                      props.changeRoadLength(
+                        CountRegionsRoad("Qashqadaryo viloyati")
+                      );
                     }}
                     onMouseLeave={() => {
                       props.changeRoadLength(CountRespublicRoad());
@@ -4702,7 +4712,9 @@ l3.9-2.8l1.1-0.6l0.7-0.3l1.4-0.3l2.7-0.3l0.7-0.2l0.4-0.3l0.5,0.1l18.4,0.4l1.5-0.
                 >
                   <path
                     onMouseEnter={() => {
-                      props.changeRoadLength(CountRegionsRoad("Samarqand viloyati"));
+                      props.changeRoadLength(
+                        CountRegionsRoad("Samarqand viloyati")
+                      );
                     }}
                     onMouseLeave={() => {
                       props.changeRoadLength(CountRespublicRoad());
@@ -4737,7 +4749,9 @@ l0.9,0.1l0.9,1.1l1.3,0.8l2.1,0.2l1.5-0.1l2.6-1.1L549.3,252.5z"
                 >
                   <path
                     onMouseEnter={() => {
-                      props.changeRoadLength(CountRegionsRoad("Navoiy viloyati"));
+                      props.changeRoadLength(
+                        CountRegionsRoad("Navoiy viloyati")
+                      );
                     }}
                     onMouseLeave={() => {
                       props.changeRoadLength(CountRespublicRoad());
@@ -4774,7 +4788,9 @@ l14.8,0.8l14.4,0.5l12-4.3l7.3-2.4l4.5-1.7l2-0.4L478.4,97.3z"
                 >
                   <path
                     onMouseEnter={() => {
-                      props.changeRoadLength(CountRegionsRoad("Buxoro viloyati"));
+                      props.changeRoadLength(
+                        CountRegionsRoad("Buxoro viloyati")
+                      );
                     }}
                     onMouseLeave={() => {
                       props.changeRoadLength(CountRespublicRoad());
@@ -4825,7 +4841,9 @@ L263.1,60.6z"
                 >
                   <path
                     onMouseEnter={() => {
-                      props.changeRoadLength(CountRegionsRoad("Namangan viloyati"));
+                      props.changeRoadLength(
+                        CountRegionsRoad("Namangan viloyati")
+                      );
                     }}
                     onMouseLeave={() => {
                       props.changeRoadLength(CountRespublicRoad());
@@ -4865,7 +4883,9 @@ l-1.1-1l-1.2-1.4L743.1,233.8"
                 >
                   <path
                     onMouseEnter={() => {
-                      props.changeRoadLength(CountRegionsRoad("Toshkent viloyati"));
+                      props.changeRoadLength(
+                        CountRegionsRoad("Toshkent viloyati")
+                      );
                     }}
                     onMouseLeave={() => {
                       props.changeRoadLength(CountRespublicRoad());
@@ -4914,7 +4934,9 @@ l1.1-1l0.2-0.6v-0.8l-0.2-0.5l-0.5-0.5l0.3-0.3l0.6-0.3l-0.3-0.5V217l0.2-0.3L687.7
                 >
                   <path
                     onMouseEnter={() => {
-                      props.changeRoadLength(CountRegionsRoad("Farg'ona viloyati"));
+                      props.changeRoadLength(
+                        CountRegionsRoad("Farg'ona viloyati")
+                      );
                     }}
                     onMouseLeave={() => {
                       props.changeRoadLength(CountRespublicRoad());
@@ -4950,7 +4972,9 @@ l2.1,1.6l6,2.2l0.7,0.1l1-0.4l3.3-2.4l0.8-0.8l0.7-1.1l1.1-0.6l4.2-1.8l0.5-0.1L792
                 >
                   <path
                     onMouseEnter={() => {
-                      props.changeRoadLength(CountRegionsRoad("Surxondaryo viloyati"));
+                      props.changeRoadLength(
+                        CountRegionsRoad("Surxondaryo viloyati")
+                      );
                     }}
                     onMouseLeave={() => {
                       props.changeRoadLength(CountRespublicRoad());

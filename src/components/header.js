@@ -3,13 +3,7 @@ import "../styles/header.css";
 import Uzbmapsvg from "./uzbmapsvg";
 import { useState } from "react";
 import YolStatistika from "./yolStatistika";
-import {
-  FaAngleLeft,
-  FaFacebook,
-  FaInstagram,
-  FaTelegram,
-  FaTwitter,
-} from "react-icons/fa";
+import { FaFacebook, FaInstagram, FaTelegram, FaTwitter } from "react-icons/fa";
 import { CountRespublicRoad } from "./countRegionsRoad";
 
 function Header() {
