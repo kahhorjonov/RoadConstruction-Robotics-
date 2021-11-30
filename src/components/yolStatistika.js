@@ -22,14 +22,7 @@ function YolStatistika({ roadLength }) {
       data-aos-duration="1000"
       data-aos-delay="1600"
     >
-      <h5
-        className="text-center regionsName py-1"
-        // data-aos="zoom-in"
-        // data-aos-duration="1000"
-        // data-aos-delay="1600"
-      >
-        {roadLength.viloyat}
-      </h5>
+      <h5 className="text-center regionsName py-1">{roadLength.viloyat}</h5>
       <div className="d-flex">
         <StatBox
           data={{

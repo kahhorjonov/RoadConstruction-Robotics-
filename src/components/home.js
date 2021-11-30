@@ -2,17 +2,21 @@ import Header from "./header";
 import About from "./about";
 import News from "./news";
 import Contact from "./contact";
-import NewTableComp from "./new-table-comp";
+import TableComp from "./table-comp";
 import Footer from "./footer";
+import { useState } from "react";
+import { CountRegionsRoad } from "./countRegionsRoad";
 
 function Home() {
+  const [data, setData] = useState([]);
+  CountRegionsRoad({ datas: data });
   return (
     <>
-      <Header />
+      <Header data={data} />
       <About />
       <News />
       <Contact />
-      <NewTableComp />
+      <TableComp readData={(data) => setData(data)} />
       <Footer />
     </>
   );

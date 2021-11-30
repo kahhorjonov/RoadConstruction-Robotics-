@@ -2,81 +2,36 @@ import "../styles/contact.css";
 import { FaEnvelope } from "react-icons/fa";
 import { useForm } from "react-hook-form";
 import YandexMap from "./yandexMap";
-import { useState } from "react";
+import { useEffect, useState } from "react";
+import axios from "axios";
+// import { data, data, data, data } from "jquery";
+
+const contactApi =
+  "http://yolproject.herokuapp.com/api/application/createapplication";
 
 function Contact() {
   const [options, setOptions] = useState([]);
-  const { register, handleSubmit } = useForm();
+  const { register, handleSubmit, reset } = useForm();
   const onReg = (reg) => console.log(reg);
 
-  const handleChange = (e) => {
-    setOptions([
-      {
-        value: e.target.value,
-        text: e.target.options[e.target.selectedIndex].text,
-      },
-    ]);
-  };
-
-  const Tumanlar = () => {
-    return (
-      <div>
-        <label for="district" data-aos="fade-right" data-aos-duration="400">
-          Tuman *
-        </label>
-        <select
-          required
-          className="district"
-          id="district"
-          data-aos="fade-right"
-          data-aos-duration="400"
-          {...register("tuman")}
-        >
-          <option selected disabled>
-            Tuman tanlang
-          </option>
-          <option>Andijon tumani</option>
-          <option>Bo'ston tumani</option>
-
-          {/* {RegionList[0].forEach((element) => (
-          <option>{element}</option>
-        ))} */}
-        </select>
-      </div>
-    );
-  };
-
-  const Viloyatlar = ({ change }) => {
-    return (
-      <>
-        <div className="d-flex align-items-center">
-          <label
-            for="regionSelect"
-            data-aos="fade-right"
-            data-aos-duration="400"
-          >
-            Viloyat *
-          </label>
-          <select
-            required
-            id="regionSelect"
-            className="regionSelect"
-            data-aos="fade-right"
-            data-aos-duration="400"
-            {...register("viloyat")}
-          >
-            <option selected disabled>
-              Viloyatni tanlang
-            </option>
-            <option>Andijon viloyati</option>
-            <option>Fargona viloyati</option>
-            <option>Namangan viloyati</option>
-          </select>
-        </div>
-        <Tumanlar />
-      </>
-    );
-  };
+  async function sendToMessage(sendData) {
+    try {
+      const data = await axios.post(contactApi, {
+        fullName: sendData.fullName,
+        email: sendData.email,
+        phoneNumber: sendData.phoneNumber,
+        province: sendData.province,
+        district: sendData.district,
+        roadName: sendData.roadName,
+        applicationText: sendData.applicationText,
+        additionalFileName: sendData.additionalFileName,
+        createdTime: `${new Date().getDate()}.${new Date().getMonth()}.${new Date().getFullYear()} ${new Date().getHours()}:${new Date().getMinutes()}`,
+      });
+      reset();
+    } catch (error) {
+      console.log("ERR", error);
+    }
+  }
 
   return (
     <div className="d-flex justify-content-center overflow-hidden" id="contact">
@@ -98,7 +53,7 @@ function Contact() {
                 F.I.O. *
               </label>
               <input
-                {...register("fio")}
+                {...register("fullName")}
                 type="text"
                 id="name"
                 required
@@ -119,13 +74,56 @@ function Contact() {
                 data-aos-duration="400"
               />
             </div>
-            <Viloyatlar change={handleChange} />
+            <div>
+              <label for="phone" data-aos="fade-right" data-aos-duration="400">
+                Telefon *
+              </label>
+              <input
+                {...register("phoneNumber")}
+                type="number"
+                id="phone"
+                required
+                data-aos="fade-right"
+                data-aos-duration="400"
+              />
+            </div>
+
+            <div>
+              <label
+                for="viloyat"
+                data-aos="fade-right"
+                data-aos-duration="400"
+              >
+                Viloyat *
+              </label>
+              <input
+                {...register("province")}
+                type="text"
+                id="viloyat"
+                required
+                data-aos="fade-right"
+                data-aos-duration="400"
+              />
+            </div>
+            <div>
+              <label for="tuman" data-aos="fade-right" data-aos-duration="400">
+                Tumani *
+              </label>
+              <input
+                {...register("district")}
+                type="text"
+                id="tuman"
+                required
+                data-aos="fade-right"
+                data-aos-duration="400"
+              />
+            </div>
             <div>
               <label for="adres" data-aos="fade-right" data-aos-duration="400">
                 Ko'cha nomi *
               </label>
               <input
-                {...register("adress")}
+                {...register("roadName")}
                 type="text"
                 id="adres"
                 required
@@ -143,7 +141,7 @@ function Contact() {
                 Xabar matni *
               </label>
               <textarea
-                {...register("message")}
+                {...register("applicationText")}
                 id="message"
                 required
                 rows="6"
@@ -161,7 +159,7 @@ function Contact() {
                 Rasm yuborish
               </label>
               <input
-                {...register("fileSend")}
+                {...register("additionalFileName")}
                 type="file"
                 accept="image/*"
                 id="fileSend"
