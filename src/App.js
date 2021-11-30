@@ -1,6 +1,4 @@
-import { Redirect, Route, Switch, Link } from "react-router-dom";
-import { useEffect } from "react";
-import Aos from "aos";
+import { Redirect, Route, Switch } from "react-router-dom";
 import MapPage from "./components/mapPage";
 import Home from "./components/home";
 import MoreData from "./components/tabletemplate";
@@ -19,9 +17,21 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "font-awesome/css/font-awesome.min.css";
 
 function App() {
-  useEffect(() => {
-    Aos.init();
-  }, []);
+  const config = {
+    headers: {
+      Authorization: "Bearer Token" + localStorage.getItem("token"),
+    },
+  };
+
+  console.log(config);
+
+  //   useEffect(() => {
+  //     axios
+  //       .get("http://yolproject.herokuapp.com/api/admin/getadmins", config)
+  //       .then((apiData) => {
+  //         console.log(apiData);
+  //       });
+  //   }, []);
 
   return (
     <>
