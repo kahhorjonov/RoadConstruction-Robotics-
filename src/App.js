@@ -10,9 +10,9 @@ import Logout from "./components/AdminComponents/logout";
 import ProtectedRoute from "./components/AdminComponents/protectedRoute";
 import ConstructorMaps from "./components/AdminComponents/adminMap/ConstructorMaps";
 import ClientPageMap from "./components/AdminComponents/adminMap/ClientPageMap";
-import News from "./components/AdminComponents/adminMap/News";
-import RegisterForm from "./components/AdminComponents/common/register";
 import CreateCompany from "./components/AdminComponents/createCompany";
+import CreateAdmin from "./components/AdminComponents/common/register";
+import CreateNews from "./components/AdminComponents/adminMap/CreateNews";
 import "aos/dist/aos.css";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -33,9 +33,9 @@ function App() {
           <Route path="/login" component={LoginForm} />
           <Route path="/logout" component={Logout} />
           <ProtectedRoute path="/admin" component={ConstructorMaps} />
-          <ProtectedRoute path="/createAdmin" component={RegisterForm} />
+          <ProtectedRoute path="/createAdmin" component={CreateAdmin} />
           <ProtectedRoute path="/clientPageMap" component={ClientPageMap} />
-          <ProtectedRoute path="/news" component={News} />
+          <ProtectedRoute path="/createNews" component={CreateNews} />
           <ProtectedRoute path="/createCompany" component={CreateCompany} />
 
           <Route path="/not-found" component={NotFound} />

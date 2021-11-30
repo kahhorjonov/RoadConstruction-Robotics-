@@ -49,7 +49,7 @@ class Sidebar extends Component {
               </NavLink>
             </li>
             <li>
-              <NavLink className="nav-item nav-link" to="/news">
+              <NavLink className="nav-item nav-link" to="/createNews">
                 <em className="fa fa-newspaper-o" aria-hidden="true">
                   &nbsp;
                 </em>{" "}
