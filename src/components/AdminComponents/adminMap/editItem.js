@@ -1,4 +1,5 @@
 import axios from "axios";
+import jwtDecode from "jwt-decode";
 import { data } from "jquery";
 import { useEffect, useState } from "react";
 import { useForm } from "react-hook-form";
@@ -28,6 +29,7 @@ function EditItem({ onCancel, id }) {
 
   async function updateThisItem(newData) {
     try {
+      const adminId = jwtDecode(localStorage.getItem("token"));
       await axios.put(`${updateDataApi}/${id}`, {
         region: newData.region,
         name: newData.name,
@@ -40,7 +42,7 @@ function EditItem({ onCancel, id }) {
         source: newData.source,
         responsible: newData.responsible,
         companyId: newData.companyId,
-        adminId: "8d202dd6-7aa4-4b70-a749-84c55195d1e8",
+        adminId: adminId,
         cordinates: data.cordinates,
       });
       alert("Muvaffaqiyatli yangilandi.");
