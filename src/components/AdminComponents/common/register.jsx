@@ -5,6 +5,7 @@ import Sidebar from "../adminMap/Sidebar";
 import { useForm } from "react-hook-form";
 
 const getAdminApi = "http://yolproject.herokuapp.com/api/admin/getadmins";
+const deleteAdminApi = "http://yolproject.herokuapp.com/api/admin/deleteadmin";
 
 const CreateAdmin = () => {
   const config = {
@@ -13,29 +14,41 @@ const CreateAdmin = () => {
     },
   };
 
-  console.log(config);
-
   useEffect(() => {
     axios
       .get("http://yolproject.herokuapp.com/api/admin/getadmins", config)
       .then((apiData) => {
         console.log(apiData);
-        setAdminData(apiData);
+        setAdminData(apiData.data.data);
       });
   }, []);
 
+  let num = 1;
   const { register, handleSubmit, reset } = useForm({});
   const [editAdminId, setEditAdminId] = useState(null);
-  const [deleteAdminId, setDeleteAdminId] = useState(null);
   const [adminData, setAdminData] = useState([]);
+
   const onAdd = (data) => {
     console.log(data);
+    postCreateAdmin(data);
     reset();
   };
 
-  useEffect(() => {
-    axios.get(getAdminApi).then((admin) => console.log(admin));
-  });
+  const handleDeleteAdmin = async (id) => {
+    try {
+      const res = axios.delete(`${deleteAdminApi}/${id}`);
+      if (res === 204) alert("Admin muvaffaqiyatli o'chirildi.");
+    } catch (ex) {
+      if (ex.response && ex.response.status !== 204) alert("Xatolik yuz berdi");
+    }
+  };
+
+  const postCreateAdmin = async (data) => {
+    const res = await axios.post(
+      "http://yolproject.herokuapp.com/api/admin/createadmin?role=Admin",
+      data
+    );
+  };
 
   const ReadAdmin = () => {
     return (
@@ -50,10 +63,16 @@ const CreateAdmin = () => {
           </tr>
         </thead>
         <tbody>
-          {/* {adminData.map((admin) => (
+          {adminData.map((admin) => (
             <tr>
               <td>{num++}</td>
-              <td>{admin.lastName + admin.firstName + admin.middleName}</td>
+              <td>
+                {admin.lastName +
+                  " " +
+                  admin.firstName +
+                  " " +
+                  admin.middleName}
+              </td>
               <td>{admin.username}</td>
               <td>{admin.region}</td>
               <td>{admin.phoneNumber}</td>
@@ -68,13 +87,13 @@ const CreateAdmin = () => {
               <td>
                 <button
                   className="btn btn-danger"
-                  onClick={() => handleDeleteCompany(admin.id)}
+                  onClick={() => handleDeleteAdmin(admin.id)}
                 >
                   🗑
                 </button>
               </td>
             </tr>
-          ))} */}
+          ))}
         </tbody>
       </table>
     );
