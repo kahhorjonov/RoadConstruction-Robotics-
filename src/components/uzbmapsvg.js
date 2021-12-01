@@ -1,9 +1,53 @@
+import axios from "axios";
+import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import "../styles/uzbmapsvg.css";
-import { CountRegionsRoad, CountRespublicRoad } from "./countRegionsRoad";
-import MapPage from "./mapPage";
+
+const apiData = "http://yolproject.herokuapp.com/api/road/getroads";
 
 function Uzbmapsvg(props) {
+  const [tableData, setTableData] = useState([]);
+
+  useEffect(() => {
+    axios.get(apiData).then((data) => setTableData(data.data.data));
+  });
+
+  const CountRegionsRoad = (regionName) => {
+    let tamirYol = 0,
+      rejaYol = 0,
+      tayyorYol = 0;
+    tableData.forEach((data) => {
+      if (data.region === regionName) {
+        if (data.status === "Rejalashtirilmoqda") rejaYol += data.lenghth;
+        if (data.status === "Ta'mirlanmoqda") tamirYol += data.lenghth;
+        if (data.status === "Tayyor") tayyorYol += data.lenghth;
+      }
+    });
+    return {
+      viloyat: regionName,
+      reja: Math.ceil(rejaYol),
+      tamir: Math.ceil(tamirYol),
+      tayyor: Math.ceil(tayyorYol),
+    };
+  };
+
+  const CountRespublicRoad = () => {
+    let tamirYol = 0,
+      rejaYol = 0,
+      tayyorYol = 0;
+    tableData.forEach((data) => {
+      if (data.status === "Rejalashtirilmoqda") rejaYol += data.lenghth;
+      if (data.status === "Ta'mirlanmoqda") tamirYol += data.lenghth;
+      if (data.status === "Tayyor") tayyorYol += data.lenghth;
+    });
+    return {
+      viloyat: "O'zbekiston Respublikasi",
+      reja: Math.ceil(rejaYol),
+      tamir: Math.ceil(tamirYol),
+      tayyor: Math.ceil(tayyorYol),
+    };
+  };
+
   return (
     <>
       <div

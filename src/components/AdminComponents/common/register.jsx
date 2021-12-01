@@ -4,6 +4,8 @@ import { useEffect } from "react";
 import Sidebar from "../adminMap/Sidebar";
 import { useForm } from "react-hook-form";
 
+const getAdminApi = "http://yolproject.herokuapp.com/api/admin/getadmins";
+
 const CreateAdmin = () => {
   const config = {
     headers: {
@@ -30,6 +32,54 @@ const CreateAdmin = () => {
     console.log(data);
     reset();
   };
+
+  useEffect(() => {
+    axios.get(getAdminApi).then((admin) => console.log(admin));
+  });
+
+  const ReadAdmin = () => {
+    return (
+      <table className="table table-striped">
+        <thead>
+          <tr>
+            <th>№</th>
+            <th>F.I.O.</th>
+            <th>Foydalanuvchi nomi</th>
+            <th>Viloyati</th>
+            <th>Telefon nomeri</th>
+          </tr>
+        </thead>
+        <tbody>
+          {/* {adminData.map((admin) => (
+            <tr>
+              <td>{num++}</td>
+              <td>{admin.lastName + admin.firstName + admin.middleName}</td>
+              <td>{admin.username}</td>
+              <td>{admin.region}</td>
+              <td>{admin.phoneNumber}</td>
+              <td>
+                <button
+                  className="btn btn-warning"
+                  onClick={() => setEditAdminId(admin.id)}
+                >
+                  🖋
+                </button>
+              </td>
+              <td>
+                <button
+                  className="btn btn-danger"
+                  onClick={() => handleDeleteCompany(admin.id)}
+                >
+                  🗑
+                </button>
+              </td>
+            </tr>
+          ))} */}
+        </tbody>
+      </table>
+    );
+  };
+
   const CreateAdminItem = () => {
     return (
       <form
@@ -114,6 +164,7 @@ const CreateAdmin = () => {
               <div className="panel-heading d-flex align-items-center justify-content-between px-4">
                 Create Admin
               </div>
+              <ReadAdmin />
               <CreateAdminItem />
             </div>
           </div>
