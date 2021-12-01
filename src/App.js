@@ -18,6 +18,7 @@ import "aos/dist/aos.css";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "font-awesome/css/font-awesome.min.css";
+import NewsMore from "./components/newsMore";
 
 function App() {
   useEffect(() => {
@@ -29,6 +30,7 @@ function App() {
       <div className="user_container">
         <Switch>
           <Route path="/" exact component={Home} />
+          <Route path="/newsMore" component={NewsMore} />
           <Route path="/mapPage" component={MapPage} />
           <Route path="/more" component={MoreData} />
           <Route path="/login" component={LoginForm} />

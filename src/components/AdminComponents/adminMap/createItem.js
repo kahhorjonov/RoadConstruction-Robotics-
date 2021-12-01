@@ -40,7 +40,7 @@ function CreateDataItem(props) {
         source: newData.source,
         responsible: newData.responsible,
         companyId: newData.companyId,
-        adminId: "8d202dd6-7aa4-4b70-a749-84c55195d1e8",
+        adminId: "b076c00b-4337-4402-a700-959fe89a5e7d",
         cordinates: props.coor,
         images: image,
       });

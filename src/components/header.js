@@ -50,30 +50,38 @@ function Header() {
         </div>
       </div>
       <div className="messengers">
-        <FaTelegram
-          className="fs-1 icons"
-          data-aos="fade-up"
-          data-aos-duration="1000"
-          data-aos-delay="1600"
-        />
-        <FaInstagram
-          className="fs-1 icons"
-          data-aos="fade-up"
-          data-aos-duration="1000"
-          data-aos-delay="1800"
-        />
-        <FaFacebook
-          className="fs-1 icons"
-          data-aos="fade-up"
-          data-aos-duration="1000"
-          data-aos-delay="2000"
-        />
-        <FaTwitter
-          className="fs-1 icons"
-          data-aos="fade-up"
-          data-aos-duration="1000"
-          data-aos-delay="2200"
-        />
+        <a href="https://t.me/talabaTFK">
+          <FaTelegram
+            className="fs-1 icons text-light"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-delay="1600"
+          />
+        </a>
+        <a href="https://www.instagram.com/faryozbekTFK">
+          <FaInstagram
+            className="fs-1 icons text-light"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-delay="1800"
+          />
+        </a>
+        <a href="https://wwww.facebook.com">
+          <FaFacebook
+            className="fs-1 icons text-light"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-delay="2000"
+          />
+        </a>
+        <a href="https://t.me/talabaTFK">
+          <FaTwitter
+            className="fs-1 icons text-light"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-delay="2200"
+          />
+        </a>
       </div>
     </div>
   );
