@@ -44,7 +44,6 @@ function CreateDataItem(props) {
         cordinates: props.coor,
         images: image,
       });
-      console.log(data);
       reset();
     } catch (error) {
       console.log("ERR", error);
@@ -56,7 +55,7 @@ function CreateDataItem(props) {
       <h3 className="text-center p-2">Yangi ma'lumot qo'shish</h3>
       <form className="addNewItems" onSubmit={handleSubmit(onSubmit)}>
         <select {...register("region")} required>
-          <option disabled defaultValue>
+          <option disabled selected>
             Viloyatni tanlang*
           </option>
           <option>Andijon viloyati</option>
@@ -82,7 +81,7 @@ function CreateDataItem(props) {
         />
 
         <select {...register("status")} required>
-          <option defaultValue disabled>
+          <option disabled selected>
             Holatni tanlang*
           </option>
           <option>Rejalashtirilmoqda</option>
@@ -132,7 +131,7 @@ function CreateDataItem(props) {
           required
         />
         <select {...register("companyId")} required>
-          <option defaultValue disabled>
+          <option disabled selected>
             Pudratchini tanlang*
           </option>
           {company.map((comp) => {
@@ -143,12 +142,13 @@ function CreateDataItem(props) {
             );
           })}
         </select>
+
         <input
-          type="file"
-          accept="image/*"
           {...register("image")}
-          placeholder="image*"
-          required
+          accept="image/*"
+          className="form-control form-control-sm"
+          id="formFileSm"
+          type="file"
         />
 
         <button type="submit" className="btn btn-primary">
