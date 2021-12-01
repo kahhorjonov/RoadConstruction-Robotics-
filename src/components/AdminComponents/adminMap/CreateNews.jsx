@@ -16,7 +16,29 @@ const CreateNews = () => {
     },
   ]);
   const onAdd = (data) => {
-    console.log(data);
+    // const bodyFormData = new FormData();
+    // bodyFormData.append("fullname", data.fullname);
+    // bodyFormData.append("inn", data.inn);
+    // bodyFormData.append("licenseFile", data.licenseFile[0]);
+    // bodyFormData.append("sucessfullPlansFile", data.sucessfullPlansFile[0]);
+
+    // for (var pair of bodyFormData.entries()) {
+    //   console.log(pair[0] + ", " + pair[1]);
+    // }
+
+    // try {
+    //   const result = await axios({
+    //     method: "post",
+    //     url: "http://yolproject.herokuapp.com/api/company/createcompany",
+    //     data: bodyFormData,
+    //     headers: { "Content-Type": "multipart/form-data" },
+    //   });
+    //   console.log("result", result);
+    //   if (result) reset();
+    // } catch (err) {
+    //   alert(err.message);
+    // }
+    // window.location = "/";
     reset();
   };
   const onEdit = (data) => {

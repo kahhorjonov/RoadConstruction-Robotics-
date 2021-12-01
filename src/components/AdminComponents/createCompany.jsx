@@ -7,6 +7,9 @@ import EditCompanyItem from "./editCompanyItem";
 const getCompanyApi =
   "http://yolproject.herokuapp.com/api/company/getcompanies";
 
+const postCompanyEndpoint =
+  "http://yolproject.herokuapp.com/api/company/getcompanies";
+
 const CreateCompany = () => {
   const { register, handleSubmit, reset } = useForm({});
   const [editCompanyId, setEditCompanyId] = useState(null);
@@ -14,8 +17,30 @@ const CreateCompany = () => {
   const [companyData, setCompanyData] = useState([]);
 
   let num = 1;
-  const onAdd = (data) => {
-    console.log(data);
+  const onAdd = async (data) => {
+    const bodyFormData = new FormData();
+    bodyFormData.append("fullname", data.fullname);
+    bodyFormData.append("inn", data.inn);
+    bodyFormData.append("licenseFile", data.licenseFile[0]);
+    bodyFormData.append("sucessfullPlansFile", data.sucessfullPlansFile[0]);
+
+    for (var pair of bodyFormData.entries()) {
+      console.log(pair[0] + ", " + pair[1]);
+    }
+
+    try {
+      const result = await axios({
+        method: "post",
+        url: "http://yolproject.herokuapp.com/api/company/createcompany",
+        data: bodyFormData,
+        headers: { "Content-Type": "multipart/form-data" },
+      });
+      console.log("result", result);
+      if (result) reset();
+    } catch (err) {
+      alert(err.message);
+    }
+    // window.location = "/";
     reset();
   };
 
@@ -57,7 +82,7 @@ const CreateCompany = () => {
             Ishlar ro'yxati*
           </label>
           <input
-            {...register("sucessfullPlansFileName")}
+            {...register("sucessfullPlansFile")}
             accept="application/pdf,application/vnd.ms-excel"
             className="form-control form-control-sm w-75"
             id="formFileSm"
@@ -69,7 +94,7 @@ const CreateCompany = () => {
             Litsenziya*
           </label>
           <input
-            {...register("licenseFileName")}
+            {...register("licenseFile")}
             accept="application/pdf,application/vnd.ms-excel"
             className="form-control form-control-sm w-75"
             id="formFileSm"

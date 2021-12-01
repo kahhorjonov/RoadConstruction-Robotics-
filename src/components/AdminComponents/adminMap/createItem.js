@@ -44,7 +44,7 @@ function CreateDataItem(props) {
         cordinates: props.coor,
         images: image,
       });
-      console.log(data);
+      // console.log(data);
       reset();
     } catch (error) {
       console.log("ERR", error);
