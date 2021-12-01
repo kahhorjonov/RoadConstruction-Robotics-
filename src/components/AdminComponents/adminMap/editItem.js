@@ -60,9 +60,7 @@ function EditItem({ onCancel, id }) {
           {...register("region", { required: true })}
           required
         >
-          <option disabled selected>
-            Viloyatni tanlang*
-          </option>
+          <option disabled>Viloyatni tanlang*</option>
           <option>Andijon viloyati</option>
           <option>Buxoro viloyati</option>
           <option>Jizzax viloyati</option>
@@ -90,9 +88,7 @@ function EditItem({ onCancel, id }) {
           defaultValue={data.status}
           {...register("status", { required: true })}
         >
-          <option selected disabled>
-            Holatni tanlang*
-          </option>
+          <option disabled>Holatni tanlang*</option>
           <option>Rejalashtirilmoqda</option>
           <option>Ta'mirlanmoqda</option>
           <option>Tayyor</option>
@@ -121,14 +117,14 @@ function EditItem({ onCancel, id }) {
         />
         <input
           type="date"
-          // defaultValue={data.startedAt}
+          defaultValue={data.startedAt}
           {...register("startedAt")}
           placeholder="Boshlangan sana*"
           required
         />
         <input
           type="date"
-          // defaultValue={data.finishedAt}
+          defaultValue={data.finishedAt}
           {...register("finishedAt")}
           placeholder="Tugatiladigan sana*"
           required
@@ -148,9 +144,7 @@ function EditItem({ onCancel, id }) {
           required
         />
         <select {...register("companyId", { required: true })}>
-          <option selected disabled>
-            Pudratchini tanlang*
-          </option>
+          <option selected>Pudratchini tanlang*</option>
           {company.map((comp) => {
             return <option value={comp.id}>{comp.fullname}</option>;
           })}

@@ -6,6 +6,8 @@ import EditCompanyItem from "./editCompanyItem";
 
 const getCompanyApi =
   "http://yolproject.herokuapp.com/api/company/getcompanies";
+const deleteCompanyApi =
+  "http://yolproject.herokuapp.com/api/company/deletecompany";
 
 const postCompanyEndpoint =
   "http://yolproject.herokuapp.com/api/company/getcompanies";
@@ -40,7 +42,7 @@ const CreateCompany = () => {
     } catch (err) {
       alert(err.message);
     }
-    // window.location = "/";
+    window.location = "/";
     reset();
   };
 
@@ -157,7 +159,7 @@ const CreateCompany = () => {
               <td>
                 <button
                   className="btn btn-danger"
-                  onClick={() => setDeleteCompId(comp.id)}
+                  onClick={() => handleDeleteCompany(comp.id)}
                 >
                   🗑
                 </button>
@@ -173,6 +175,15 @@ const CreateCompany = () => {
     if (id)
       return <EditCompanyItem id={id} cancel={() => setEditCompanyId(null)} />;
     else return <CreateCompanyItem />;
+  };
+
+  const handleDeleteCompany = async (id) => {
+    try {
+      axios.delete(`${deleteCompanyApi}/${id}`);
+      alert("Kompaniya muvaffaqiyatli o'chirildi.");
+    } catch (ex) {
+      if (ex.response && ex.response.status !== 200) alert("Xatolik yuz berdi");
+    }
   };
 
   return (
