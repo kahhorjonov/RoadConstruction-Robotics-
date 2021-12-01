@@ -79,7 +79,7 @@ const CreateAdmin = () => {
           {...register("password")}
           required
           className="w-75 p-2 my-2"
-          type="text"
+          type="password"
           placeholder="Parol *"
         />
         <button className="btn btn-primary w-75 p-2 my-2">Saqlash</button>
