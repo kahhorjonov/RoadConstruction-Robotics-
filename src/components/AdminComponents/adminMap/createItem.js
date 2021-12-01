@@ -2,6 +2,8 @@ import axios from "axios";
 import React, { useEffect, useState } from "react";
 import { useForm } from "react-hook-form";
 
+const addNewItemPost = "http://yolproject.herokuapp.com/api/road/createroad";
+
 function CreateDataItem(props) {
   const [company, setCompany] = useState([]);
 
@@ -22,7 +24,6 @@ function CreateDataItem(props) {
     } else alert("Yo'lni belgilang");
   };
 
-  const addNewItemPost = "http://yolproject.herokuapp.com/api/road/createroad";
   async function postNewItem(newData) {
     try {
       const image = newData.image[0];
