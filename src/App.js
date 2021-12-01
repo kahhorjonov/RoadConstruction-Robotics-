@@ -17,8 +17,6 @@ import "aos/dist/aos.css";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "font-awesome/css/font-awesome.min.css";
-import { useEffect } from "react";
-import Aos from "aos";
 
 function App() {
   // const config = {
@@ -27,7 +25,6 @@ function App() {
   //   },
   // };
 
-<<<<<<< HEAD
   // console.log(config);
 
   //   useEffect(() => {
@@ -40,13 +37,6 @@ function App() {
   useEffect(() => {
     Aos.init();
   }, []);
-=======
-  useEffect(() => {
-    Aos.init();
-  }, []);
-
-  // console.log(config);
->>>>>>> f424de2840c4108e75054e20d90dc201a4e337eb
 
   return (
     <>

@@ -10,11 +10,7 @@ const Posts = ({ posts, loading, error, onEdit, onDelete }) => {
   {
     return (
       <>
-<<<<<<< HEAD
         <table className="table">
-=======
-        <table class="table table-striped">
->>>>>>> f424de2840c4108e75054e20d90dc201a4e337eb
           <thead>
             <tr>
               <th>№</th>
