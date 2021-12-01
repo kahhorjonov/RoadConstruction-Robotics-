@@ -3,6 +3,7 @@ import axios from "axios";
 import { useEffect } from "react";
 import Sidebar from "../adminMap/Sidebar";
 import { useForm } from "react-hook-form";
+import EditAdminItem from "./editRegistr";
 
 const getAdminApi = "http://yolproject.herokuapp.com/api/admin/getadmins";
 const deleteAdminApi = "http://yolproject.herokuapp.com/api/admin/deleteadmin";
@@ -71,7 +72,8 @@ const CreateAdmin = () => {
                   " " +
                   admin.firstName +
                   " " +
-                  admin.middleName}
+                  admin.middleName +
+                  "ovich"}
               </td>
               <td>{admin.username}</td>
               <td>{admin.region}</td>
@@ -173,6 +175,12 @@ const CreateAdmin = () => {
     );
   };
 
+  const AddOrEd = (id) => {
+    if (id)
+      return <EditAdminItem id={id} cancel={() => setEditAdminId(null)} />;
+    else return <CreateAdminItem />;
+  };
+
   return (
     <>
       <Sidebar />
@@ -184,7 +192,7 @@ const CreateAdmin = () => {
                 Create Admin
               </div>
               <ReadAdmin />
-              <CreateAdminItem />
+              {AddOrEd(editAdminId)}
             </div>
           </div>
         </div>
