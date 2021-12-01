@@ -13,27 +13,13 @@ import CreateAdmin from "./components/AdminComponents/common/register";
 import CreateNews from "./components/AdminComponents/adminMap/CreateNews";
 import { useEffect } from "react";
 import Aos from "aos";
+import axios from "axios";
 import "aos/dist/aos.css";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "font-awesome/css/font-awesome.min.css";
 
 function App() {
-  // const config = {
-  //   headers: {
-  //     Authorization: "Bearer" + localStorage.getItem("token"),
-  //   },
-  // };
-
-  // console.log(config);
-
-  //   useEffect(() => {
-  //     axios
-  //       .get("http://yolproject.herokuapp.com/api/admin/getadmins", config)
-  //       .then((apiData) => {
-  //         console.log(apiData);
-  //       });
-  //   }, []);
   useEffect(() => {
     Aos.init();
   }, []);
