@@ -8,6 +8,8 @@ const EditAdminItem = ({ id, cancel }) => {
   const [adminDataId, setAdminDataId] = useState([]);
   const { register, handleSubmit, reset } = useForm({});
 
+  console.log(id);
+
   const onEdit = (data) => {
     console.log(data);
     reset();
@@ -90,16 +92,18 @@ const EditAdminItem = ({ id, cancel }) => {
         {...register("password")}
         required
         className="w-75 p-2 my-2"
-        type="password"
+        type="text"
         placeholder="Parol *"
       />
-      <button className="btn btn-primary w-75 p-2 my-2">Saqlash</button>
-      <button
-        className="btn btn-secondary w-75 p-2 my-2"
-        onClick={() => cancel()}
-      >
-        Bekor qilish
-      </button>
+      <div className="d-flex w-75">
+        <button className="btn btn-primary w-50 p-2 m-2">Saqlash</button>
+        <button
+          className="btn btn-secondary w-50 p-2 m-2"
+          onClick={() => cancel()}
+        >
+          Bekor qilish
+        </button>
+      </div>
     </form>
   );
 };

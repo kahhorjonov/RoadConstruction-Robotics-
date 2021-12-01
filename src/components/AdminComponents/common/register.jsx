@@ -16,12 +16,10 @@ const CreateAdmin = () => {
   };
 
   useEffect(() => {
-    axios
-      .get("http://yolproject.herokuapp.com/api/admin/getadmins", config)
-      .then((apiData) => {
-        console.log(apiData);
-        setAdminData(apiData.data.data);
-      });
+    axios.get(getAdminApi, config).then((apiData) => {
+      console.log(apiData.data.data);
+      setAdminData(apiData.data.data);
+    });
   }, []);
 
   let num = 1;
@@ -72,8 +70,7 @@ const CreateAdmin = () => {
                   " " +
                   admin.firstName +
                   " " +
-                  admin.middleName +
-                  "ovich"}
+                  admin.middleName}
               </td>
               <td>{admin.username}</td>
               <td>{admin.region}</td>
