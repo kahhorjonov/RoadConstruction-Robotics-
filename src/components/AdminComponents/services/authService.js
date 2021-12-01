@@ -4,7 +4,7 @@ import { apiUrl } from "../utils/config.json";
 
 const tokenKey = "token";
 const apiEndpoint = apiUrl + "/login";
-console.log(apiUrl);
+// console.log(apiUrl);
 
 // http.setJwt(getJwt());
 

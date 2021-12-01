@@ -5,10 +5,27 @@ import Sidebar from "../adminMap/Sidebar";
 import { useForm } from "react-hook-form";
 
 const CreateAdmin = () => {
+  const config = {
+    headers: {
+      Authorization: "Bearer " + localStorage.getItem("token"),
+    },
+  };
+
+  console.log(config);
+
+  useEffect(() => {
+    axios
+      .get("http://yolproject.herokuapp.com/api/admin/getadmins", config)
+      .then((apiData) => {
+        console.log(apiData);
+        setAdminData(apiData);
+      });
+  }, []);
+
   const { register, handleSubmit, reset } = useForm({});
   const [editAdminId, setEditAdminId] = useState(null);
   const [deleteAdminId, setDeleteAdminId] = useState(null);
-  const [AdminData, setAdminData] = useState([]);
+  const [adminData, setAdminData] = useState([]);
   const onAdd = (data) => {
     console.log(data);
     reset();

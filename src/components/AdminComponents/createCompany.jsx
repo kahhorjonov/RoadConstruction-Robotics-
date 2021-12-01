@@ -43,7 +43,7 @@ const CreateCompany = () => {
     } catch (err) {
       alert(err.message);
     }
-    window.location = "/createCompany";
+    // window.location = "/createCompany";
     reset();
   };
 
@@ -134,7 +134,7 @@ const CreateCompany = () => {
                   href={comp.licenseFileName}
                   target="_blank"
                   rel="noopener noreferrer"
-                  download
+                  download={comp.licenseFileName}
                 >
                   Litsenziya
                 </a>
@@ -144,7 +144,7 @@ const CreateCompany = () => {
                   href={comp.sucessfullPlansFileName}
                   target="_blank"
                   rel="noopener noreferrer"
-                  download
+                  download={comp.sucessfullPlansFileName}
                 >
                   Ishlar ro'yxati
                 </a>
