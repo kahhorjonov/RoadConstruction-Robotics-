@@ -4,13 +4,10 @@ import Uzbmapsvg from "./uzbmapsvg";
 import { useState } from "react";
 import YolStatistika from "./yolStatistika";
 import { FaFacebook, FaInstagram, FaTelegram, FaTwitter } from "react-icons/fa";
-import { CountRespublicRoad } from "./countRegionsRoad";
 
 function Header() {
   const [image, setImage] = useState();
-  const [regionRoadLength, setRegionRoadLength] = useState(
-    CountRespublicRoad()
-  );
+  const [regionRoadLength, setRegionRoadLength] = useState({});
 
   const duration = 1000;
 
@@ -45,6 +42,9 @@ function Header() {
           </div>
           <Uzbmapsvg
             duration={duration}
+            defaultRoadLength={(defLeng) => {
+              setRegionRoadLength(defLeng);
+            }}
             changeRoadLength={(roadLength) => {
               setRegionRoadLength(roadLength);
             }}
