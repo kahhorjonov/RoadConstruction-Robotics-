@@ -1,9 +1,10 @@
 import NavBar from "./navbar";
 import "../styles/header.css";
 import Uzbmapsvg from "./uzbmapsvg";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import YolStatistika from "./yolStatistika";
 import { FaFacebook, FaInstagram, FaTelegram, FaTwitter } from "react-icons/fa";
+import axios from "axios";
 
 function Header() {
   const [image, setImage] = useState();
@@ -42,9 +43,6 @@ function Header() {
           </div>
           <Uzbmapsvg
             duration={duration}
-            defaultRoadLength={(defLeng) => {
-              setRegionRoadLength(defLeng);
-            }}
             changeRoadLength={(roadLength) => {
               setRegionRoadLength(roadLength);
             }}

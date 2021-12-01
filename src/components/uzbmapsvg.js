@@ -48,6 +48,7 @@ function Uzbmapsvg(props) {
     };
   };
 
+
   return (
     <>
       <div

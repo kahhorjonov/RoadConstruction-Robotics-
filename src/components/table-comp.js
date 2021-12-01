@@ -9,6 +9,7 @@ import $, { data } from "jquery";
 import { FiFilePlus } from "react-icons/fi";
 import axios from "axios";
 import { Link } from "react-router-dom";
+// import "../styles/table-comp.css";
 
 const getDataTableApi = "http://yolproject.herokuapp.com/api/road/getroads";
 class TableComp extends React.Component {

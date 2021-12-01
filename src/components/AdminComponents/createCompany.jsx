@@ -9,13 +9,9 @@ const getCompanyApi =
 const deleteCompanyApi =
   "http://yolproject.herokuapp.com/api/company/deletecompany";
 
-const postCompanyEndpoint =
-  "http://yolproject.herokuapp.com/api/company/getcompanies";
-
 const CreateCompany = () => {
   const { register, handleSubmit, reset } = useForm({});
   const [editCompanyId, setEditCompanyId] = useState(null);
-  const [deleteCompanyId, setDeleteCompId] = useState(null);
   const [companyData, setCompanyData] = useState([]);
 
   let num = 1;
