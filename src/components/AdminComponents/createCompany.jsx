@@ -43,7 +43,6 @@ const CreateCompany = () => {
     } catch (err) {
       alert(err.message);
     }
-    // window.location = "/createCompany";
     reset();
   };
 
