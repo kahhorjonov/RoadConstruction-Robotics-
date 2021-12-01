@@ -23,6 +23,7 @@ const CreateCompany = () => {
     const bodyFormData = new FormData();
     bodyFormData.append("fullname", data.fullname);
     bodyFormData.append("inn", data.inn);
+    bodyFormData.append("numberOFEmployees", parseInt(data.numberOfEmployees));
     bodyFormData.append("licenseFile", data.licenseFile[0]);
     bodyFormData.append("sucessfullPlansFile", data.sucessfullPlansFile[0]);
 
@@ -42,7 +43,7 @@ const CreateCompany = () => {
     } catch (err) {
       alert(err.message);
     }
-    window.location = "/";
+    window.location = "/createCompany";
     reset();
   };
 
