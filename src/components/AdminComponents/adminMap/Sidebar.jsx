@@ -67,6 +67,11 @@ class Sidebar extends Component {
               </NavLink>
             </li>
             <li>
+              <NavLink className="nav-item nav-link" to="/messages">
+                <em className="fa fa-users">&nbsp;</em> Xabarlar
+              </NavLink>
+            </li>
+            <li>
               <NavLink className="nav-item nav-link" to="/logout">
                 <em className="fa fa-power-off">&nbsp;</em> Logout
               </NavLink>

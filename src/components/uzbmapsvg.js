@@ -17,6 +17,8 @@ function Uzbmapsvg(props) {
       rejaYol = 0,
       tayyorYol = 0;
     tableData.forEach((data) => {
+      console.log(data.region);
+      console.log(regionName);
       if (data.region === regionName) {
         if (data.status === "Rejalashtirilmoqda") rejaYol += data.lenghth;
         if (data.status === "Ta'mirlanmoqda") tamirYol += data.lenghth;
