@@ -4,6 +4,7 @@ import { data } from "jquery";
 import { useEffect, useState } from "react";
 import { useForm } from "react-hook-form";
 
+const adminId = jwtDecode(localStorage.getItem("token"));
 const updateDataApi = "http://yolproject.herokuapp.com/api/road/updateroad";
 const getDataApi = "http://yolproject.herokuapp.com/api/road/getroad";
 const getCompanyApi =
@@ -29,7 +30,6 @@ function EditItem({ onCancel, id }) {
 
   async function updateThisItem(newData) {
     try {
-      const adminId = jwtDecode(localStorage.getItem("token"));
       await axios.put(`${updateDataApi}/${id}`, {
         region: newData.region,
         name: newData.name,
@@ -42,7 +42,7 @@ function EditItem({ onCancel, id }) {
         source: newData.source,
         responsible: newData.responsible,
         companyId: newData.companyId,
-        adminId: adminId,
+        adminId: adminId.Id,
         cordinates: data.cordinates,
       });
       alert("Muvaffaqiyatli yangilandi.");
