@@ -4,21 +4,17 @@ import { FaCalendarAlt } from "react-icons/fa";
 import dataTable from "../components/table-data";
 import "../styles/news.css";
 
+const getNewsApi = "http://yolproject.herokuapp.com/api/news/getnewses";
 function News() {
-  // const [dataAPI, setDataAPI] = useState([]);
+  const [newsData, setNewsData] = useState([]);
 
-  // useEffect(() => {
-  //   const componentDidMount = async () => {
-  //     axios
-  //       .get("http://yolproject.herokuapp.com/api/road/getroads")
-  //       .then((resultApi) => {
-  //         setDataAPI(resultApi.data.data);
-  //       });
-  //   };
-  //   componentDidMount();
-  // }, []);
+  useEffect(() => {
+    axios.get(getNewsApi).then((news) => {
+      setNewsData(news);
+      console.log(news);
+    });
+  }, []);
 
-  // console.log("dataAPI: ", dataAPI);
   function NewsComp(props) {
     return (
       <div className="w-100 d-flex justify-content-center">
@@ -54,7 +50,7 @@ function News() {
                 // data-aos-delay="700"
               >
                 Describe your experience at school, what you learned, what
-                useful skills you have acquired etc.
+                useful skills you have acquired etc. <br />
               </h5>
             </div>
           </div>
@@ -67,6 +63,7 @@ function News() {
   return (
     <div className="news py-2 d-flex flex-column justify-content-evenly align-items-center">
       <h2>Yangiliklar</h2>
+
       <NewsComp data={dataTable[dataTable.length - 1]} />
       <NewsComp data={dataTable[dataTable.length - 2]} />
       <NewsComp data={dataTable[dataTable.length - 3]} />

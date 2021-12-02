@@ -47,12 +47,12 @@ class TableComp extends React.Component {
     //Datatable HTML
     return (
       <div className="MainDiv my-4 overflow-hidden m-auto" id="table">
-        <div class="jumbotron text-center bg-sky">
+        <div class="text-center bg-sky">
           <h3 data-aos="fade-down" data-aos-duration="1000">
             Yo'llar ro'yxati
           </h3>
           <select
-            className="selectStatus"
+            className="selectStatus bg-sky"
             name="status"
             onChange={handleSelectStatusChange}
             data-aos="fade-up"

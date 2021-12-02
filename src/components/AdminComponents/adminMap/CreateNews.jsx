@@ -16,6 +16,7 @@ const CreateNews = () => {
     },
   ]);
   const onAdd = (data) => {
+    console.log(data);
     // const bodyFormData = new FormData();
     // bodyFormData.append("fullname", data.fullname);
     // bodyFormData.append("inn", data.inn);
@@ -45,6 +46,9 @@ const CreateNews = () => {
     console.log(data);
     reset();
   };
+
+  
+
 
   const ReadNews = ({ data }) => {
     return (
@@ -81,27 +85,12 @@ const CreateNews = () => {
         onSubmit={handleSubmit(onAdd)}
       >
         <h4>Yangilik qo`shish</h4>
-        <select {...register("title")} className="w-75 p-2 my-2">
-          <option selected disabled>
-            Holatni tanlang*
-          </option>
-          <option>Rejalashtirilmoqda</option>
-          <option>Ta'mirlanmoqda</option>
-          <option>Tayyor</option>
-        </select>
         <input
-          {...register("name")}
+          {...register("title")}
           required
-          className="w-75 p-2 my-2"
           type="text"
-          placeholder="Ko'cha nomi"
-        />
-        <input
-          {...register("date")}
-          required
           className="w-75 p-2 my-2"
-          type="date"
-          placeholder="Sana"
+          placeholder="Sarlavha"
         />
         <textarea
           {...register("newsMessage")}
@@ -111,6 +100,18 @@ const CreateNews = () => {
           rows="10"
           placeholder="Yangilik matni"
         />
+        <div className="d-flex align-items-center justify-content-between w-75">
+          <label for="imageTo" className="w-25">
+            Rasm yuborish *
+          </label>
+          <input
+            {...register("image")}
+            accept="image/*"
+            className="form-control form-control-sm p-2 my-2 w-75"
+            type="file"
+            id="imageTo"
+          />
+        </div>
         <button className="btn btn-primary w-75 p-2 my-2">Saqlash</button>
       </form>
     );

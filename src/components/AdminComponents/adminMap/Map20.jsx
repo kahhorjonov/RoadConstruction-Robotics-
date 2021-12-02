@@ -81,12 +81,10 @@ class Map20 extends Component {
                 </div>
               </div>
             </div>
-          </div>
-          <div className="panel-heading d-flex align-items-center justify-content-between">
-            All Roads Table
-          </div>
-          <div className="panel-body no-padding">
-            <div className="App">
+            <div className="panel panel-default">
+              <div className="panel-heading d-flex align-items-center justify-content-between">
+                All Roads Table
+              </div>
               <Table newCoor={planningRoads[planningRoads.length - 1]} />
             </div>
           </div>

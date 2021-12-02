@@ -48,7 +48,6 @@ function Uzbmapsvg(props) {
     };
   };
 
-
   return (
     <>
       <div
@@ -56,6 +55,7 @@ function Uzbmapsvg(props) {
         data-aos="zoom-in"
         data-aos-duration={props.duration}
         data-aos-delay="500"
+        onLoadCapture={() => props.changeRoadLength(CountRespublicRoad())}
       >
         {/* <!-- svg start --> */}
         <svg className="map-uzbekistan">

@@ -21,7 +21,7 @@ function CreateDataItem(props) {
   const onSubmit = (data) => {
     if (props.coor) {
       postNewItem(data);
-      alert("Muvaffaqiyatli qo'shildi");
+      // alert("Muvaffaqiyatli qo'shildi");
     } else alert("Yo'lni belgilang");
   };
 
