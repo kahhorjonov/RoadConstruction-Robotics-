@@ -1,5 +1,6 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react";
+import jwtDecode from "jwt-decode";
 import { useForm } from "react-hook-form";
 
 const addNewItemPost = "http://yolproject.herokuapp.com/api/road/createroad";
@@ -24,10 +25,34 @@ function CreateDataItem(props) {
     } else alert("Yo'lni belgilang");
   };
 
+  const token = jwtDecode(localStorage.getItem("token"));
+  const adminId = token.Id;
+  console.log(token);
+
   async function postNewItem(newData) {
     try {
       const image = newData.image[0];
-      console.log(image);
+      // console.log(image);
+
+      const postData = {
+        region: newData.region,
+        name: newData.name,
+        status: newData.status,
+        lenghth: newData.lenghth,
+        separatedMoney: newData.separatedMoney,
+        usedMoney: newData.usedMoney,
+        startedAt: newData.startedAt,
+        finishedAt: newData.finishedAt,
+        source: newData.source,
+        responsible: newData.responsible,
+        companyId: newData.companyId,
+        adminId: `${adminId}`,
+        cordinates: props.coor,
+        images: image,
+      };
+
+      console.log(postData);
+
       const data = await axios.post(addNewItemPost, {
         region: newData.region,
         name: newData.name,
@@ -40,11 +65,12 @@ function CreateDataItem(props) {
         source: newData.source,
         responsible: newData.responsible,
         companyId: newData.companyId,
-        adminId: "8d202dd6-7aa4-4b70-a749-84c55195d1e8",
+        adminId: `${adminId}`,
         cordinates: props.coor,
-        images: image,
+        // images: image,
       });
-      reset();
+      console.log(data);
+      // reset();
     } catch (error) {
       console.log("ERR", error);
     }

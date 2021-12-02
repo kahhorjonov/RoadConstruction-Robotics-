@@ -5,6 +5,8 @@ import { useEffect, useState } from "react";
 import { useForm } from "react-hook-form";
 
 const adminId = jwtDecode(localStorage.getItem("token"));
+console.log(adminId.Id);
+
 const updateDataApi = "http://yolproject.herokuapp.com/api/road/updateroad";
 const getDataApi = "http://yolproject.herokuapp.com/api/road/getroad";
 const getCompanyApi =
