@@ -23,7 +23,7 @@ import NewsMore from "./components/newsMore";
 function App() {
   setTimeout(() => {
     window.location = "/logout";
-  }, 86400);
+  }, 86400 * 1000);
 
   useEffect(() => {
     Aos.init();
