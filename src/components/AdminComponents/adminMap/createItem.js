@@ -1,5 +1,6 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react";
+import jwtDecode from "jwt-decode";
 import { useForm } from "react-hook-form";
 
 const addNewItemPost = "http://yolproject.herokuapp.com/api/road/createroad";
@@ -25,9 +26,32 @@ function CreateDataItem(props) {
   };
 
   async function postNewItem(newData) {
+    const token = jwtDecode(localStorage.getItem("token"));
+    const adminId = token.Id;
+    console.log(token);
     try {
       const image = newData.image[0];
-      console.log(image);
+      // console.log(image);
+
+      const postData = {
+        region: newData.region,
+        name: newData.name,
+        status: newData.status,
+        lenghth: newData.lenghth,
+        separatedMoney: newData.separatedMoney,
+        usedMoney: newData.usedMoney,
+        startedAt: newData.startedAt,
+        finishedAt: newData.finishedAt,
+        source: newData.source,
+        responsible: newData.responsible,
+        companyId: newData.companyId,
+        adminId: `${adminId}`,
+        cordinates: props.coor,
+        images: image,
+      };
+
+      console.log(postData);
+
       const data = await axios.post(addNewItemPost, {
         region: newData.region,
         name: newData.name,
@@ -40,11 +64,12 @@ function CreateDataItem(props) {
         source: newData.source,
         responsible: newData.responsible,
         companyId: newData.companyId,
-        adminId: "b076c00b-4337-4402-a700-959fe89a5e7d",
+        adminId: `${adminId}`,
         cordinates: props.coor,
-        images: image,
+        // images: image,
       });
-      reset();
+      console.log(data);
+      // reset();
     } catch (error) {
       console.log("ERR", error);
     }
@@ -68,10 +93,10 @@ function CreateDataItem(props) {
           <option>Surxandaryo viloyati</option>
           <option>Sirdaryo viloyati</option>
           <option>Toshkent viloyati</option>
-          <option>Farg‘ona viloyati</option>
+          <option>Farg'ona viloyati</option>
           <option>Xorazm viloyati</option>
           <option>Toshkent shahri</option>
-          <option>Qoraqalpog‘iston Respublikasi</option>
+          <option>Qoraqalpog'iston Respublikasi</option>
         </select>
         <input
           type="text"

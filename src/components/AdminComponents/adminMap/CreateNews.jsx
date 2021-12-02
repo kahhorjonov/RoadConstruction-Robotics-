@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import Sidebar from "./Sidebar";
 import { useForm } from "react-hook-form";
 // import { tsAnyKeyword } from "@babel/types";
+import jwtDecode from "jwt-decode";
+import axios from "axios";
 
 const CreateNews = () => {
   const { register, handleSubmit, reset } = useForm({});
@@ -15,33 +17,42 @@ const CreateNews = () => {
       newsMessage: "Hozir yangilik yo'q",
     },
   ]);
+
   const onAdd = (data) => {
     console.log(data);
-    // const bodyFormData = new FormData();
-    // bodyFormData.append("fullname", data.fullname);
-    // bodyFormData.append("inn", data.inn);
-    // bodyFormData.append("licenseFile", data.licenseFile[0]);
-    // bodyFormData.append("sucessfullPlansFile", data.sucessfullPlansFile[0]);
+    postNews(data);
+  };
 
-    // for (var pair of bodyFormData.entries()) {
-    //   console.log(pair[0] + ", " + pair[1]);
-    // }
+  const postNews = async (data) => {
+    const bodyFormData = new FormData();
+    bodyFormData.append("title", data.title);
+    bodyFormData.append("text", data.text);
+    bodyFormData.append("imageFile", data.image[0]);
+    bodyFormData.append(
+      "adminId",
+      `${jwtDecode(localStorage.getItem("token")).Id}`
+    );
 
-    // try {
-    //   const result = await axios({
-    //     method: "post",
-    //     url: "http://yolproject.herokuapp.com/api/company/createcompany",
-    //     data: bodyFormData,
-    //     headers: { "Content-Type": "multipart/form-data" },
-    //   });
-    //   console.log("result", result);
-    //   if (result) reset();
-    // } catch (err) {
-    //   alert(err.message);
-    // }
-    // window.location = "/";
+    for (var pair of bodyFormData.entries()) {
+      console.log(pair[0] + ", " + pair[1]);
+    }
+
+    try {
+      const result = await axios({
+        method: "post",
+        url: "http://yolproject.herokuapp.com/api/news/createnews",
+        data: bodyFormData,
+        headers: { "Content-Type": "multipart/form-data" },
+      });
+      console.log("result", result);
+      if (result) reset();
+    } catch (err) {
+      alert(err.message);
+    }
+    // window.location = "/createNews";
     reset();
   };
+
   const onEdit = (data) => {
     console.log(data);
     reset();

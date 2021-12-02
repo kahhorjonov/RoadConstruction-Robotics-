@@ -22,6 +22,10 @@ import "font-awesome/css/font-awesome.min.css";
 import Messages from "./components/AdminComponents/adminMap/messages";
 
 function App() {
+  setTimeout(() => {
+    window.location = "/logout";
+  }, 86400);
+
   useEffect(() => {
     Aos.init();
   }, []);
