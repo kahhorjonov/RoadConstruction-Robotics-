@@ -93,10 +93,10 @@ function CreateDataItem(props) {
           <option>Surxandaryo viloyati</option>
           <option>Sirdaryo viloyati</option>
           <option>Toshkent viloyati</option>
-          <option>Farg‘ona viloyati</option>
+          <option>Farg'ona viloyati</option>
           <option>Xorazm viloyati</option>
           <option>Toshkent shahri</option>
-          <option>Qoraqalpog‘iston Respublikasi</option>
+          <option>Qoraqalpog'iston Respublikasi</option>
         </select>
         <input
           type="text"
