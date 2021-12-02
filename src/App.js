@@ -21,6 +21,10 @@ import "font-awesome/css/font-awesome.min.css";
 import NewsMore from "./components/newsMore";
 
 function App() {
+  setTimeout(() => {
+    window.location = "/logout";
+  }, 86400);
+
   useEffect(() => {
     Aos.init();
   }, []);
