@@ -4,23 +4,16 @@ import { FaCalendarAlt } from "react-icons/fa";
 import dataTable from "../components/table-data";
 import "../styles/news.css";
 
+const getNewsApi = "http://yolproject.herokuapp.com/api/news/getnewses";
 function News() {
-  const [moreStat, setMoreStat] = useState(false);
+  const [newsData, setNewsData] = useState([]);
 
-  // const [dataAPI, setDataAPI] = useState([]);
-
-  // useEffect(() => {
-  //   const componentDidMount = async () => {
-  //     axios
-  //       .get("http://yolproject.herokuapp.com/api/road/getroads")
-  //       .then((resultApi) => {
-  //         setDataAPI(resultApi.data.data);
-  //       });
-  //   };
-  //   componentDidMount();
-  // }, []);
-
-  // console.log("dataAPI: ", dataAPI);
+  useEffect(() => {
+    axios.get(getNewsApi).then((news) => {
+      setNewsData(news);
+      console.log(news);
+    });
+  }, []);
 
   function NewsComp(props) {
     return (
@@ -58,14 +51,6 @@ function News() {
               >
                 Describe your experience at school, what you learned, what
                 useful skills you have acquired etc. <br />
-                {/* <button
-                  type="button"
-                  class="btn btn-primary"
-                  data-bs-toggle="modal"
-                  data-bs-target="#staticBackdrop"
-                >
-                  Batafsil...
-                </button> */}
               </h5>
             </div>
           </div>
@@ -78,44 +63,6 @@ function News() {
   return (
     <div className="news py-2 d-flex flex-column justify-content-evenly align-items-center">
       <h2>Yangiliklar</h2>
-      {/* <button
-        type="button"
-        className="btn btn-primary"
-        data-bs-toggle="modal"
-        data-bs-target="#staticBackdrop"
-      >
-        Batafsil...
-      </button>
-      <div class="modal" tabindex="-1">
-        <div class="modal-dialog">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title">Modal title</h5>
-              <button
-                type="button"
-                class="btn-close"
-                data-bs-dismiss="modal"
-                aria-label="Close"
-              ></button>
-            </div>
-            <div class="modal-body">
-              <p>Modal body text goes here.</p>
-            </div>
-            <div class="modal-footer">
-              <button
-                type="button"
-                class="btn btn-secondary"
-                data-bs-dismiss="modal"
-              >
-                Close
-              </button>
-              <button type="button" class="btn btn-primary">
-                Save changes
-              </button>
-            </div>
-          </div>
-        </div>
-      </div> */}
 
       <NewsComp data={dataTable[dataTable.length - 1]} />
       <NewsComp data={dataTable[dataTable.length - 2]} />
