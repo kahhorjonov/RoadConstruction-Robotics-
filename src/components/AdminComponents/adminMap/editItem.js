@@ -4,9 +4,6 @@ import { data } from "jquery";
 import { useEffect, useState } from "react";
 import { useForm } from "react-hook-form";
 
-const adminId = jwtDecode(localStorage.getItem("token"));
-console.log(adminId.Id);
-
 const updateDataApi = "http://yolproject.herokuapp.com/api/road/updateroad";
 const getDataApi = "http://yolproject.herokuapp.com/api/road/getroad";
 const getCompanyApi =
@@ -31,6 +28,7 @@ function EditItem({ onCancel, id }) {
   };
 
   async function updateThisItem(newData) {
+    const adminId = jwtDecode(localStorage.getItem("token"));
     try {
       await axios.put(`${updateDataApi}/${id}`, {
         region: newData.region,

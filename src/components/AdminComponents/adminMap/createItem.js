@@ -25,11 +25,10 @@ function CreateDataItem(props) {
     } else alert("Yo'lni belgilang");
   };
 
-  const token = jwtDecode(localStorage.getItem("token"));
-  const adminId = token.Id;
-  console.log(token);
-
   async function postNewItem(newData) {
+    const token = jwtDecode(localStorage.getItem("token"));
+    const adminId = token.Id;
+    console.log(token);
     try {
       const image = newData.image[0];
       // console.log(image);
