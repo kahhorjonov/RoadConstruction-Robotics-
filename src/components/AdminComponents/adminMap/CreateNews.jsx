@@ -47,9 +47,6 @@ const CreateNews = () => {
     reset();
   };
 
-  
-
-
   const ReadNews = ({ data }) => {
     return (
       <div class="card w-50 mx-2">

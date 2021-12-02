@@ -11,6 +11,7 @@ import ClientPageMap from "./components/AdminComponents/adminMap/ClientPageMap";
 import CreateCompany from "./components/AdminComponents/createCompany";
 import CreateAdmin from "./components/AdminComponents/common/register";
 import CreateNews from "./components/AdminComponents/adminMap/CreateNews";
+import NewsMore from "./components/newsMore";
 import { useEffect } from "react";
 import Aos from "aos";
 import axios from "axios";
@@ -18,7 +19,7 @@ import "aos/dist/aos.css";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "font-awesome/css/font-awesome.min.css";
-import NewsMore from "./components/newsMore";
+import Messages from "./components/AdminComponents/adminMap/messages";
 
 function App() {
   useEffect(() => {
@@ -40,6 +41,7 @@ function App() {
           <ProtectedRoute path="/clientPageMap" component={ClientPageMap} />
           <ProtectedRoute path="/createNews" component={CreateNews} />
           <ProtectedRoute path="/createCompany" component={CreateCompany} />
+          <ProtectedRoute path="/messages" component={Messages} />
 
           <Route path="/not-found" component={NotFound} />
           <Redirect from="/" exact to="/login" />
