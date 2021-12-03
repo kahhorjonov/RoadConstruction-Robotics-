@@ -20,6 +20,7 @@ function CreateDataItem(props) {
 
   const onSubmit = (data) => {
     if (props.coor) {
+      console.log(data);
       postNewItem(data);
       // alert("Muvaffaqiyatli qo'shildi");
     } else alert("Yo'lni belgilang");
@@ -28,51 +29,66 @@ function CreateDataItem(props) {
   async function postNewItem(newData) {
     const token = jwtDecode(localStorage.getItem("token"));
     const adminId = token.Id;
-    console.log(token);
-    try {
-      const image = newData.image[0];
-      // console.log(image);
 
-      const postData = {
-        region: newData.region,
-        name: newData.name,
-        status: newData.status,
-        lenghth: newData.lenghth,
-        separatedMoney: newData.separatedMoney,
-        usedMoney: newData.usedMoney,
-        startedAt: newData.startedAt,
-        finishedAt: newData.finishedAt,
-        source: newData.source,
-        responsible: newData.responsible,
-        companyId: newData.companyId,
-        adminId: `${adminId}`,
-        cordinates: props.coor,
-        images: image,
-      };
+    const bodyFormData = new FormData();
+    bodyFormData.append("name", newData.name);
+    bodyFormData.append("status", newData.status);
+    bodyFormData.append("lenghth", newData.lenghth);
+    bodyFormData.append("startedAt", newData.startedAt);
+    bodyFormData.append("finishedAt", newData.finishedAt);
+    bodyFormData.append("separatedMoney", newData.separatedMoney);
+    bodyFormData.append("usedMoney", newData.usedMoney);
+    bodyFormData.append("source", newData.source);
+    bodyFormData.append("responsible", newData.responsible);
+    bodyFormData.append("region", newData.region);
+    bodyFormData.append("companyId", newData.companyId);
+    bodyFormData.append("adminId", `${adminId}`);
+    bodyFormData.append("cordinates", [props.coor]);
+    bodyFormData.append("images", newData.image[0]);
 
-      console.log(postData);
+    console.log(bodyFormData);
 
-      const data = await axios.post(addNewItemPost, {
-        region: newData.region,
-        name: newData.name,
-        status: newData.status,
-        lenghth: newData.lenghth,
-        separatedMoney: newData.separatedMoney,
-        usedMoney: newData.usedMoney,
-        startedAt: newData.startedAt,
-        finishedAt: newData.finishedAt,
-        source: newData.source,
-        responsible: newData.responsible,
-        companyId: newData.companyId,
-        adminId: `${adminId}`,
-        cordinates: props.coor,
-        // images: image,
-      });
-      console.log(data);
-      // reset();
-    } catch (error) {
-      console.log("ERR", error);
+    for (var pair of bodyFormData.entries()) {
+      console.log(pair[0] + ", " + pair[1]);
     }
+    try {
+      const result = await axios({
+        method: "post",
+        url: "http://yolproject.herokuapp.com/api/road/createroad",
+        data: bodyFormData,
+        headers: { "Content-Type": "multipart/form-data" },
+      });
+      console.log("result", result);
+      if (result) reset();
+    } catch (err) {
+      alert(err.message);
+    }
+
+    // try {
+    //   const image = newData.image[0];
+
+    //   const data = await axios.post(addNewItemPost, {
+    //     region: newData.region,
+    //     name: newData.name,
+    //     status: newData.status,
+    //     lenghth: newData.lenghth,
+    //     separatedMoney: newData.separatedMoney,
+    //     usedMoney: newData.usedMoney,
+    //     startedAt: newData.startedAt,
+    //     finishedAt: newData.finishedAt,
+    //     source: newData.source,
+    //     responsible: newData.responsible,
+    //     companyId: newData.companyId,
+    //     adminId: `${adminId}`,
+    //     cordinates: props.coor,
+    //     // images: image,
+    //   });
+
+    //   console.log(data);
+    //   // reset();
+    // } catch (error) {
+    //   console.log("ERR", error);
+    // }
   }
 
   return (
