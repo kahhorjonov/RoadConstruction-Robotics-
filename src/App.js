@@ -24,7 +24,7 @@ import Messages from "./components/AdminComponents/adminMap/messages";
 function App() {
   setTimeout(() => {
     window.location = "/logout";
-  }, 86400);
+  }, 86400000);
 
   useEffect(() => {
     Aos.init();

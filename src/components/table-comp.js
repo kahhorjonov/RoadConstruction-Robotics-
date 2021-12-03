@@ -20,7 +20,6 @@ class TableComp extends React.Component {
 
   async componentDidMount() {
     const dataApiRead = await axios.get(getDataTableApi);
-
     this.setState({ dataAPI: dataApiRead.data.data });
     //initialize datatable
     $(document).ready(function () {

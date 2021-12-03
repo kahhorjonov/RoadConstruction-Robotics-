@@ -1,7 +1,7 @@
 import axios from "axios";
 import { useEffect, useState } from "react";
 import { FaCalendarAlt } from "react-icons/fa";
-import dataTable from "../components/table-data";
+// import dataTable from "../components/table-data";
 import "../styles/news.css";
 
 const getNewsApi = "http://yolproject.herokuapp.com/api/news/getnewses";
@@ -10,12 +10,13 @@ function News() {
 
   useEffect(() => {
     axios.get(getNewsApi).then((news) => {
-      setNewsData(news);
-      console.log(news);
+      setNewsData(news.data.data);
+      console.log("useEffect");
     });
   }, []);
 
-  function NewsComp(props) {
+  function NewsComp({ data }) {
+    // console.log(data);
     return (
       <div className="w-100 d-flex justify-content-center">
         <div className="d-flex flex-column align-items-center">
@@ -25,15 +26,15 @@ function News() {
               data-aos="fade-right"
               data-aos-duration="1000"
             >
-              {props.data.statusi}
+              {data.title}
             </h4>
-            <div>
+            <div className="w-75">
               <h4
                 data-aos="fade-down"
                 data-aos-duration="1000"
                 // data-aos-delay="300"
               >
-                {props.data.nomi}
+                {data.title}
               </h4>
               <h6
                 className="fst-italic fw-light"
@@ -41,7 +42,8 @@ function News() {
                 data-aos-duration="1000"
                 // data-aos-delay="500"
               >
-                <FaCalendarAlt /> Dushanba, {props.data.sana}
+                <FaCalendarAlt />
+                {data.createdTime.substr(0, 10)}
               </h6>
               <h5
                 className="fw-light px-3"
@@ -49,8 +51,7 @@ function News() {
                 data-aos-duration="1000"
                 // data-aos-delay="700"
               >
-                Describe your experience at school, what you learned, what
-                useful skills you have acquired etc. <br />
+                {data.text} <br />
               </h5>
             </div>
           </div>
@@ -59,14 +60,14 @@ function News() {
       </div>
     );
   }
+  console.log("return");
 
   return (
     <div className="news py-2 d-flex flex-column justify-content-evenly align-items-center">
       <h2>Yangiliklar</h2>
-
-      <NewsComp data={dataTable[dataTable.length - 1]} />
-      <NewsComp data={dataTable[dataTable.length - 2]} />
-      <NewsComp data={dataTable[dataTable.length - 3]} />
+      {/* <NewsComp data={newsData[newsData.length - 3]} />; */}
+      {/* <NewsComp data={newsData[newsData.length - 2]} />; */}
+      {/* <NewsComp data={newsData[newsData.length - 1]} />; */}
     </div>
   );
 }
