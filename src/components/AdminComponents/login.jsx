@@ -4,6 +4,8 @@ import Form from "./common/form";
 import auth from "./services/authService";
 import { Redirect } from "react-router";
 
+import "./loginStyle.css";
+
 class LoginForm extends Form {
   state = {
     data: {
@@ -40,8 +42,8 @@ class LoginForm extends Form {
     if (auth.getCurrentUser()) return <Redirect to="/admin" />;
 
     return (
-      <div>
-        <h1>Login Form</h1>
+      <div className="loginDiv">
+        <h1 className="text-center">Login Form</h1>
         <form onSubmit={this.handleSubmit}>
           {this.renderInput("username", "Username")}
           {this.renderInput("password", "Password", "password")}

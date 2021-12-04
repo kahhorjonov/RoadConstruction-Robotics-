@@ -1,0 +1,8 @@
+.loginDiv {
+  width: 25vw;
+  height: 60vh;
+  margin: 10% auto;
+  display: flex;
+  flex-direction: column;
+}
+
