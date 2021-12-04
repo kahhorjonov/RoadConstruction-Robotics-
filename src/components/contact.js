@@ -12,7 +12,10 @@ const contactApi =
 function Contact() {
   const [options, setOptions] = useState([]);
   const { register, handleSubmit, reset } = useForm();
-  const onReg = (reg) => console.log(reg);
+  const onReg = (reg) => {
+    console.log(reg);
+    sendToMessage(reg);
+  };
 
   async function sendToMessage(sendData) {
     try {
@@ -24,8 +27,7 @@ function Contact() {
         district: sendData.district,
         roadName: sendData.roadName,
         applicationText: sendData.applicationText,
-        additionalFileName: sendData.additionalFileName,
-        createdTime: `${new Date().getDate()}.${new Date().getMonth()}.${new Date().getFullYear()} ${new Date().getHours()}:${new Date().getMinutes()}`,
+        additionalFileName: sendData.additionalFileName[0],
       });
       reset();
     } catch (error) {

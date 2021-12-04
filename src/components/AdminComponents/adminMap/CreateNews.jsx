@@ -56,32 +56,23 @@ const CreateNews = () => {
     reset();
   };
 
+  let num = 1;
+
   const ReadNews = ({ data }) => {
     console.log(data);
     return (
-      <h1>vaaay</h1>
-      //   <div class="card w-50 mx-2">
-      //     <div class="card-header">{data.title}</div>
-      //     <div class="card-body bg-white">
-      //       <p class="card-text">{data.text}</p>
-      //       <div className="d-flex justify-content-end ">
-      //         <button
-      //           href="#"
-      //           class="btn btn-warning m-1"
-      //           onClick={() => setEditNewsId(data.id)}
-      //         >
-      //           🖋
-      //         </button>
-      //         <button
-      //           href="#"
-      //           class="btn btn-danger m-1"
-      //           onClick={() => setDeleteNewsId(data.id)}
-      //         >
-      //           🗑
-      //         </button>
-      //       </div>
-      //     </div>
-      //   </div>
+      <tr>
+        <td>{num++}</td>
+        <td>{data.title.substr(0, 20)}...</td>
+        <td>{data.createdTime.substr(0, 10)}</td>
+        <td>{data.text.substr(0, 20)}...</td>
+        <td>
+          <button className="btn btn-warning">🖋</button>
+        </td>
+        <td>
+          <button className="btn btn-danger">🗑</button>
+        </td>
+      </tr>
     );
   };
 
@@ -143,9 +134,21 @@ const CreateNews = () => {
                 News
               </div>
               <div className="d-flex justify-content-between m-2">
-                <ReadNews data={newsData[newsData.length - 1]} />
-                <ReadNews data={newsData[newsData.length - 2]} />
-                <ReadNews data={newsData[newsData.length - 3]} />
+                <table className="table table-striped">
+                  <thead>
+                    <tr>
+                      <th>№</th>
+                      <th>Mavzu</th>
+                      <th>Sana</th>
+                      <th>Yangilik matni</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {newsData.map((news) => {
+                      return <ReadNews data={news} />;
+                    })}
+                  </tbody>
+                </table>
               </div>
               {AddOrEd(editNewsId)}
             </div>

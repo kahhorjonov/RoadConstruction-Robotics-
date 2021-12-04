@@ -61,11 +61,33 @@ function News() {
     );
   }
   console.log("return");
+  let num = 1;
+  const ReadNews = ({ data }) => {
+    console.log(data);
+    return (
+      <tr>
+        <td>{num++}</td>
+        <td>{data.title.substr(0, 20)}...</td>
+        <td>{data.createdTime.substr(0, 10)}</td>
+        <td>{data.text.substr(0, 20)}...</td>
+        <td>
+          <button className="btn btn-warning">🖋</button>
+        </td>
+        <td>
+          <button className="btn btn-danger">🗑</button>
+        </td>
+      </tr>
+    );
+  };
 
   return (
     <div className="news py-2 d-flex flex-column justify-content-evenly align-items-center">
       <h2>Yangiliklar</h2>
-      {/* <NewsComp data={newsData[newsData.length - 3]} />; */}
+      {/* 
+      {newsData.map((news) => {
+        return <NewsComp data={news} />;
+      })} */}
+      {/* <NewsComp data={newsData[0]} />; */}
       {/* <NewsComp data={newsData[newsData.length - 2]} />; */}
       {/* <NewsComp data={newsData[newsData.length - 1]} />; */}
     </div>

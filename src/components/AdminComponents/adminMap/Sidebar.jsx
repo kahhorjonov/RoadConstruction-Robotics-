@@ -68,7 +68,7 @@ class Sidebar extends Component {
             </li>
             <li>
               <NavLink className="nav-item nav-link" to="/messages">
-                <em className="fa fa-users">&nbsp;</em> Xabarlar
+                <em className="fa fa-envelope">&nbsp;</em> Xabarlar
               </NavLink>
             </li>
             <li>

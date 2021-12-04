@@ -1,19 +1,8 @@
-import axios from "axios";
-import { useEffect } from "react";
-import { useState } from "react";
+import React, { useState } from "react";
+import MessagePanel from "./messagePanel";
 import Sidebar from "./Sidebar";
 
-const getAplicationApi =
-  "http://yolproject.herokuapp.com/api/application/getapplications";
-
-function Messages() {
-  const [messages, setMessages] = useState([]);
-  useEffect(() => {
-    axios.get(getAplicationApi).then((message) => {
-      setMessages(message.data.data);
-      console.log(message.data.data);
-    }, []);
-  });
+const Messages = () => {
   return (
     <>
       <Sidebar />
@@ -24,17 +13,13 @@ function Messages() {
               <div className="panel-heading d-flex align-items-center justify-content-between px-4">
                 Xabarlar
               </div>
-              <div className="w-25 bg-blue">
-                {/* {messages.map((message) => {
-                  //   return <h4>{message.}</h4>
-                })} */}
-              </div>
+              <MessagePanel />
             </div>
           </div>
         </div>
       </div>
     </>
   );
-}
+};
 
 export default Messages;
