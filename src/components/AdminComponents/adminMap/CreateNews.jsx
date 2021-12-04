@@ -8,6 +8,7 @@ import { useEffect } from "react";
 import EditNewsItems from "./editNews";
 
 const getNewsApi = "http://yolproject.herokuapp.com/api/news/getnewses";
+const deleteNewsApi = "http://yolproject.herokuapp.com/api/news/deletenews";
 
 const CreateNews = () => {
   const { register, handleSubmit, reset } = useForm({});
@@ -17,13 +18,21 @@ const CreateNews = () => {
 
   useEffect(() => {
     axios.get(getNewsApi).then((news) => {
-      console.log(news);
       setNewsData(news.data.data);
     });
   }, []);
 
   const onAdd = (data) => {
     postNews(data);
+  };
+
+  const handleDeleteItem = async (id) => {
+    try {
+      const apiData = await axios.delete(`${deleteNewsApi}/${id}`);
+      alert("Yangilik muvaffaqiyatli o'chirildi. Ctrl + F5 juftligini bosing.");
+    } catch (ex) {
+      if (ex.response && ex.response.status !== 204) alert("Xatolik yuz berdi");
+    }
   };
 
   const postNews = async (data) => {
@@ -47,19 +56,16 @@ const CreateNews = () => {
         data: bodyFormData,
         headers: { "Content-Type": "multipart/form-data" },
       });
-      console.log("result", result);
       if (result) reset();
     } catch (err) {
       alert(err.message);
     }
-    // window.location = "/createNews";
     reset();
   };
 
   let num = 1;
 
   const ReadNews = ({ data }) => {
-    console.log(data);
     return (
       <tr>
         <td>{num++}</td>
@@ -67,10 +73,20 @@ const CreateNews = () => {
         <td>{data.createdTime.substr(0, 10)}</td>
         <td>{data.text.substr(0, 20)}...</td>
         <td>
-          <button className="btn btn-warning">🖋</button>
+          <button
+            className="btn btn-warning"
+            onClick={() => setEditNewsId(data.id)}
+          >
+            🖋
+          </button>
         </td>
         <td>
-          <button className="btn btn-danger">🗑</button>
+          <button
+            className="btn btn-danger"
+            onClick={() => handleDeleteItem(data.id)}
+          >
+            🗑
+          </button>
         </td>
       </tr>
     );
