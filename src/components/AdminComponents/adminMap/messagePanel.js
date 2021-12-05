@@ -16,6 +16,8 @@ function MessagePanel() {
     });
   }, []);
 
+  
+
   return (
     <div id="chat-container">
       <div id="search-container">

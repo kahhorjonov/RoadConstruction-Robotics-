@@ -1,0 +1,28 @@
+.aboutWork h5 {
+  border-bottom: 2px solid;
+  margin: 0;
+  margin-top: 15px;
+  padding: 10px 0px;
+}
+
+.aboutWork h6 {
+  padding-top: 5px;
+}
+
+@media screen and (max-width: 1024px) {
+  .aboutWork h5 {
+    font-size: 15px;
+  }
+  .aboutWork h6 {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 425px) {
+  .aboutWork h5 {
+    font-size: 12px;
+    padding: 5px 0px;
+  }
+  .aboutWork h6 {
+    font-size: 6px;
+  }
+}

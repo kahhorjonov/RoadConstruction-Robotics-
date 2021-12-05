@@ -24,6 +24,8 @@ function ReadMessages({ id }) {
     }
   };
 
+  console.log(readMessage);
+
   return (
     <>
       <div id="chat-title">
@@ -38,7 +40,12 @@ function ReadMessages({ id }) {
         <div className="message-row you-message">
           <div className="message-content">
             <div className="message-text ">
-              <img src={readMessage.additionalFileName} alt="img" />
+              <img
+                className="w-25"
+                // style={{ width: "100px", height: "100px" }}
+                src={readMessage.additionalFileName}
+                alt="img" 
+              />
             </div>
           </div>
         </div>

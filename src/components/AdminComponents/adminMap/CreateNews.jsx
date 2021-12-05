@@ -23,7 +23,11 @@ const CreateNews = () => {
   }, []);
 
   const onAdd = (data) => {
-    postNews(data);
+    if (newsData.length < 3) {
+      postNews(data);
+      alert("Yangilik muvaffaqiyatli qo'shildi. Ctrl + F5 juftligini bosing.");
+    } else
+      alert("Faqat 3 ta yangilik qo'shish mumkin. Eski yangilikni o'chiring.");
   };
 
   const handleDeleteItem = async (id) => {

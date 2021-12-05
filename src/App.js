@@ -1,7 +1,6 @@
 import { Redirect, Route, Switch } from "react-router-dom";
 import MapPage from "./components/mapPage";
 import Home from "./components/home";
-import MoreData from "./components/tabletemplate";
 import LoginForm from "./components/AdminComponents/login";
 import NotFound from "./components/AdminComponents/notFound";
 import Logout from "./components/AdminComponents/logout";
@@ -11,7 +10,6 @@ import ClientPageMap from "./components/AdminComponents/adminMap/ClientPageMap";
 import CreateCompany from "./components/AdminComponents/createCompany";
 import CreateAdmin from "./components/AdminComponents/common/register";
 import CreateNews from "./components/AdminComponents/adminMap/CreateNews";
-import NewsMore from "./components/newsMore";
 import { useEffect } from "react";
 import Aos from "aos";
 import axios from "axios";
@@ -35,9 +33,7 @@ function App() {
       <div className="user_container">
         <Switch>
           <Route path="/" exact component={Home} />
-          <Route path="/newsMore" component={NewsMore} />
           <Route path="/mapPage" component={MapPage} />
-          <Route path="/more" component={MoreData} />
           <Route path="/login" component={LoginForm} />
           <Route path="/logout" component={Logout} />
           <ProtectedRoute path="/admin" component={ConstructorMaps} />

@@ -5,9 +5,9 @@ import CountUp from "react-countup";
 function YolStatistika({ roadLength }) {
   const StatBox = (props) => {
     return (
-      <div className="statistika overflow-hidden">
+      <div className="statistika overflow-hidden ">
         {props.data.icons}
-        <h6 className="p-0 m-0">{props.data.holat}</h6>
+        <h6 className="p-1 m-0">{props.data.holat}</h6>
         <h5 className="px-1 m-0">
           <CountUp end={props.data.uzunligi} duration={0.5} suffix=" km" />
         </h5>

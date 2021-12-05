@@ -9,13 +9,16 @@ import $, { data } from "jquery";
 import { FiFilePlus } from "react-icons/fi";
 import axios from "axios";
 import { Link } from "react-router-dom";
-// import "../styles/table-comp.css";
+import "../styles/table-comp.css";
+import MoreTableModal from "./moreTableModal";
 
 const getDataTableApi = "http://yolproject.herokuapp.com/api/road/getroads";
 class TableComp extends React.Component {
   state = {
     selectStatus: "",
     dataAPI: [],
+    modalShow: false,
+    dataId: null,
   };
 
   async componentDidMount() {
@@ -76,8 +79,8 @@ class TableComp extends React.Component {
           </select>
         </div>
 
-        <div className="w-75 m-auto">
-          <table id="example" className="display">
+        <div className="w-75 m-auto tableClient">
+          <table id="example" className="display ">
             <thead>
               <tr
                 data-aos="flip-up"
@@ -112,9 +115,21 @@ class TableComp extends React.Component {
                       <td>{dataItem.startedAt.substr(0, 10)}</td>
                       <td>{dataItem.finishedAt.substr(0, 10)}</td>
                       <td>
-                        <Link to={{ pathname: "/more", state: { dataItem } }}>
-                          <FiFilePlus /> batafsil...
-                        </Link>
+                        <button
+                          className="border-0 outline-none bg-transparent"
+                          onClick={() => {
+                            this.setState({ modalShow: true });
+                            this.setState({ dataId: dataItem.id });
+                          }}
+                        >
+                          <FiFilePlus className="moreIcon" />
+                          <span className="moreText">batafsil...</span>
+                        </button>
+                        <MoreTableModal
+                          show={this.state.modalShow}
+                          id={this.state.dataId}
+                          onHide={() => this.setState({ modalShow: false })}
+                        />
                       </td>
                     </tr>
                   );
@@ -127,6 +142,7 @@ class TableComp extends React.Component {
             >
               <tr>
                 <th>№</th>
+                <th>Viloyat</th>
                 <th>Ko'cha nomi</th>
                 <th>Xolati</th>
                 <th>Yo'l uzunligi</th>

@@ -3,6 +3,7 @@ import { useEffect, useState } from "react";
 import { FaCalendarAlt } from "react-icons/fa";
 // import dataTable from "../components/table-data";
 import "../styles/news.css";
+import MoreNewsModal from "./moreNewsModal";
 
 const getNewsApi = "http://yolproject.herokuapp.com/api/news/getnewses";
 function News() {
@@ -11,85 +12,59 @@ function News() {
   useEffect(() => {
     axios.get(getNewsApi).then((news) => {
       setNewsData(news.data.data);
-      console.log("useEffect");
     });
   }, []);
 
   function NewsComp({ data }) {
-    // console.log(data);
+    const [modalShow, setModalShow] = useState(false);
+    const [newsData, setNewsData] = useState([]);
+
     return (
-      <div className="w-100 d-flex justify-content-center">
-        <div className="d-flex flex-column align-items-center">
-          <div className="newsCont w-100 d-flex py-4 justify-content-center">
-            <h4
-              className="w-25 mx-5 text-decoration-underline text-lg-end"
-              data-aos="fade-right"
-              data-aos-duration="1000"
-            >
-              {data.title}
-            </h4>
-            <div className="w-75">
-              <h4
-                data-aos="fade-down"
-                data-aos-duration="1000"
-                // data-aos-delay="300"
-              >
-                {data.title}
-              </h4>
-              <h6
-                className="fst-italic fw-light"
-                data-aos="fade-right"
-                data-aos-duration="1000"
-                // data-aos-delay="500"
-              >
-                <FaCalendarAlt />
-                {data.createdTime.substr(0, 10)}
+      <div class="col-md-4 col-sm-6 content-card m-auto">
+        <div class="card-big-shadow m-auto">
+          <div
+            class="card card-just-text"
+            data-background="color"
+            data-color="blue"
+            data-radius="none"
+          >
+            <div class="content">
+              <h4 class="title">{data.title}</h4>
+              <p class="description">
+                {data.text.substr(0, 100)} <br />
+                <button
+                  className="border-0 outline-none bg-transparent mt-1"
+                  onClick={() => {
+                    setModalShow(true);
+                    setNewsData(data);
+                  }}
+                >
+                  Batafsil...
+                </button>
+              </p>
+              <h6 class="category">
+                <FaCalendarAlt /> {data.createdTime.substr(0, 10)}
               </h6>
-              <h5
-                className="fw-light px-3"
-                data-aos="fade-up"
-                data-aos-duration="1000"
-                // data-aos-delay="700"
-              >
-                {data.text} <br />
-              </h5>
             </div>
+            <MoreNewsModal
+              show={modalShow}
+              data={newsData}
+              onHide={() => setModalShow(false)}
+            />
           </div>
-          <hr className="w-100 text-lg-center" />
         </div>
       </div>
     );
   }
-  console.log("return");
-  let num = 1;
-  const ReadNews = ({ data }) => {
-    console.log(data);
-    return (
-      <tr>
-        <td>{num++}</td>
-        <td>{data.title.substr(0, 20)}...</td>
-        <td>{data.createdTime.substr(0, 10)}</td>
-        <td>{data.text.substr(0, 20)}...</td>
-        <td>
-          <button className="btn btn-warning">🖋</button>
-        </td>
-        <td>
-          <button className="btn btn-danger">🗑</button>
-        </td>
-      </tr>
-    );
-  };
 
   return (
-    <div className="news py-2 d-flex flex-column justify-content-evenly align-items-center">
+    <div className="news py-4 d-flex flex-column justify-content-evenly align-items-center">
       <h2>Yangiliklar</h2>
-      {/* 
-      {newsData.map((news) => {
-        return <NewsComp data={news} />;
-      })} */}
-      {/* <NewsComp data={newsData[0]} />; */}
-      {/* <NewsComp data={newsData[newsData.length - 2]} />; */}
-      {/* <NewsComp data={newsData[newsData.length - 1]} />; */}
+      <div class="container bootstrap snippets bootdeys row">
+        {newsData.map((news) => {
+          return <NewsComp data={news} />;
+        })}
+      </div>
     </div>
   );
 }
