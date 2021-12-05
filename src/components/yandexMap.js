@@ -1,9 +1,8 @@
 import React, { Component } from "react";
 import { YMaps, Map, Polyline, ZoomControl } from "react-yandex-maps";
+import axios from "axios";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "font-awesome/css/font-awesome.min.css";
-import data from "./table-data.json";
-import axios from "axios";
 
 class YandexMap extends Component {
   mapState = {
@@ -12,7 +11,7 @@ class YandexMap extends Component {
     controls: [],
   };
   state = {
-    hintLayout: "hello",
+    // hintLayout: "hello",
     coordinatesAPI: [],
   };
 

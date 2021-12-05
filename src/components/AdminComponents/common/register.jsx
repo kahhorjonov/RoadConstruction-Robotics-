@@ -28,7 +28,7 @@ const CreateAdmin = () => {
   const [adminData, setAdminData] = useState([]);
 
   const onAdd = (data) => {
-    console.log(data);
+    // console.log(data);
     postCreateAdmin(data);
     reset();
   };

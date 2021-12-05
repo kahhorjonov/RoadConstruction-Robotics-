@@ -1,14 +1,13 @@
 import React from "react";
-//Bootstrap and jQuery libraries
-import "bootstrap/dist/css/bootstrap.min.css";
-import "jquery/dist/jquery.min.js";
-//Datatable Modules
-import "datatables.net-dt/js/dataTables.dataTables.js";
-import "datatables.net-dt/css/jquery.dataTables.min.css";
-import $, { data } from "jquery";
-import { FiFilePlus } from "react-icons/fi";
-import axios from "axios";
 import { Link } from "react-router-dom";
+import axios from "axios";
+import { FiFilePlus } from "react-icons/fi";
+import $ from "jquery";
+import "jquery/dist/jquery.min.js";
+import "datatables.net-dt/js/dataTables.dataTables.js";
+
+import "bootstrap/dist/css/bootstrap.min.css";
+import "datatables.net-dt/css/jquery.dataTables.min.css";
 // import "../styles/table-comp.css";
 
 const getDataTableApi = "http://yolproject.herokuapp.com/api/road/getroads";

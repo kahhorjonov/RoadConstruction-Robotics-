@@ -17,7 +17,7 @@ const EditNewsItems = ({ id, cancel }) => {
   }, [id]);
 
   const onEdit = (data) => {
-    console.log(data);
+    // console.log(data);
     editNews(newsDataId);
   };
 
@@ -47,13 +47,13 @@ const EditNewsItems = ({ id, cancel }) => {
         headers: { "Content-Type": "multipart/form-data" },
       });
       if (result) {
-        console.log(result);
-        // reset();
+        // console.log(result);
+        reset();
       }
     } catch (err) {
       alert(err.message);
     }
-    // reset();
+    reset();
   };
 
   return (

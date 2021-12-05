@@ -27,10 +27,8 @@ function About() {
             data-aos="fade-down"
             data-aos-duration="1000"
           >
-            Use this bio section as your way of describing yourself and saying
-            what you do, what technologies you like to use or feel most
-            comfortable with, describing your personality, or whatever else you
-            feel like throwing in.
+            Ushbu saytning vazifasi va maqsadi yurtimizda bo`layotkan yo`l
+            qurilishlari haqida ma`lumot berish va ko`rsatib berishdan iboratdir
           </h5>
           <h3
             className="text-light my-3"
@@ -44,8 +42,7 @@ function About() {
             data-aos="fade-down"
             data-aos-duration="1000"
           >
-            Tim Baker (Your Street) (Your City) (Your State), (Your Zip/Postal
-            Code) 555-555-5555 youremailhere@gmail.com
+            Robotics Lab. tel: 555-555-5555 email: roboticslab@gmail.com
           </h5>
         </div>
       </div>

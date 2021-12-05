@@ -11,7 +11,7 @@ function News() {
   useEffect(() => {
     axios.get(getNewsApi).then((news) => {
       setNewsData(news.data.data);
-      console.log("useEffect");
+      // console.log("useEffect");
     });
   }, []);
 
@@ -60,10 +60,10 @@ function News() {
       </div>
     );
   }
-  console.log("return");
+  // console.log("return");
   let num = 1;
   const ReadNews = ({ data }) => {
-    console.log(data);
+    // console.log(data);
     return (
       <tr>
         <td>{num++}</td>

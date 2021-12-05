@@ -1,8 +1,7 @@
 import YandexMap from "./yandexMap";
 import { FaBackspace, FaRoad } from "react-icons/fa";
-import { MdAddRoad, MdEditRoad, MdOpacity } from "react-icons/md";
+import { MdAddRoad, MdEditRoad } from "react-icons/md";
 import { Link } from "react-router-dom";
-import { useState } from "react";
 
 function MapPage(props) {
   return (

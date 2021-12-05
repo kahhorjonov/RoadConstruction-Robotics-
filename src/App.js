@@ -14,12 +14,12 @@ import CreateNews from "./components/AdminComponents/adminMap/CreateNews";
 import NewsMore from "./components/newsMore";
 import { useEffect } from "react";
 import Aos from "aos";
-import axios from "axios";
+// import axios from "axios";
+import Messages from "./components/AdminComponents/adminMap/messages";
 import "aos/dist/aos.css";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "font-awesome/css/font-awesome.min.css";
-import Messages from "./components/AdminComponents/adminMap/messages";
 
 function App() {
   setTimeout(() => {

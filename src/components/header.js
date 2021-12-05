@@ -1,13 +1,12 @@
 import NavBar from "./navbar";
 import "../styles/header.css";
 import Uzbmapsvg from "./uzbmapsvg";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import YolStatistika from "./yolStatistika";
 import { FaFacebook, FaInstagram, FaTelegram, FaTwitter } from "react-icons/fa";
-import axios from "axios";
 
 function Header() {
-  const [image, setImage] = useState();
+  // const [image, setImage] = useState();
   const [regionRoadLength, setRegionRoadLength] = useState({});
 
   const duration = 1000;

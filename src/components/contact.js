@@ -1,8 +1,8 @@
 import "../styles/contact.css";
 import { FaEnvelope } from "react-icons/fa";
 import { useForm } from "react-hook-form";
-import YandexMap from "./yandexMap";
-import { useEffect, useState } from "react";
+// import YandexMap from "./yandexMap";
+// import { useEffect, useState } from "react";
 import axios from "axios";
 // import { data, data, data, data } from "jquery";
 
@@ -10,7 +10,7 @@ const contactApi =
   "http://yolproject.herokuapp.com/api/application/createapplication";
 
 function Contact() {
-  const [options, setOptions] = useState([]);
+  // const [options, setOptions] = useState([]);
   const { register, handleSubmit, reset } = useForm();
   const onReg = (reg) => {
     console.log(reg);
@@ -195,10 +195,9 @@ function Contact() {
               data-aos-duration="400"
               data-aos-offset="0"
             >
-              Use this bio section as your way of describing yourself and saying
-              what you do, what technologies you like to use or feel most
-              comfortable with, describing your personality, or whatever else
-              you feel like throwing in.
+              Ushbu saytning vazifasi va maqsadi yurtimizda bo`layotkan yo`l
+              qurilishlari haqida ma`lumot berish va ko`rsatib berishdan
+              iboratdir
             </h5>
             <br />
 

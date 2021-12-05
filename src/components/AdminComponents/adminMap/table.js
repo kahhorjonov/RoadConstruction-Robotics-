@@ -6,6 +6,7 @@ import Posts from "./posts";
 import Pagination from "./pagination";
 import "jquery/dist/jquery.min.js";
 import "datatables.net-dt/js/dataTables.dataTables.min.js";
+
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../css/tableStyle.css";
