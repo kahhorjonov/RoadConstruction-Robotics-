@@ -47,6 +47,7 @@ const CreateAdmin = () => {
       "http://yolproject.herokuapp.com/api/admin/createadmin?role=Admin",
       data
     );
+    console.log(res);
   };
 
   const ReadAdmin = () => {
