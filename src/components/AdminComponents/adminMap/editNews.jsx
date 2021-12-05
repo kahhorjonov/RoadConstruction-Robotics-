@@ -2,6 +2,7 @@ import axios from "axios";
 import { useState } from "react";
 import { useEffect } from "react";
 import { useForm } from "react-hook-form";
+import jwtDecode from "jwt-decode";
 
 const getNewsApiId = "http://yolproject.herokuapp.com/api/news/getnews";
 
@@ -9,44 +10,51 @@ const EditNewsItems = ({ id, cancel }) => {
   const { register, handleSubmit, reset } = useForm({});
   const [newsDataId, setNewsDataId] = useState([]);
 
-  const onEdit = (data) => {
-    console.log(data);
-    // editNews(data);
-  };
-
   useEffect(() => {
     axios
       .get(`${getNewsApiId}/${id}`)
       .then((newsId) => setNewsDataId(newsId.data));
   }, [id]);
 
-  // const editNews = async (data) => {
-  //   const bodyFormData = new FormData();
-  //   bodyFormData.append("title", data.title);
-  //   bodyFormData.append("text", data.text);
-  //   bodyFormData.append("imageFile", data.image[0]);
-  //   bodyFormData.append(
-  //     "adminId",
-  //     `${jwtDecode(localStorage.getItem("token")).Id}`
-  //   );
+  const onEdit = (data) => {
+    console.log(data);
+    editNews(newsDataId);
+  };
 
-  //   for (var pair of bodyFormData.entries()) {
-  //     console.log(pair[0] + ", " + pair[1]);
-  //   }
+  const editNews = async (data) => {
+    console.log(newsDataId);
 
-  //   try {
-  //     const result = await axios({
-  //       method: "post",
-  //       url: "http://yolproject.herokuapp.com/api/news/createnews",
-  //       data: bodyFormData,
-  //       headers: { "Content-Type": "multipart/form-data" },
-  //     });
-  //     if (result) reset();
-  //   } catch (err) {
-  //     alert(err.message);
-  //   }
-  //   reset();
-  // };
+    const bodyFormData = new FormData();
+    bodyFormData.append("title", data.title);
+    bodyFormData.append("text", data.text);
+    bodyFormData.append("imageFile", data.imageName);
+    bodyFormData.append(
+      "adminId",
+      `${jwtDecode(localStorage.getItem("token")).Id}`
+    );
+
+    console.log(bodyFormData);
+
+    for (var pair of bodyFormData.entries()) {
+      console.log(pair[0] + ", " + pair[1]);
+    }
+
+    try {
+      const result = await axios({
+        method: "put",
+        url: `http://yolproject.herokuapp.com/api/news/getnews/${id}`,
+        data: bodyFormData,
+        headers: { "Content-Type": "multipart/form-data" },
+      });
+      if (result) {
+        console.log(result);
+        // reset();
+      }
+    } catch (err) {
+      alert(err.message);
+    }
+    // reset();
+  };
 
   return (
     <form
@@ -76,6 +84,7 @@ const EditNewsItems = ({ id, cancel }) => {
           Rasm yuborish *
         </label>
         <input
+          defaultValue={newsDataId.imageName}
           {...register("image")}
           accept="image/*"
           className="form-control form-control-sm p-2 my-2 w-75"
