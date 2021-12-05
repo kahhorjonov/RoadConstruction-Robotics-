@@ -1,4 +1,5 @@
 import { Redirect, Route, Switch } from "react-router-dom";
+import { ToastContainer } from "react-toastify";
 import MapPage from "./components/mapPage";
 import Home from "./components/home";
 import MoreData from "./components/tabletemplate";
@@ -14,12 +15,13 @@ import CreateNews from "./components/AdminComponents/adminMap/CreateNews";
 import NewsMore from "./components/newsMore";
 import { useEffect } from "react";
 import Aos from "aos";
-// import axios from "axios";
 import Messages from "./components/AdminComponents/adminMap/messages";
+
 import "aos/dist/aos.css";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "font-awesome/css/font-awesome.min.css";
+import "react-toastify/dist/ReactToastify.css";
 
 function App() {
   setTimeout(() => {
@@ -32,6 +34,7 @@ function App() {
 
   return (
     <>
+      <ToastContainer />
       <div className="user_container">
         <Switch>
           <Route path="/" exact component={Home} />

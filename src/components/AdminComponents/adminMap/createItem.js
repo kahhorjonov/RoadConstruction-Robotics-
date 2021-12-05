@@ -2,6 +2,7 @@ import axios from "axios";
 import React, { useEffect, useState } from "react";
 import jwtDecode from "jwt-decode";
 import { useForm } from "react-hook-form";
+import { toast } from "react-toastify";
 
 const addNewItemPost = "http://yolproject.herokuapp.com/api/road/createroad";
 
@@ -20,10 +21,10 @@ function CreateDataItem(props) {
 
   const onSubmit = (data) => {
     if (props.coor) {
-      console.log(data);
+      // console.log(data);
       postNewItem(data);
       // alert("Muvaffaqiyatli qo'shildi");
-    } else alert("Yo'lni belgilang");
+    } else toast.error("Yo'lni belgilang");
   };
 
   async function postNewItem(newData) {

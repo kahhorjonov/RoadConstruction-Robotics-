@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import MessagePanel from "./messagePanel";
 import Sidebar from "./Sidebar";
 

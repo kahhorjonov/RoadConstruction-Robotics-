@@ -4,6 +4,7 @@ import { useEffect } from "react";
 import Sidebar from "../adminMap/Sidebar";
 import { useForm } from "react-hook-form";
 import EditAdminItem from "./editRegistr";
+import { toast } from "react-toastify";
 
 const getAdminApi = "http://yolproject.herokuapp.com/api/admin/getadmins";
 const deleteAdminApi = "http://yolproject.herokuapp.com/api/admin/deleteadmin";
@@ -36,7 +37,7 @@ const CreateAdmin = () => {
   const handleDeleteAdmin = async (id) => {
     try {
       const res = axios.delete(`${deleteAdminApi}/${id}`);
-      if (res === 204) alert("Admin muvaffaqiyatli o'chirildi.");
+      if (res === 204) toast.success("Admin muvaffaqiyatli o'chirildi.");
     } catch (ex) {
       if (ex.response && ex.response.status !== 204) alert("Xatolik yuz berdi");
     }

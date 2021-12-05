@@ -146,7 +146,7 @@ function EditItem({ onCancel, id }) {
           required
         />
         <select {...register("companyId", { required: true })}>
-          <option selected>Pudratchini tanlang*</option>
+          <option>Pudratchini tanlang*</option>
           {company.map((comp) => {
             return <option value={comp.id}>{comp.fullname}</option>;
           })}
