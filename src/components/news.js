@@ -33,7 +33,7 @@ function News() {
               <p class="description">
                 {data.text.substr(0, 100)} <br />
                 <button
-                  className="border-0 outline-none bg-transparent mt-1"
+                  className="border-0 outline-none bg-transparent mt-1 fst-italic"
                   onClick={() => {
                     setModalShow(true);
                     setNewsData(data);
